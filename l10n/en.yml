@@ -1,0 +1,17 @@
+##\
+# This file is a part of the phpMussel\PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: English language data (last modified: 2020.06.14).
+##/
+
+Apples:
+ - "There is %s apple on the tree."
+ - "There are %s apples on the tree."
+Foo: "Bar"
+Hello: "World"

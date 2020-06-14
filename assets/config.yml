@@ -1,0 +1,65 @@
+##\
+# This file is a part of the phpMussel\PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Configuration defaults file (last modified: 2020.06.14).
+##/
+
+phpmailer:
+ event_log:
+  type: "string"
+  default: ""
+ enable_two_factor:
+  type: "bool"
+  default: false
+ enable_notifications:
+  type: "bool"
+  default: false
+ skip_auth_process:
+  type: "bool"
+  default: false
+ host:
+  type: "string"
+  default: ""
+ port:
+  type: "int"
+  default: 587
+ smtp_secure:
+  type: "string"
+  default: "default"
+  choices:
+   default: "-"
+   tls: "TLS"
+   ssl: "SSL"
+ smtp_auth:
+  type: "bool"
+  default: true
+ username:
+  type: "string"
+  default: ""
+  autocomplete: "username"
+ password:
+  type: "string"
+  default: ""
+  autocomplete: "current-password"
+ set_from_address:
+  type: "email"
+  default: ""
+  autocomplete: "email"
+ set_from_name:
+  type: "string"
+  default: ""
+  autocomplete: "name"
+ add_reply_to_address:
+  type: "email"
+  default: ""
+  autocomplete: "email"
+ add_reply_to_name:
+  type: "string"
+  default: ""
+  autocomplete: "name"
