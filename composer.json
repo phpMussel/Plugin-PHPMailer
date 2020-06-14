@@ -13,7 +13,7 @@
         "php": ">=7.2.0",
         "maikuolan/common": "^2.3",
         "phpmussel/core": "^3.0",
-        "phpmailer/phpmailer": "^3.0"
+        "phpmailer/phpmailer": ">=6.1.6"
     },
     "suggest": {
         "phpmussel/frontend": "^3.0",
