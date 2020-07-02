@@ -1,0 +1,27 @@
+##\
+# This file is a part of the phpMussel\FrontEnd package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Arabic language data (last modified: 2020.07.02).
+##/
+
+config_phpmailer: "التكوين ل PHPMailer (تستخدم لمصادقة ثنائية العامل)."
+config_phpmailer_add_reply_to_address: "عنوان الرد للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
+config_phpmailer_add_reply_to_name: "اسم الرد للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
+config_phpmailer_enable_notifications: "إرسال إخطارات البريد الإلكتروني عندما يتم حظر التحميل."
+config_phpmailer_enable_two_factor: "يحدد هذا التوجيه ما إذا كان سيتم استخدام 2FA للحسابات front-end أم لا."
+config_phpmailer_event_log: "ملف لتسجيل جميع الأحداث المتعلقة ب PHPMailer. تحديد اسم الملف، أو اتركه فارغا لتعطيل."
+config_phpmailer_host: "مضيف SMTP الذي يستخدم للبريد الإلكتروني الصادر."
+config_phpmailer_password: "كلمة المرور لاستخدامها عند إرسال البريد الإلكتروني عبر SMTP."
+config_phpmailer_port: "رقم المنفذ المراد استخدامه للبريد الإلكتروني الصادر. افتراضي = 587."
+config_phpmailer_set_from_address: "عنوان المرسل للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
+config_phpmailer_set_from_name: "اسم المرسل للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
+config_phpmailer_skip_auth_process: "تعيين هذا التوجيه إلى <code dir="ltr">true</code> يرشد PHPMailer لتخطي عملية المصادقة التي تحدث عادة عند إرسال البريد الإلكتروني عبر SMTP. يجب تجنب هذا، لأن تخطي هذه العملية قد يعرض البريد الإلكتروني الصادر إلى هجمات MITM، ولكنه قد يكون ضروريًا في الحالات التي تمنع فيها هذه العملية من اتصال PHPMailer بخادم SMTP."
+config_phpmailer_smtp_auth: "يحدد هذا التوجيه ما إذا كنت تريد مصادقة جلسات SMTP (يجب ألا يغير هذا عادة)."
+config_phpmailer_smtp_secure: "البروتوكول المستخدم عند إرسال البريد الإلكتروني عبر SMTP (TLS أو SSL)."
+config_phpmailer_username: "اسم المستخدم لاستخدامه عند إرسال البريد الإلكتروني عبر SMTP."

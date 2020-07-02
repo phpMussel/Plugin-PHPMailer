@@ -1,0 +1,27 @@
+##\
+# This file is a part of the phpMussel\FrontEnd package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Russian language data (last modified: 2020.07.02).
+##/
+
+config_phpmailer: "Конфигурация для PHPMailer (используется для двухфакторной аутентификации)."
+config_phpmailer_add_reply_to_address: "Адрес ответа для отправки электронной почты через SMTP."
+config_phpmailer_add_reply_to_name: "Имя ответа для отправки электронной почты через SMTP."
+config_phpmailer_enable_notifications: "Отправлять уведомления по электронной почте, когда загрузка заблокирована."
+config_phpmailer_enable_two_factor: "Эта директива включает/отключает использование 2FA для фронтенд счетов."
+config_phpmailer_event_log: "Файл для регистрации всех событий в отношении PHPMailer. Задайте имя файлу, или оставьте пустым чтобы деактивировать опцию."
+config_phpmailer_host: "Хост SMTP используется для исходящей электронной почты."
+config_phpmailer_password: "Пароль для отправки электронной почты через SMTP."
+config_phpmailer_port: "Номер порта для исходящей электронной почты. Стандарт = 587."
+config_phpmailer_set_from_address: "Адрес отправителя для отправки электронной почты через SMTP."
+config_phpmailer_set_from_name: "Имя отправителя для отправки электронной почты через SMTP."
+config_phpmailer_skip_auth_process: "Установка этой директивы на <code>true</code> указывает PHPMailer пропустить обычный процесс проверки подлинности, который обычно возникает при отправке электронной почты через SMTP. Этого следует избегать, поскольку пропуская этот процесс может выдать исходящую электронную почту для атак MITM, но может потребоваться в тех случаях, когда этот процесс препятствует подключению PHPMailer к SMTP-серверу."
+config_phpmailer_smtp_auth: "Эта директива включает/отключает аутентификацию сессия SMTP (обычно ее следует оставить в покое)."
+config_phpmailer_smtp_secure: "Протокол для при отправке электронной почты через SMTP (TLS или SSL)."
+config_phpmailer_username: "Имя пользователя для отправки электронной почты через SMTP."

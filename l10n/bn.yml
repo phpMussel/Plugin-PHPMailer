@@ -1,0 +1,27 @@
+##\
+# This file is a part of the phpMussel\FrontEnd package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Bangla language data (last modified: 2020.07.02).
+##/
+
+config_phpmailer: "PHPMailer জন্য কনফিগারেশন (দ্বি-গুণক প্রমাণীকরণ জন্য ব্যবহৃত)।"
+config_phpmailer_add_reply_to_address: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য উত্তর ঠিকানা।"
+config_phpmailer_add_reply_to_name: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য উত্তর নাম।"
+config_phpmailer_enable_notifications: "কোনও আপলোড ব্লক হয়ে গেলে ইমেল বিজ্ঞপ্তিগুলি পাঠান।"
+config_phpmailer_enable_two_factor: "এই নির্দেশটি ফ্রন্ট-এন্ড অ্যাকাউন্টগুলির জন্য 2FA ব্যবহার করে কিনা তা নির্ধারণ করে।"
+config_phpmailer_event_log: "PHPMailer সম্পর্কিত সকল ঘটনা লগইন করার জন্য একটি ফাইল। ফাইলের নাম উল্লেখ করুন, অথবা নিষ্ক্রিয় করতে ফাঁকা রাখুন।"
+config_phpmailer_host: "আউটবাউন্ড ইমেলের জন্য SMTP হোস্ট ব্যবহার করতে হবে।"
+config_phpmailer_password: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য পাসওয়ার্ডটি।"
+config_phpmailer_port: "আউটবাউন্ড ইমেলের জন্য ব্যবহার করার জন্য পোর্ট নাম্বার। ডিফল্ট = "587"।"
+config_phpmailer_set_from_address: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রেরক ঠিকানা।"
+config_phpmailer_set_from_name: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রেরক নাম।"
+config_phpmailer_skip_auth_process: "যখন <code>true</code>, PHPMailer এসএমটিপি এর মাধ্যমে ইমেল পাঠানোর সাথে সাথে প্রমাণীকরণের প্রক্রিয়াটিকে সাধারণত ছাড় দেয়। এই এড়ানো উচিত, কারণ বহির্গামী ইমেল MITM আক্রমনের সম্মুখীন হতে পারে। তবে, এটি কিছু ক্ষেত্রে প্রয়োজনীয় হতে পারে (যেমন, যখন PHPMailer একটি SMTP সার্ভারে সংযোগ করতে পারবে না)।"
+config_phpmailer_smtp_auth: "এই নির্দেশটি SMTP সেশনের প্রমাণীকরণ কিনা তা নির্ধারণ করে (সাধারণত এই একা ছেড়ে দেওয়া উচিত)।"
+config_phpmailer_smtp_secure: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রোটোকল (TLS বা SSL)।"
+config_phpmailer_username: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য ব্যবহারকারীর নাম।"

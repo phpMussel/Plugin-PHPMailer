@@ -1,0 +1,27 @@
+##\
+# This file is a part of the phpMussel\FrontEnd package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: French language data (last modified: 2020.07.02).
+##/
+
+config_phpmailer: "Configuration pour PHPMailer (utilisé pour l'authentification à deux facteurs)."
+config_phpmailer_add_reply_to_address: "L'adresse de réponse à citer lors de l'envoi d'e-mail via SMTP."
+config_phpmailer_add_reply_to_name: "Le nom pour répondre à citer lors de l'envoi d'e-mail via SMTP."
+config_phpmailer_enable_notifications: "Envoyez des notifications par e-mail lorsqu'un téléchargement est bloqué."
+config_phpmailer_enable_two_factor: "Cette directive détermine s'il faut utiliser 2FA pour les comptes frontaux."
+config_phpmailer_event_log: "Fichier pour l'enregistrement de tous les événements relatifs à PHPMailer. Spécifier un fichier, ou laisser vide à désactiver."
+config_phpmailer_host: "Hôte SMTP à utiliser pour les e-mails sortants."
+config_phpmailer_password: "Le mot de passe à utiliser lors de l'envoi d'e-mail via SMTP."
+config_phpmailer_port: "Le numéro de port à utiliser pour l'e-mail sortant. Défaut = 587."
+config_phpmailer_set_from_address: "L'adresse de l'expéditeur à citer lors de l'envoi d'e-mail via SMTP."
+config_phpmailer_set_from_name: "Le nom de l'expéditeur à citer lors de l'envoi d'e-mail via SMTP."
+config_phpmailer_skip_auth_process: "Définir cette directive sur <code>true</code> instruit à PHPMailer de sauter le processus d'authentification qui se produit normalement lors de l'envoi d'e-mail via SMTP. Cela doit être évité, car sauter du processus peut exposer l'e-mail sortant aux attaques MITM, mais peut être nécessaire dans les cas où ce processus empêche PHPMailer de se connecter à un serveur SMTP."
+config_phpmailer_smtp_auth: "Cette directive détermine si les sessions SMTP doivent être authentifiées (elles doivent généralement être laissées seules)."
+config_phpmailer_smtp_secure: "Le protocole à utiliser lors de l'envoi d'e-mail via SMTP (TLS ou SSL)."
+config_phpmailer_username: "Le nom d'utilisateur à utiliser lors de l'envoi d'e-mail via SMTP."

@@ -1,0 +1,27 @@
+##\
+# This file is a part of the phpMussel\FrontEnd package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Dutch language data (last modified: 2020.07.02).
+##/
+
+config_phpmailer: "Configuratie voor PHPMailer (gebruikt voor tweefactorauthenticatie)."
+config_phpmailer_add_reply_to_address: "Het antwoordadres voor het verzenden van e-mail via SMTP."
+config_phpmailer_add_reply_to_name: "De antwoordnaam voor het verzenden van e-mail via SMTP."
+config_phpmailer_enable_notifications: "Stuur e-mailmeldingen wanneer een upload is geblokkeerd."
+config_phpmailer_enable_two_factor: "Deze richtlijn bepaalt of 2FA wordt gebruikt voor frontend-accounts."
+config_phpmailer_event_log: "Een bestand voor het loggen van alle evenementen met betrekking tot PHPMailer. Geef een bestandsnaam, of laat leeg om uit te schakelen."
+config_phpmailer_host: "De SMTP-host dat moet worden gebruikt voor uitgaande e-mail."
+config_phpmailer_password: "Het wachtwoord voor het verzenden van e-mail via SMTP."
+config_phpmailer_port: "Het poortnummer dat moet worden gebruikt voor uitgaande e-mail. Standaard = 587."
+config_phpmailer_set_from_address: "Het afzenderadres voor het verzenden van e-mail via SMTP."
+config_phpmailer_set_from_name: "De naam van de afzender voor het verzenden van e-mail via SMTP."
+config_phpmailer_skip_auth_process: "Wanneer <code>true</code>, geeft PHPMailer opdracht om het verificatieproces over te slaan dat normaal optreedt bij het verzenden van e-mail via SMTP. Dit moet worden vermeden, omdat bij het overslaan van dit verificatieproces uitgaande e-mail aan MITM-aanvallen kan worden blootgesteld, maar kan nodig zijn in gevallen waarin dit verificatieproces verhindert dat PHPMailer verbinding maakt met een SMTP-server."
+config_phpmailer_smtp_auth: "Deze richtlijn bepaalt of SMTP-sessies moeten worden geverifieerd (moet meestal alleen worden gelaten)."
+config_phpmailer_smtp_secure: "Het protocol voor het verzenden van e-mail via SMTP (TLS of SSL)."
+config_phpmailer_username: "De gebruikersnaam voor het verzenden van e-mail via SMTP."

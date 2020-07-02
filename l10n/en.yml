@@ -1,5 +1,5 @@
 ##\
-# This file is a part of the phpMussel\PHPMailer package.
+# This file is a part of the phpMussel\FrontEnd package.
 # Homepage: https://phpmussel.github.io/
 #
 # PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
@@ -7,11 +7,21 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: English language data (last modified: 2020.06.14).
+# This file: English language data (last modified: 2020.07.02).
 ##/
 
-Apples:
- - "There is %s apple on the tree."
- - "There are %s apples on the tree."
-Foo: "Bar"
-Hello: "World"
+config_phpmailer: "Configuration for PHPMailer (used for two-factor authentication)."
+config_phpmailer_add_reply_to_address: "The reply address to cite when sending email via SMTP."
+config_phpmailer_add_reply_to_name: "The reply name to cite when sending email via SMTP."
+config_phpmailer_enable_notifications: "Send email notifications when an upload is blocked."
+config_phpmailer_enable_two_factor: "This directive determines whether to use 2FA for front-end accounts."
+config_phpmailer_event_log: "A file for logging all events in relation to PHPMailer. Specify a filename, or leave blank to disable."
+config_phpmailer_host: "The SMTP host to use for outbound email."
+config_phpmailer_password: "The password to use when sending email via SMTP."
+config_phpmailer_port: "The port number to use for outbound email. Default = 587."
+config_phpmailer_set_from_address: "The sender address to cite when sending email via SMTP."
+config_phpmailer_set_from_name: "The sender name to cite when sending email via SMTP."
+config_phpmailer_skip_auth_process: "Setting this directive to <code>true</code> instructs PHPMailer to skip the normal authentication process that normally occurs when sending email via SMTP. This should be avoided, because skipping this process may expose outbound email to MITM attacks, but may be necessary in cases where this process prevents PHPMailer from connecting to an SMTP server."
+config_phpmailer_smtp_auth: "This directive determines whether to authenticate SMTP sessions (should usually be left alone)."
+config_phpmailer_smtp_secure: "The protocol to use when sending email via SMTP (TLS or SSL)."
+config_phpmailer_username: "The username to use when sending email via SMTP."
