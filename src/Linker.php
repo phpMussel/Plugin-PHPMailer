@@ -85,9 +85,7 @@ class Linker
             $Handle = fopen($EventLog, $WriteMode);
             fwrite($Handle, $Data);
             fclose($Handle);
-            if ($WriteMode === 'wb') {
-                $this->Loader->logRotation($this->Loader->Configuration['phpmailer']['event_log']);
-            }
+            $this->Loader->logRotation($this->Loader->Configuration['phpmailer']['event_log']);
             return true;
         });
     }
