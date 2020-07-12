@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2020.07.02).
+ * This file: PHPMailer-phpMussel linker (last modified: 2020.07.12).
  */
 
 namespace phpMussel\PHPMailer;
@@ -21,12 +21,12 @@ class Linker
     private $Loader;
 
     /**
-     * @var string The path to the core asset files.
+     * @var string The path to the linker asset files.
      */
     private $AssetsPath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR;
 
     /**
-     * @var string The path to the core L10N files.
+     * @var string The path to the linker L10N files.
      */
     private $L10NPath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'l10n' . DIRECTORY_SEPARATOR;
 
@@ -224,8 +224,10 @@ class Linker
             $Mail->AltBody = $AltBody;
 
             /** Process attachments. */
-            foreach ($Attachments as $Attachment) {
-                $Mail->addAttachment($Attachment);
+            if (is_array($Attachments)) {
+                foreach ($Attachments as $Attachment) {
+                    $Mail->addAttachment($Attachment);
+                }
             }
 
             /** Send it! */
