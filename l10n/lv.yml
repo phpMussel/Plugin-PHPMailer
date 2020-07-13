@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Latvian language data (last modified: 2020.07.02).
+# This file: Latvian language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "PHPMailer konfigurācija (izmanto divu faktoru autentifikācijai)."
 config_phpmailer_add_reply_to_address: "Respondenta adrese, ko citēt, nosūtot e-pastu izmantojot SMTP."
 config_phpmailer_add_reply_to_name: "Respondenta vārds, ko citēt, nosūtot e-pastu izmantojot SMTP."
-config_phpmailer_enable_notifications: "Sūtiet e-pasta paziņojumus, ja augšupielāde ir bloķēta."
+config_phpmailer_enable_notifications: "Ja vēlaties saņemt paziņojumu pa e-pastu, ja augšupielāde ir bloķēta, šeit norādiet saņēmēja e-pasta adresi."
 config_phpmailer_enable_two_factor: "Šī direktīva nosaka, vai izmantot 2FA administratīvai piekļuvei."
 config_phpmailer_event_log: "Visu ar PHPMailer saistīto notikumu reģistrēšanai fails. Norādiet faila nosaukumu, vai atstājiet tukšu, lai to atspējotu."
 config_phpmailer_host: "SMTP resursdators, kas jāizmanto izejošajam e-pastam."
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "Šīs direktīvas iestatīšana uz <code>tr
 config_phpmailer_smtp_auth: "Šī direktīva nosaka, vai autentificēt SMTP sesijas (vairumā gadījumu vislabāk atstāt vienatnē)."
 config_phpmailer_smtp_secure: "Protokols, kas jāizmanto, nosūtot e-pastu izmantojot SMTP (TLS vai SSL)."
 config_phpmailer_username: "Lietotājvārds, kas jāizmanto, nosūtot e-pastu izmantojot SMTP."
+state_email_sent: "E-pasts veiksmīgi nosūtīts uz "%s"."

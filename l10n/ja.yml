@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Japanese language data (last modified: 2020.07.02).
+# This file: Japanese language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "PHPMailerの設定（二要素認証に使用されます）。"
 config_phpmailer_add_reply_to_address: "ＳＭＴＰ経由で電子Ｅメールを送信するときに引用する返信アドレス。"
 config_phpmailer_add_reply_to_name: "ＳＭＴＰ経由で電子Ｅメールを送信するときに引用する返信名。"
-config_phpmailer_enable_notifications: "アップロードがブロックされたときにＥメール通知を送信します。"
+config_phpmailer_enable_notifications: "アップロードがブロックされたときにＥメールで通知を受け取りたい場合は、ここで受信者のＥメール・アドレスを指定します。"
 config_phpmailer_enable_two_factor: "このディレクティブは、フロントエンド・アカウントに２ＦＡを使用するかどうかを決定します。"
 config_phpmailer_event_log: "PHPMailerに関連してすべてのイベントを記録するためのファイル。​ファイル名指定するか、​無効にしたい場合は空白のままにして下さい。"
 config_phpmailer_host: "送信Ｅメールに使用するＳＭＴＰホスト。"
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "このディレクティブを<code>true</c
 config_phpmailer_smtp_auth: "このディレクティブは、ＳＭＴＰセッションを認証するかどうかを決定します（通常はそれをそのまま残すべきです）。"
 config_phpmailer_smtp_secure: "ＳＭＴＰ経由で電子Ｅメールを送信するときに使用するプロトコル（ＴＬＳまたはＳＳＬ）。"
 config_phpmailer_username: "ＳＭＴＰ経由で電子Ｅメールを送信するときに使用するユーザー名。"
+state_email_sent: "Ｅメールは「%s」に送信されました。"

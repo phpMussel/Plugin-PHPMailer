@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Configuration defaults file (last modified: 2020.06.14).
+# This file: Configuration defaults file (last modified: 2020.07.13).
 ##/
 
 phpmailer:
@@ -18,8 +18,8 @@ phpmailer:
   type: "bool"
   default: false
  enable_notifications:
-  type: "bool"
-  default: false
+  type: "string"
+  default: ""
  skip_auth_process:
   type: "bool"
   default: false

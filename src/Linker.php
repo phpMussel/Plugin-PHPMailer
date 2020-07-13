@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2020.07.12).
+ * This file: PHPMailer-phpMussel linker (last modified: 2020.07.13).
  */
 
 namespace phpMussel\PHPMailer;
@@ -61,6 +61,9 @@ class Linker
 
         /** Flag for whether to enable two-factor authentication. */
         $this->Loader->InstanceCache['enable_two_factor'] = &$this->Loader->Configuration['phpmailer']['enable_two_factor'];
+
+        /** Address for where to enable blocked upload notifications (if so desired). */
+        $this->Loader->InstanceCache['enable_notifications'] = &$this->Loader->Configuration['phpmailer']['enable_notifications'];
 
         /**
          * Writes to the PHPMailer event log.
@@ -146,6 +149,14 @@ class Linker
 
             /** Tell PHPMailer to use SMTP. */
             $Mail->isSMTP();
+
+            /** Tell PHPMailer which language to use. */
+            if ($Language = $this->mapLanguage($this->Loader->Configuration['core']['lang'])) {
+                $Mail->setLanguage($Language);
+            }
+
+            /** Tell PHPMailer to always use UTF-8. */
+            $Mail->CharSet = 'utf-8';
 
             /** Disable debugging. */
             $Mail->SMTPDebug = 0;
@@ -248,5 +259,30 @@ class Linker
 
         /** Exit. */
         return $State;
+    }
+
+    /**
+     * Maps phpMussel language specification to PHPMailer language specification.
+     *
+     * @param string $Language The language to map between phpMussel-PHPMailer.
+     * @return string The language to set (or an empty string if the specified
+     *      language isn't available at PHPMailer).
+     */
+    private function mapLanguage(string $Language): string
+    {
+        if ($Language === 'zh') {
+            $Language = 'zh_cn';
+        } elseif ($Language === 'zh-TW') {
+            $Language = 'zh';
+        }
+        $Try = sprintf(
+            __DIR__ . '%1$s..%1$s..%1$s..%1$sphpmailer%1$sphpmailer%1$slanguage%1$sphpmailer.lang-%2$s.php',
+            DIRECTORY_SEPARATOR,
+            $Language
+        );
+        if (is_readable($Try) && is_file($Try)) {
+            return $Language;
+        }
+        return '';
     }
 }

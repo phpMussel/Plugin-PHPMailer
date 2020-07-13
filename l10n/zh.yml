@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese (simplified) language data (last modified: 2020.07.02).
+# This file: Chinese (simplified) language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "PHPMailer的配置（用于双因素身份验证）。"
 config_phpmailer_add_reply_to_address: "通过SMTP发送电子邮件时引用的回复地址。"
 config_phpmailer_add_reply_to_name: "通过SMTP发送电子邮件时引用的回复姓名。"
-config_phpmailer_enable_notifications: "当阻止上传时发送电子邮件通知。"
+config_phpmailer_enable_notifications: "如果要在阻止上传时通过电子邮件收到通知，请在此处指定收件人电子邮件地址。"
 config_phpmailer_enable_two_factor: "该指令确定是否将2FA用于前端帐户。"
 config_phpmailer_event_log: "用于记录与PHPMailer相关的所有事件的文件。​指定一个文件名，​或留空以禁用。"
 config_phpmailer_host: "用于出站电子邮件的SMTP主机。"
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "将此指令设置为<code>true</code>会�
 config_phpmailer_smtp_auth: "此指令确定是否对SMTP会话进行身份验证（通常应该保持不变）。"
 config_phpmailer_smtp_secure: "通过SMTP发送电子邮件时使用的协议（TLS或SSL）。"
 config_phpmailer_username: "通过SMTP发送电子邮件时使用的用户名。"
+state_email_sent: "电子邮件已成功发送至“%s”。"

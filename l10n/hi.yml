@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Hindi language data (last modified: 2020.07.02).
+# This file: Hindi language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "PHPMailer के लिए कॉन्फ़िगरेशन (दो-कारक प्रमाणीकरण के लिए उपयोग किया जाता है)।"
 config_phpmailer_add_reply_to_address: "ईमेल भेजने के लिए उत्तर पता।"
 config_phpmailer_add_reply_to_name: "ईमेल भेजने के लिए उत्तर का नाम।"
-config_phpmailer_enable_notifications: "अपलोड के अवरुद्ध होने पर ईमेल सूचनाएं भेजें।"
+config_phpmailer_enable_notifications: "यदि आप अपलोड के अवरुद्ध होने पर ईमेल द्वारा सूचित किया जाना चाहते हैं, तो यहां प्राप्तकर्ता ईमेल पता निर्दिष्ट करें।"
 config_phpmailer_enable_two_factor: "यह निर्देश निर्धारित करता है कि सामने के अंत खाते 2FA का उपयोग करते हैं या नहीं।"
 config_phpmailer_event_log: "PHPMailer के संबंध में सभी घटनाओं को लॉग इन करने के लिए एक फ़ाइल। एक फाइल नाम निर्दिष्ट करें, या निष्क्रिय करने के लिए खाली छोड़।"
 config_phpmailer_host: "आउटबाउंड ईमेल के लिए उपयोग करने के लिए SMTP होस्ट।"
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "इस निर्देश को <code>t
 config_phpmailer_smtp_auth: "यह निर्देश निर्धारित करता है कि SMTP सत्र प्रमाणित करना है या नहीं (आपको आमतौर पर इसे अकेला छोड़ देना चाहिए)।"
 config_phpmailer_smtp_secure: "ईमेल भेजने के दौरान उपयोग करने के लिए प्रोटोकॉल (TLS या SSL)।"
 config_phpmailer_username: "ईमेल भेजने समय उपयोग करने के लिए उपयोगकर्ता नाम।"
+state_email_sent: "ईमेल सफलतापूर्वक "%s" को भेजा गया।"

@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Spanish language data (last modified: 2020.07.02).
+# This file: Spanish language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "Configuración para PHPMailer (utilizado para la autenticación de dos factores)."
 config_phpmailer_add_reply_to_address: "La dirección de la respuesta para citar cuando se envía un correo electrónico a través de SMTP."
 config_phpmailer_add_reply_to_name: "El nombre de la respuesta para citar cuando se envía un correo electrónico a través de SMTP."
-config_phpmailer_enable_notifications: "Enviar notificaciones por correo electrónico cuando una subida está bloqueada."
+config_phpmailer_enable_notifications: "Si desea recibir una notificación por correo electrónico cuando se bloquea una subida, especifique la dirección de correo electrónico del destinatario aquí."
 config_phpmailer_enable_two_factor: "Esta directiva determina si se debe usar 2FA para las cuentas del front-end."
 config_phpmailer_event_log: "Un archivo para registrar todos los eventos en relación con PHPMailer. Especificar el nombre del archivo, o dejar en blanco para desactivar."
 config_phpmailer_host: "El host SMTP para usar para el correo electrónico saliente."
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "Establecer esta directiva en <code>true</co
 config_phpmailer_smtp_auth: "Esta directiva determina si autenticar sesiones SMTP (generalmente debería dejarse solo)."
 config_phpmailer_smtp_secure: "El protocolo a usar cuando se envía un correo electrónico a través de SMTP (TLS o SSL)."
 config_phpmailer_username: "El nombre de usuario a usar cuando se envía un correo electrónico a través de SMTP."
+state_email_sent: "Correo electrónico enviado con éxito a "%s"."

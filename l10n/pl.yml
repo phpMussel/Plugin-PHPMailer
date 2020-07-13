@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Polish language data (last modified: 2020.07.02).
+# This file: Polish language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "Konfiguracja dla PHPMailer (używane do uwierzytelniania dwuskładnikowego)."
 config_phpmailer_add_reply_to_address: "Adres zwrotny do cytowania podczas wysyłania wiadomości e-mail przez SMTP."
 config_phpmailer_add_reply_to_name: "Nazwa odpowiedzi, którą należy podać podczas wysyłania wiadomości e-mail przez SMTP."
-config_phpmailer_enable_notifications: "Wysyłaj powiadomienia e-mail, gdy przesyłanie jest zablokowane."
+config_phpmailer_enable_notifications: "Jeśli chcesz otrzymywać powiadomienia e-mail o zablokowaniu przesyłania, podaj tutaj adres e-mail odbiorcy."
 config_phpmailer_enable_two_factor: "Ta dyrektywa określa, czy użyć 2FA jako interfejsu użytkownika."
 config_phpmailer_event_log: "Plik do rejestrowania wszystkich zdarzeń w związku z PHPMailer. Podaj nazwę pliku lub pozostaw puste, aby wyłączyć."
 config_phpmailer_host: "Host SMTP do użycia dla wychodząca wiadomość e-mail."
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "Ustawienie tej dyrektywy na <code>true</cod
 config_phpmailer_smtp_auth: "Ta dyrektywa określa, czy uwierzytelniać sesje SMTP (zwykle należy je pozostawić w spokoju)."
 config_phpmailer_smtp_secure: "Protokół używany podczas wysyłania wiadomości e-mail przez SMTP (TLS lub SSL)."
 config_phpmailer_username: "Nazwa użytkownika używana podczas wysyłania wiadomości e-mail przez SMTP."
+state_email_sent: "E-mail został pomyślnie wysłany na „%s”."

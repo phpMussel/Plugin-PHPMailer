@@ -7,13 +7,13 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Indonesian language data (last modified: 2020.07.02).
+# This file: Indonesian language data (last modified: 2020.07.13).
 ##/
 
 config_phpmailer: "Konfigurasi untuk PHPMailer (digunakan untuk otentikasi dua-faktor)."
 config_phpmailer_add_reply_to_address: "Alamat balasan yang dikutip saat mengirim email melalui SMTP."
 config_phpmailer_add_reply_to_name: "Nama balasan yang dikutip saat mengirim email melalui SMTP."
-config_phpmailer_enable_notifications: "Kirim pemberitahuan email saat upload diblokir."
+config_phpmailer_enable_notifications: "Jika Anda ingin diberi tahu melalui email saat upload diblokir, tentukan alamat email penerima disini."
 config_phpmailer_enable_two_factor: "Direktif ini menentukan apakah akan menggunakan 2FA untuk akun depan."
 config_phpmailer_event_log: "File untuk mencatat semua kejadian yang terkait dengan PHPMailer. Spesifikasikan nama file, atau biarkan kosong untuk menonaktifkan."
 config_phpmailer_host: "Host SMTP yang digunakan untuk email keluar."
@@ -25,3 +25,4 @@ config_phpmailer_skip_auth_process: "Pengaturan direktif ini ke <code>true</code
 config_phpmailer_smtp_auth: "Direktif ini menentukan apakah akan mengotentikasi sesi SMTP (biasanya harus dibiarkan sendiri)."
 config_phpmailer_smtp_secure: "Protokol yang digunakan saat mengirim email melalui SMTP (TLS atau SSL)."
 config_phpmailer_username: "Nama pengguna yang digunakan saat mengirim email melalui SMTP."
+state_email_sent: "Email berhasil dikirim ke "%s"."
