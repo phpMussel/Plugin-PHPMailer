@@ -1,0 +1,28 @@
+##\
+# This file is a part of the phpMussel\FrontEnd package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Tamil language data (last modified: 2020.07.14).
+##/
+
+config_phpmailer: "PHPMailerக்கான உள்ளமைவு (இரண்டு காரணி அங்கீகாரத்திற்கு பயன்படுத்தப்படுகிறது)."
+config_phpmailer_add_reply_to_address: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது மேற்கோள் காட்ட வேண்டிய பதில் முகவரி."
+config_phpmailer_add_reply_to_name: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது மேற்கோள் காட்ட வேண்டிய பதில் பெயர்."
+config_phpmailer_enable_notifications: "பதிவேற்றம் தடுக்கப்படும்போது மின்னஞ்சல் மூலம் உங்களுக்குத் தெரிவிக்க விரும்பினால், பெறுநரின் மின்னஞ்சல் முகவரியை இங்கே குறிப்பிடவும்."
+config_phpmailer_enable_two_factor: "முன்-இறுதியில் கணக்குகளுக்கு 2FA ஐ இயக்கவா?"
+config_phpmailer_event_log: "அனைத்து PHPMailer நிகழ்வுகளையும் பதிவு செய்வதற்கான கோப்பு. கோப்பு பெயரைக் குறிப்பிடவும் அல்லது முடக்க காலியாக விடவும்."
+config_phpmailer_host: "வெளிச்செல்லும் மின்னஞ்சலுக்குப் பயன்படுத்த SMTP ஹோஸ்ட்."
+config_phpmailer_password: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது பயன்படுத்த வேண்டிய கடவுச்சொல்."
+config_phpmailer_port: "வெளிச்செல்லும் மின்னஞ்சலுக்கு பயன்படுத்த வேண்டிய போர்ட் எண். இயல்புநிலை = 587."
+config_phpmailer_set_from_address: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது மேற்கோள் காட்ட அனுப்பியவரின் முகவரி."
+config_phpmailer_set_from_name: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது மேற்கோள் காட்ட அனுப்பியவரின் பெயர்."
+config_phpmailer_skip_auth_process: "<code>true</code> என்றால், SMTP அங்கீகாரத்தைத் தவிர்க்க PHPMailer க்கு அறிவுறுத்துகிறது. MITM தாக்குதல்களைத் தவிர்க்க SMTP அங்கீகாரம் பயனுள்ளதாக இருக்கும், எனவே அதை முடக்குவதைத் தவிர்க்க வேண்டும். ஆனால், சில சந்தர்ப்பங்களில் இது அவசியமாக இருக்கலாம்."
+config_phpmailer_smtp_auth: "SMTP அமர்வுகளை அங்கீகரிக்கவா? (இதை பொதுவாகத் தொடக்கூடாது)."
+config_phpmailer_smtp_secure: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது பயன்படுத்த வேண்டிய நெறிமுறை (TLS அல்லது SSL)."
+config_phpmailer_username: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது பயன்படுத்த வேண்டிய பயனர்பெயர்."
+state_email_sent: "மின்னஞ்சல் வெற்றிகரமாக "%s" க்கு அனுப்பப்பட்டது."

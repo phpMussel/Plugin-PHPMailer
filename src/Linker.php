@@ -62,7 +62,7 @@ class Linker
         /** Flag for whether to enable two-factor authentication. */
         $this->Loader->InstanceCache['enable_two_factor'] = &$this->Loader->Configuration['phpmailer']['enable_two_factor'];
 
-        /** Address for where to enable blocked upload notifications (if so desired). */
+        /** Address for where to send blocked upload notifications (if so desired). */
         $this->Loader->InstanceCache['enable_notifications'] = &$this->Loader->Configuration['phpmailer']['enable_notifications'];
 
         /**
