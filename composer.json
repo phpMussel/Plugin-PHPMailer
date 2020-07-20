@@ -19,18 +19,9 @@
         "phpmussel/frontend": "^3.0",
         "phpmussel/web": "^3.0"
     },
-    "require-dev": {
-        "codeception/codeception": "^2.3",
-        "symfony/event-dispatcher": "3.4.28"
-    },
     "autoload": {
         "psr-4": {
             "phpMussel\\PHPMailer\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "phpMussel\\PHPMailer\\Tests\\": "tests/"
         }
     }
 }
