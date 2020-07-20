@@ -1,5 +1,5 @@
 ##\
-# This file is a part of the phpMussel\FrontEnd package.
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
 # Homepage: https://phpmussel.github.io/
 #
 # PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Indonesian language data (last modified: 2020.07.13).
+# This file: Indonesian language data (last modified: 2020.07.14).
 ##/
 
 config_phpmailer: "Konfigurasi untuk PHPMailer (digunakan untuk otentikasi dua-faktor)."
