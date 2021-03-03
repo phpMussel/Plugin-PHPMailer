@@ -4,20 +4,21 @@
     "homepage": "https://phpmussel.github.io/",
     "license": "GPL-2.0-or-later",
     "support": {
-        "chat": "https://gitter.im/phpMussel2/Lobby",
         "issues": "https://github.com/phpMussel/Plugin-PHPMailer/issues",
         "source": "https://github.com/phpMussel/Plugin-PHPMailer",
-        "docs": "https://github.com/phpMussel/Docs"
+        "docs": "https://github.com/phpMussel/Docs",
+        "rss": "https://github.com/phpMussel/Plugin-PHPMailer/releases.atom",
+        "chat": "https://gitter.im/phpMussel2/Lobby"
     },
     "require": {
         "php": ">=7.2.0",
-        "maikuolan/common": "^2.4.0",
-        "phpmussel/core": "^3.1",
-        "phpmailer/phpmailer": ">=6.2.0"
+        "maikuolan/common": "^2.5",
+        "phpmussel/core": "^3.2",
+        "phpmailer/phpmailer": "^6.2"
     },
     "suggest": {
-        "phpmussel/frontend": "^3.1",
-        "phpmussel/web": "^3.1"
+        "phpmussel/frontend": "^3.1.1",
+        "phpmussel/web": "^3.1.1"
     },
     "autoload": {
         "psr-4": {
