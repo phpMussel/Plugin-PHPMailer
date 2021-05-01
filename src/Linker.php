@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2020.07.13).
+ * This file: PHPMailer-phpMussel linker (last modified: 2021.05.01).
  */
 
 namespace phpMussel\PHPMailer;
@@ -80,11 +80,8 @@ class Linker
                 return false;
             }
 
-            $WriteMode = (!file_exists($EventLog) || (
-                $this->Loader->Configuration['core']['truncate'] > 0 &&
-                filesize($EventLog) >= $this->Loader->readBytes($this->Loader->Configuration['core']['truncate'])
-            )) ? 'wb' : 'ab';
-
+            $Truncate = $this->Loader->readBytes($this->Loader->Configuration['core']['truncate']);
+            $WriteMode = (!file_exists($EventLog) || ($Truncate > 0 && filesize($EventLog) >= $Truncate)) ? 'wb' : 'ab';
             $Handle = fopen($EventLog, $WriteMode);
             fwrite($Handle, $Data);
             fclose($Handle);

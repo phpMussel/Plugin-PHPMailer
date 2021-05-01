@@ -7,3 +7,11 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.0
 
 [2020.12.04; Maikuolan]: Maintenance release (dependencies update, repository cleanup, etc).
+
+### v3.1.1
+
+[2021.03.03; Maikuolan]: Maintenance release.
+
+### v3.1.2
+
+[2021.05.01; Bug-fix; Maikuolan]: Log truncation not being calculated properly; Fixed.
