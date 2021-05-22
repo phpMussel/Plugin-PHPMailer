@@ -15,3 +15,5 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.2
 
 [2021.05.01; Bug-fix; Maikuolan]: Log truncation not being calculated properly; Fixed.
+
+[2021.05.22; Security; Maikuolan]: Increasing PHPMailer version constraints from ^6.2 to ^6.4.1 due to CVE-2020-36326.

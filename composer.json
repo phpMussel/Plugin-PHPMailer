@@ -14,7 +14,7 @@
         "php": ">=7.2.0",
         "maikuolan/common": "^2.5",
         "phpmussel/core": "^3.2",
-        "phpmailer/phpmailer": "^6.2"
+        "phpmailer/phpmailer": "^6.4.1"
     },
     "suggest": {
         "phpmussel/frontend": "^3.1.1",
