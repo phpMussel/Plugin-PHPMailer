@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2021.05.01).
+ * This file: PHPMailer-phpMussel linker (last modified: 2021.05.28).
  */
 
 namespace phpMussel\PHPMailer;
@@ -74,7 +74,7 @@ class Linker
         $this->Loader->Events->addHandler('writeToPHPMailerEventLog', function (string $Data): bool {
             /** Guard. */
             if (
-                !$this->Loader->Configuration['phpmailer']['event_log'] ||
+                $this->Loader->Configuration['phpmailer']['event_log'] === '' ||
                 !($EventLog = $this->Loader->buildPath($this->Loader->Configuration['phpmailer']['event_log']))
             ) {
                 return false;
