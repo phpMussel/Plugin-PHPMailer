@@ -21,3 +21,5 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.3
 
 [2021.05.28; Maikuolan]: Performed some minor refactoring.
+
+[2021.06.21; Security; Maikuolan]: Increasing PHPMailer version constraints from ^6.4.1 to ^6.5 due to CVE-2021-34551 and CVE-2021-3603.
