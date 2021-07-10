@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2021.05.28).
+ * This file: PHPMailer-phpMussel linker (last modified: 2021.07.10).
  */
 
 namespace phpMussel\PHPMailer;
@@ -34,6 +34,7 @@ class Linker
      * Construct the linker instance.
      *
      * @param \phpMussel\Core\Loader $Loader The instantiated loader object, passed by reference.
+     * @return void
      */
     public function __construct(\phpMussel\Core\Loader &$Loader)
     {
