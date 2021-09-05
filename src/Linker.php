@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2021.08.25).
+ * This file: PHPMailer-phpMussel linker (last modified: 2021.09.05).
  */
 
 namespace phpMussel\PHPMailer;
@@ -41,17 +41,15 @@ class Linker
         /** Link the loader to this instance. */
         $this->Loader = &$Loader;
 
-        /** Load configuration defaults and perform fallbacks. */
+        /** Load PHPMailer-phpMussel linker configuration defaults and perform fallbacks. */
         if (
             is_readable($this->AssetsPath . 'config.yml') &&
             $Configuration = $this->Loader->readFile($this->AssetsPath . 'config.yml')
         ) {
             $Defaults = [];
-            $this->Loader->YAML->process($Configuration, $Defaults, 0, true);
-            if (isset($Defaults)) {
-                $this->Loader->fallback($Defaults);
-                $this->Loader->ConfigurationDefaults = array_merge_recursive($this->Loader->ConfigurationDefaults, $Defaults);
-            }
+            $this->Loader->YAML->process($Configuration, $Defaults);
+            $this->Loader->fallback($Defaults);
+            $this->Loader->ConfigurationDefaults = array_merge_recursive($this->Loader->ConfigurationDefaults, $Defaults);
         }
 
         /** Register log paths. */
