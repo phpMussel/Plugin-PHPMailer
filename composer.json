@@ -12,13 +12,13 @@
     },
     "require": {
         "php": ">=7.2.0",
-        "maikuolan/common": "^2.5",
-        "phpmussel/core": "^3.2",
+        "maikuolan/common": "^2.7",
+        "phpmussel/core": "^3.3",
         "phpmailer/phpmailer": "^6.5"
     },
     "suggest": {
-        "phpmussel/frontend": "^3.1.1",
-        "phpmussel/web": "^3.1.1"
+        "phpmussel/frontend": "^3.2",
+        "phpmussel/web": "^3.2"
     },
     "autoload": {
         "psr-4": {
