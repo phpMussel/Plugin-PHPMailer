@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2021.09.05).
+ * This file: PHPMailer-phpMussel linker (last modified: 2022.02.13).
  */
 
 namespace phpMussel\PHPMailer;
@@ -132,7 +132,7 @@ class Linker
         /** Prepare event logging. */
         $EventLogData = sprintf(
             '%s - %s - ',
-            $this->Loader->Configuration['legal']['pseudonymise_ip_addresses'] ? $this->Loader->pseudonymiseIP($_SERVER[$this->Loader->Configuration['core']['ipaddr']]) : $_SERVER[$this->Loader->Configuration['core']['ipaddr']],
+            $this->Loader->Configuration['legal']['pseudonymise_ip_addresses'] ? $this->Loader->pseudonymiseIP($this->Loader->IPAddr) : $this->Loader->IPAddr,
             $this->Loader->timeFormat($this->Loader->Time, $this->Loader->Configuration['core']['time_format'])
         );
 
