@@ -11,8 +11,8 @@
     },
     "require": {
         "php": ">=7.2.0",
-        "maikuolan/common": "^2.7",
-        "phpmussel/core": "^3.3",
+        "maikuolan/common": "^2.8",
+        "phpmussel/core": "^3.3.1",
         "phpmailer/phpmailer": "^6.5"
     },
     "suggest": {
