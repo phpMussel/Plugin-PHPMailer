@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: French language data (last modified: 2020.07.14).
+# This file: French language data (last modified: 2022.03.01).
 ##/
 
 config_phpmailer: "Configuration pour PHPMailer (utilisé pour l'authentification à deux facteurs)."
@@ -25,4 +25,4 @@ config_phpmailer_skip_auth_process: "Définir cette directive sur <code>true</co
 config_phpmailer_smtp_auth: "Cette directive détermine si les sessions SMTP doivent être authentifiées (elles doivent généralement être laissées seules)."
 config_phpmailer_smtp_secure: "Le protocole à utiliser lors de l'envoi d'e-mail via SMTP (TLS ou SSL)."
 config_phpmailer_username: "Le nom d'utilisateur à utiliser lors de l'envoi d'e-mail via SMTP."
-state_email_sent: "E-mail envoyé avec succès à « %s »."
+state_email_sent: "E-mail envoyé avec succès à «\_%s\_»."

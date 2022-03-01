@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Korean language data (last modified: 2020.07.14).
+# This file: Korean language data (last modified: 2022.03.01).
 ##/
 
 config_phpmailer: "PHPMailer 설정 (이중 인증에 사용)."
@@ -21,7 +21,7 @@ config_phpmailer_password: "SMTP를 통해 이메일을 보낼 때 사용할 비
 config_phpmailer_port: "아웃 바운드 이메일에 사용할 포트 번호입니다. Default (기본 설정) = 587."
 config_phpmailer_set_from_address: "SMTP를 통해 전자 메일을 보낼 때 인용 할 보낸 사람 주소입니다."
 config_phpmailer_set_from_name: "SMTP를 통해 전자 메일을 보낼 때 인용 할 보낸 사람 이름입니다."
-config_phpmailer_skip_auth_process: "<code>true</code> 일 때, PHPMailer는 전자 메일 전송을위한 SMTP 인증 프로세스를 건너 뛰도록 지시합니다. 이 프로세스를 건너 뛰면 아웃 바운드 전자 메일이 MITM 공격에 노출 될 수 있으므로 피해야합니다. 특정 경우에 필요할 수 있음 (예 : PHPMailer가 SMTP 서버에 제대로 연결할 수없는 경우)."
+config_phpmailer_skip_auth_process: "<code>true</code> 일 때, PHPMailer는 전자 메일 전송을위한 SMTP 인증 프로세스를 건너 뛰도록 지시합니다. 이 프로세스를 건너 뛰면 아웃 바운드 전자 메일이 MITM 공격에 노출 될 수 있으므로 피해야합니다. 특정 경우에 필요할 수 있음 (예\_: PHPMailer가 SMTP 서버에 제대로 연결할 수없는 경우)."
 config_phpmailer_smtp_auth: "이 지시문은 SMTP 세션을 인증할지 여부를 결정합니다 (보통 이것을 무시해야합니다)."
 config_phpmailer_smtp_secure: "SMTP를 통해 이메일을 보낼 때 사용할 프로토콜 (TLS 또는 SSL)."
 config_phpmailer_username: "SMTP를 통해 이메일을 보낼 때 사용할 사용자 이름입니다."
