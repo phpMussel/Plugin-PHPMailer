@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Malay language data (last modified: 2022.07.28).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "Konfigurasi untuk PHPMailer (digunakan untuk pengesahan dua faktor)."
+config_phpmailer_add_reply_to_address: "Alamat balasan yang dipetik semasa menghantar e-mel melalui SMTP."
+config_phpmailer_add_reply_to_name: "Nama balasan yang dipetik semasa menghantar e-mel melalui SMTP."
+config_phpmailer_enable_notifications: "Jika anda mahu dimaklumkan melalui e-mel apabila muat naik disekat, nyatakan alamat e-mel untuk penerima disini."
+config_phpmailer_enable_two_factor: "Arahan ini menentukan apakah untuk menggunakan 2FA untuk akaun bahagian hadapan."
+config_phpmailer_event_log: "Fail untuk mengelog semua acara berkaitan dengan PHPMailer. Tentukan nama fail, atau biarkan kosong untuk nyahaktifkan."
+config_phpmailer_host: "Hos SMTP yang digunakan untuk e-mel keluar."
+config_phpmailer_password: "Kata laluan yang digunakan semasa menghantar e-mel melalui SMTP."
+config_phpmailer_port: "Nombor port yang digunakan untuk e-mel keluar. Lalai = 587."
+config_phpmailer_set_from_address: "Alamat penghantar yang dipetik semasa menghantar e-mel melalui SMTP."
+config_phpmailer_set_from_name: "Nama penghantar yang dipetik semasa menghantar e-mel melalui SMTP."
+config_phpmailer_skip_auth_process: "Menetapkan arahan ini kepada <code>true</code> mengarahkan PHPMailer untuk melangkau proses pengesahan yang biasanya berlaku semasa menghantar e-mel melalui SMTP. Ini harus dielakkan, kerana melangkau proses ini boleh mendedahkan e-mel keluar kepada serangan MITM, tetapi mungkin diperlukan dalam kes dimana proses ini menghalang PHPMailer daripada menyambung ke pelayan SMTP."
+config_phpmailer_smtp_auth: "Arahan ini menentukan sama ada untuk mengesahkan sesi SMTP (selalunya harus dibiarkan begitu sahaja)."
+config_phpmailer_smtp_secure: "Protokol yang digunakan semasa menghantar e-mel melalui SMTP (TLS atau SSL)."
+config_phpmailer_username: "Nama pengguna yang digunakan semasa menghantar e-mel melalui SMTP."
+state_email_sent: "E-mel berjaya dihantar kepada "%s"."
