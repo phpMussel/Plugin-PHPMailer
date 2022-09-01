@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Hebrew language data (last modified: 2022.09.01).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "תצורה עבור PHPMailer (משמש לאימות דו-גורמי)."
+config_phpmailer_add_reply_to_address: "כתובת השולח בעת שליחת אימייל באמצעות SMTP."
+config_phpmailer_add_reply_to_name: "שם השולח בעת שליחת אימייל באמצעות SMTP."
+config_phpmailer_enable_notifications: "אם ברצונך לקבל הודעה באימייל כאשר העלאה חסומה, ציין כאן את כתובת האימייל של הנמען."
+config_phpmailer_enable_two_factor: "הנחיה זו קובעת אם להשתמש ב-2FA."
+config_phpmailer_event_log: "קובץ לרישום כל האירועים ביחס ל-PHPMailer. ציין שם קובץ, או השאר ריק כדי להשבית."
+config_phpmailer_host: "מארח ה-SMTP לשימוש עבור אימייל יוצא."
+config_phpmailer_password: "הסיסמה לשימוש בעת שליחת אימייל באמצעות SMTP."
+config_phpmailer_port: "מספר היציאה לשימוש עבור אימייל יוצא. סטנדרטי = 587."
+config_phpmailer_set_from_address: "כתובת השולח בעת שליחת אימייל באמצעות SMTP."
+config_phpmailer_set_from_name: "שם השולח בעת שליחת אימייל באמצעות SMTP."
+config_phpmailer_skip_auth_process: "הגדרת זה ל-<code>true</code> אומרת ל-PHPMailer לא לבצע אימות בעת שליחת אימייל באמצעות SMTP. יש להימנע מכך, כי אי אימות עלול לחשוף דואר יוצא למתקפות MITM, אך עשוי להיות נחוץ במקרים שבהם פעולה זו תמנע מ-PHPMailer להתחבר לשרת SMTP."
+config_phpmailer_smtp_auth: "קובע אם לאמת הפעלות SMTP (בדרך כלל צריך להשאיר לבד)."
+config_phpmailer_smtp_secure: "הפרוטוקול לשימוש בעת שליחת אימייל באמצעות SMTP (TLS או SSL)."
+config_phpmailer_username: "שם המשתמש לשימוש בעת שליחת אימייל באמצעות SMTP."
+state_email_sent: "אימייל נשלח בהצלחה אל "%s"."

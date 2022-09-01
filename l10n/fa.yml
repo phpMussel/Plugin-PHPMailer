@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Farsi language data (last modified: 2022.09.01).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "پیکربندی برای PHPMailer (برای احراز هویت دو مرحله ای استفاده می شود)."
+config_phpmailer_add_reply_to_address: "آدرس پاسخی که هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+config_phpmailer_add_reply_to_name: "نام پاسخی که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+config_phpmailer_enable_notifications: "اگر می‌خواهید هنگام مسدود شدن آپلود از طریق ایمیل مطلع شوید، آدرس ایمیل گیرنده را در اینجا مشخص کنید."
+config_phpmailer_enable_two_factor: "این دستورالعمل تعیین می‌کند که آیا از 2FA برای حساب‌های فرانت‌اند استفاده شود یا خیر."
+config_phpmailer_event_log: "فایلی برای ثبت همه رویدادها در رابطه با PHPMailer. نام فایل را مشخص کنید، یا برای غیرفعال کردن آن را خالی بگذارید."
+config_phpmailer_host: "میزبان SMTP برای استفاده برای ایمیل های خروجی."
+config_phpmailer_password: "رمز عبور برای استفاده هنگام ارسال ایمیل از طریق SMTP."
+config_phpmailer_port: "شماره پورت مورد استفاده برای ایمیل های خروجی. پیش فرض = 587."
+config_phpmailer_set_from_address: "آدرس فرستنده که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+config_phpmailer_set_from_name: "نام فرستنده ای که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+config_phpmailer_skip_auth_process: "تنظیم این دستور بر روی <code>true</code> به PHPMailer دستور می دهد تا از روند عادی احراز هویت که معمولاً هنگام ارسال ایمیل از طریق SMTP رخ می دهد، صرف نظر کند. از این کار باید اجتناب شود، زیرا عدم احراز هویت می‌تواند ایمیل‌های خروجی را در معرض حملات MITM قرار دهد، اما ممکن است در مواردی که مانع از اتصال PHPMailer به سرور SMTP شود، ضروری باشد."
+config_phpmailer_smtp_auth: "این دستورالعمل تعیین می کند که آیا جلسات SMTP احراز هویت شود یا خیر (معمولا باید به حال خود رها شود)."
+config_phpmailer_smtp_secure: "پروتکل مورد استفاده هنگام ارسال ایمیل از طریق SMTP (TLS یا SSL)."
+config_phpmailer_username: "نام کاربری که هنگام ارسال ایمیل از طریق SMTP استفاده می شود."
+state_email_sent: "ایمیل با موفقیت به "%s" ارسال شد."
