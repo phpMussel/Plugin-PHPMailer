@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Farsi language data (last modified: 2022.09.01).
+# This file: Farsi language data (last modified: 2022.10.05).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -28,7 +28,7 @@ config_phpmailer: "پیکربندی برای PHPMailer (برای احراز هو
 config_phpmailer_add_reply_to_address: "آدرس پاسخی که هنگام ارسال ایمیل از طریق SMTP ذکر شود."
 config_phpmailer_add_reply_to_name: "نام پاسخی که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
 config_phpmailer_enable_notifications: "اگر می‌خواهید هنگام مسدود شدن آپلود از طریق ایمیل مطلع شوید، آدرس ایمیل گیرنده را در اینجا مشخص کنید."
-config_phpmailer_enable_two_factor: "این دستورالعمل تعیین می‌کند که آیا از 2FA برای حساب‌های فرانت‌اند استفاده شود یا خیر."
+config_phpmailer_enable_two_factor: "این دستورالعمل تعیین می کند که آیا از 2FA برای حساب های جلویی استفاده شود یا خیر."
 config_phpmailer_event_log: "فایلی برای ثبت همه رویدادها در رابطه با PHPMailer. نام فایل را مشخص کنید، یا برای غیرفعال کردن آن را خالی بگذارید."
 config_phpmailer_host: "میزبان SMTP برای استفاده برای ایمیل های خروجی."
 config_phpmailer_password: "رمز عبور برای استفاده هنگام ارسال ایمیل از طریق SMTP."

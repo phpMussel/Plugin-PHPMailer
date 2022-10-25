@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Configuration defaults file (last modified: 2020.07.13).
+# This file: Configuration defaults file (last modified: 2022.10.25).
 ##/
 
 phpmailer:
@@ -29,6 +29,8 @@ phpmailer:
  port:
   type: "int"
   default: 587
+  min: 1
+  max: 65535
  smtp_secure:
   type: "string"
   default: "default"

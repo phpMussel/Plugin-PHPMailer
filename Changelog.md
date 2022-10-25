@@ -33,3 +33,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 [2022.07.28; Maikuolan]: Added L10N for Malay.
 
 [2022.09.01; Maikuolan]: Added L10N for Persian/Farsi, Hebrew, and Ukrainian.
+
+### v3.1.6
+
+[2022.10.25; Maikuolan]: Hardened some configuration constraints.
