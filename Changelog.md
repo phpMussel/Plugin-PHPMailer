@@ -37,3 +37,5 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.6
 
 [2022.10.25; Maikuolan]: Hardened some configuration constraints.
+
+[2022.11.20; Maikuolan]: Avoid packaging unnecessary files into dist.
