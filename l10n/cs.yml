@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Czech language data (last modified: 2023.04.30).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "Konfigurace pro PHPMailer (používá se pro dvoufaktorovou autentizaci)."
+config_phpmailer_add_reply_to_address: "Adresa pro odpověď, která se má citovat při odesílání e-mailu přes SMTP."
+config_phpmailer_add_reply_to_name: "Název odpovědi, který se má citovat při odesílání e-mailu přes SMTP."
+config_phpmailer_enable_notifications: "Pokud chcete být informováni e-mailem o zablokování nahrávání, zadejte zde e-mailovou adresu příjemce."
+config_phpmailer_enable_two_factor: "Tato směrnice určuje, zda použít 2FA pro účty front-end."
+config_phpmailer_event_log: "Soubor pro protokolování všech událostí ve vztahu k PHPMailer. Zadejte název souboru nebo ponechejte prázdné, chcete-li jej deaktivovat."
+config_phpmailer_host: "Hostitel SMTP, který se má použít pro odchozí e-maily."
+config_phpmailer_password: "Heslo, která se má použít při odesílání e-mailu přes SMTP."
+config_phpmailer_port: "Číslo portu, která se má použít pro odchozí e-maily. Standardní = 587."
+config_phpmailer_set_from_address: "Adresa odesílatele, která se má citovat při odesílání e-mailu přes SMTP."
+config_phpmailer_set_from_name: "Jméno odesílatele, která se má citovat při odesílání e-mailu přes SMTP."
+config_phpmailer_skip_auth_process: "Nastavení této direktivy na <code>true</code> dává PHPMailer pokyn, aby vynechal normální proces ověřování, který se normálně vyskytuje při odesílání e-mailů přes SMTP. Tomu je třeba se vyhnout, protože přeskočení tohoto procesu může vystavit odchozí e-maily útokům MITM, ale může být nezbytné v případech, kdy tento proces brání PHPMaileru v připojení k serveru SMTP."
+config_phpmailer_smtp_auth: "Tato direktiva určuje, zda se mají ověřovat relace SMTP (obvykle by měla být ponechána)."
+config_phpmailer_smtp_secure: "Protokol, který se má použít při odesílání e-mailů přes SMTP (TLS nebo SSL)."
+config_phpmailer_username: "Uživatelské jméno, které se použije při odesílání e-mailu přes SMTP."
+state_email_sent: "E-mail byl úspěšně odeslán na adresu „%s“."

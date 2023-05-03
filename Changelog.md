@@ -43,3 +43,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.7
 
 [2022.11.30; Maikuolan]: Adjusted minimum value for some port directives from 1 to 0.
+
+### v3.1.8
+
+[2023.04.30; Maikuolan]: Added L10N for Bulgarian, Czech, and Punjabi.

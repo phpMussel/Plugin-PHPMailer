@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Punjabi language data (last modified: 2023.04.30).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "PHPMailer ਲਈ ਸੰਰਚਨਾ (ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ)।"
+config_phpmailer_add_reply_to_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਪਤਾ।"
+config_phpmailer_add_reply_to_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਨਾਮ।"
+config_phpmailer_enable_notifications: "ਜੇਕਰ ਤੁਸੀਂ ਕਿਸੇ ਅੱਪਲੋਡ ਨੂੰ ਬਲੌਕ ਕੀਤੇ ਜਾਣ 'ਤੇ ਈਮੇਲ ਰਾਹੀਂ ਸੂਚਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਇੱਥੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦਾ ਈਮੇਲ ਪਤਾ ਦੱਸੋ।"
+config_phpmailer_enable_two_factor: "ਇਹ ਨਿਰਦੇਸ਼ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਕਿ ਕੀ ਫਰੰਟ-ਐਂਡ ਖਾਤਿਆਂ ਲਈ 2FA ਦੀ ਵਰਤੋਂ ਕਰਨੀ ਹੈ ਜਾਂ ਨਹੀਂ।"
+config_phpmailer_event_log: "PHPMailer ਦੇ ਸਬੰਧ ਵਿੱਚ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਨੂੰ ਲੌਗ ਕਰਨ ਲਈ ਇੱਕ ਫਾਈਲ। ਇੱਕ ਫਾਈਲ ਨਾਮ ਦਿਓ, ਜਾਂ ਅਯੋਗ ਕਰਨ ਲਈ ਖਾਲੀ ਛੱਡੋ।"
+config_phpmailer_host: "ਆਊਟਬਾਊਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ SMTP ਹੋਸਟ।"
+config_phpmailer_password: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ।"
+config_phpmailer_port: "ਆਊਟਬਾਉਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ ਪੋਰਟ ਨੰਬਰ। ਡਿਫਾਲਟ = "587"।"
+config_phpmailer_set_from_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਪਤਾ।"
+config_phpmailer_set_from_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਨਾਮ।"
+config_phpmailer_skip_auth_process: "ਇਸ ਨਿਰਦੇਸ਼ ਨੂੰ <code>true</code> 'ਤੇ ਸੈੱਟ ਕਰਨਾ PHPMailer ਨੂੰ ਆਮ ਪ੍ਰਮਾਣਿਕਤਾ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਲਈ ਨਿਰਦੇਸ਼ ਦਿੰਦਾ ਹੈ ਜੋ ਆਮ ਤੌਰ 'ਤੇ SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਾਪਰਦੀ ਹੈ। ਇਸ ਤੋਂ ਬਚਣਾ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਇਸ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਨਾਲ MITM ਹਮਲਿਆਂ ਲਈ ਬਾਹਰੀ ਈਮੇਲ ਦਾ ਪਰਦਾਫਾਸ਼ ਹੋ ਸਕਦਾ ਹੈ, ਪਰ ਉਹਨਾਂ ਮਾਮਲਿਆਂ ਵਿੱਚ ਜ਼ਰੂਰੀ ਹੋ ਸਕਦਾ ਹੈ ਜਿੱਥੇ ਇਹ ਪ੍ਰਕਿਰਿਆ PHPMailer ਨੂੰ SMTP ਸਰਵਰ ਨਾਲ ਜੁੜਨ ਤੋਂ ਰੋਕਦੀ ਹੈ।"
+config_phpmailer_smtp_auth: "ਇਹ ਨਿਰਦੇਸ਼ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਕਿ ਕੀ SMTP ਸੈਸ਼ਨਾਂ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰਨਾ ਹੈ (ਆਮ ਤੌਰ 'ਤੇ ਇਕੱਲੇ ਛੱਡ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ)।"
+config_phpmailer_smtp_secure: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪ੍ਰੋਟੋਕੋਲ (TLS ਜਾਂ SSL)।"
+config_phpmailer_username: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਵਰਤੋਂਕਾਰ ਨਾਂ।"
+state_email_sent: "ਈਮੇਲ ਸਫਲਤਾਪੂਰਵਕ "%s" ਨੂੰ ਭੇਜੀ ਗਈ।"

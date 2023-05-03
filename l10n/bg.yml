@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Bulgarian language data (last modified: 2023.04.30).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "Конфигурация за PHPMailer (използвани за двуфакторно удостоверяване)."
+config_phpmailer_add_reply_to_address: "Адресът за отговор, когато изпращате имейл чрез SMTP."
+config_phpmailer_add_reply_to_name: "Името на отговора, когато изпращате имейл чрез SMTP."
+config_phpmailer_enable_notifications: "Ако искате да бъдете уведомени по имейл, когато качването е блокирано, посочете имейл адреса на получателя тук."
+config_phpmailer_enable_two_factor: "Тази директива определя дали да се използва 2FA за фронтенд акаунти."
+config_phpmailer_event_log: "Файл за регистриране на всички събития във връзка с PHPMailer. Посочете име на файл, или за да го деактивирате, оставете го празно."
+config_phpmailer_host: "SMTP хостът, който да се използва за изходящ имейл."
+config_phpmailer_password: "Паролата, която да използвате при изпращане на имейл чрез SMTP."
+config_phpmailer_port: "Номерът на порта, който да се използва за изходящ имейл. Стандарт = 587."
+config_phpmailer_set_from_address: "Адресът на подателя, когато изпращате имейл чрез SMTP."
+config_phpmailer_set_from_name: "Името на подателя, когато изпращате имейл чрез SMTP."
+config_phpmailer_skip_auth_process: "Задаването на тази директива на <code>true</code> инструктира PHPMailer да пропусне нормалния процес на удостоверяване, който обикновено се случва при изпращане на имейл чрез SMTP. Това трябва да се избягва, тъй като пропускането на този процес може да изложи изходящия имейл на MITM атаки, но може да е необходимо в случаите, когато този процес пречи на PHPMailer да се свърже към SMTP сървър."
+config_phpmailer_smtp_auth: "Тази директива определя дали да се удостоверяват SMTP сесиите (обикновено трябва да се остави сама)."
+config_phpmailer_smtp_secure: "Протоколът, който да се използва при изпращане на имейл чрез SMTP (TLS или SSL)."
+config_phpmailer_username: "Потребителското име, което да използвате при изпращане на имейл чрез SMTP."
+state_email_sent: "Имейлът е изпратен успешно до „%s“."
