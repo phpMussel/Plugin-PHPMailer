@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Japanese language data (last modified: 2022.07.28).
+# This file: Japanese language data (last modified: 2023.08.10).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -29,7 +29,7 @@ config_phpmailer_add_reply_to_address: "ＳＭＴＰ経由で電子Ｅメール�
 config_phpmailer_add_reply_to_name: "ＳＭＴＰ経由で電子Ｅメールを送信するときに引用する返信名。"
 config_phpmailer_enable_notifications: "アップロードがブロックされたときにＥメールで通知を受け取りたい場合は、ここで受信者のＥメール・アドレスを指定します。"
 config_phpmailer_enable_two_factor: "このディレクティブは、フロントエンド・アカウントに２ＦＡを使用するかどうかを決定します。"
-config_phpmailer_event_log: "PHPMailerに関連してすべてのイベントを記録するためのファイル。​ファイル名指定するか、​無効にしたい場合は空白のままにして下さい。"
+config_phpmailer_event_log: "PHPMailerに関連してすべてのイベントを記録するためのファイル。​ファイル名指定するか、無効にしたい場合は空白のままにして下さい。"
 config_phpmailer_host: "送信Ｅメールに使用するＳＭＴＰホスト。"
 config_phpmailer_password: "ＳＭＴＰ経由で電子Ｅメールを送信するときに使用するパスワード。"
 config_phpmailer_port: "送信Ｅメールに使用するポート番号。​Default/デフォルルト = 587。"
