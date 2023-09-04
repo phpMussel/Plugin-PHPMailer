@@ -47,3 +47,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.8
 
 [2023.04.30; Maikuolan]: Added L10N for Bulgarian, Czech, and Punjabi.
+
+### v3.1.9
+
+[2023.09.04; Maikuolan]: Added L10N for Afrikaans and Romanian.

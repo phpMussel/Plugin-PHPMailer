@@ -1,0 +1,42 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Afrikaans language data (last modified: 2023.09.04).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config_phpmailer: "Konfigurasie vir PHPMailer (gebruik vir twee-faktor-verifikasie)."
+config_phpmailer_add_reply_to_address: "Die antwoordadres om aan te haal wanneer e-pos via SMTP gestuur word."
+config_phpmailer_add_reply_to_name: "Die antwoordnaam om aan te haal wanneer e-pos via SMTP gestuur word."
+config_phpmailer_enable_notifications: "As jy per e-pos in kennis gestel wil word wanneer 'n oplaai geblokkeer word, spesifiseer die ontvanger-e-posadres hier."
+config_phpmailer_enable_two_factor: "Of om 2FA vir front-end rekeninge te gebruik."
+config_phpmailer_event_log: "Lêer om alle gebeurtenisse met betrekking tot PHPMailer aan te teken. Spesifiseer 'n lêernaam, of laat leeg om te deaktiveer."
+config_phpmailer_host: "Die SMTP-gasheer om vir uitgaande e-pos te gebruik."
+config_phpmailer_password: "Die wagwoord om te gebruik wanneer e-pos via SMTP gestuur word."
+config_phpmailer_port: "Die poortnommer om vir uitgaande e-pos te gebruik. Verstek = 587."
+config_phpmailer_set_from_address: "Die senderadres om aan te haal wanneer e-pos via SMTP gestuur word."
+config_phpmailer_set_from_name: "Die sender se naam om aan te haal wanneer e-pos via SMTP gestuur word."
+config_phpmailer_skip_auth_process: "Deur hierdie opdrag op <code>true</code> te stel, gee PHPMailer opdrag om die normale verifikasieproses oor te slaan wat normaalweg plaasvind wanneer e-pos via SMTP gestuur word. Dit moet vermy word, want die oorslaan van hierdie proses kan uitgaande e-pos aan MITM-aanvalle blootstel, maar mag nodig wees in gevalle waar hierdie proses verhoed dat PHPMailer aan 'n SMTP-bediener koppel."
+config_phpmailer_smtp_auth: "Of SMTP-sessies geverifieer moet word (moet gewoonlik alleen gelaat word)."
+config_phpmailer_smtp_secure: "Die protokol om te gebruik (TLS of SSL) wanneer e-pos via SMTP gestuur word."
+config_phpmailer_username: "Die gebruikersnaam om te gebruik wanneer e-pos via SMTP gestuur word."
+state_email_sent: "E-pos suksesvol gestuur na "%s"."
