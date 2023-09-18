@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2022.02.13).
+ * This file: PHPMailer-phpMussel linker (last modified: 2023.09.18).
  */
 
 namespace phpMussel\PHPMailer;
@@ -81,7 +81,10 @@ class Linker
 
             $Truncate = $this->Loader->readBytes($this->Loader->Configuration['core']['truncate']);
             $WriteMode = (!file_exists($EventLog) || ($Truncate > 0 && filesize($EventLog) >= $Truncate)) ? 'wb' : 'ab';
-            $Handle = fopen($EventLog, $WriteMode);
+            if (!is_resource($Handle = fopen($EventLog, $WriteMode))) {
+                trigger_error('The "writeToPHPMailerEventLog" event failed to open "' . $EventLog . '" for writing.');
+                return false;
+            }
             fwrite($Handle, $Data);
             fclose($Handle);
             $this->Loader->logRotation($this->Loader->Configuration['phpmailer']['event_log']);
