@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: German language data (last modified: 2022.09.22).
+# This file: German language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "Konfiguration für PHPMailer (für Zwei-Faktor-Authentifizierung verwendet)."
-config_phpmailer_add_reply_to_address: "Die Antwortadresse, die beim Senden von E-Mails über SMTP verwendet werden soll."
-config_phpmailer_add_reply_to_name: "Der Name für der Antwort, die beim Senden von E-Mails über SMTP verwendet werden soll."
-config_phpmailer_enable_notifications: "Wenn Sie per E-Mail benachrichtigt werden möchten, wenn ein Upload blockiert ist, geben Sie hier die E-Mail-Adresse des Empfängers an."
-config_phpmailer_enable_two_factor: "Diese Direktive bestimmt, ob 2FA für Frontend-Konten verwendet werden soll."
-config_phpmailer_event_log: "Eine Datei zum Protokollieren aller Ereignisse in Bezug auf PHPMailer. Geben Sie einen Dateinamen an oder lassen Sie die Option zum Deaktivieren leer."
-config_phpmailer_host: "Der SMTP-Host zum Senden von ausgehende E-Mails."
-config_phpmailer_password: "Das Passwort zum Senden von E-Mails über SMTP."
-config_phpmailer_port: "Die Portnummer zum Senden von ausgehende E-Mails. Standardeinstellung = 587."
-config_phpmailer_set_from_address: "Die Absenderadresse, die beim Senden von E-Mails über SMTP verwendet werden soll."
-config_phpmailer_set_from_name: "Der Name des Absenders, der beim Senden von E-Mails über SMTP verwendet werden soll."
-config_phpmailer_skip_auth_process: "Wenn Sie diese Direktive auf <code>true</code> setzen, wird PHPMailer angewiesen, den normalen Authentifizierungsprozess zu überspringen, der normalerweise beim Senden von E-Mails über SMTP auftritt. Dies sollte vermieden werden, da das Überspringen dieses Prozesses ausgehende E-Mails MITM-Angriffen aussetzen kann. Dies kann jedoch in Fällen erforderlich sein, in denen dieser Prozess die Verbindung von PHPMailer zu einem SMTP-Server verhindert."
-config_phpmailer_smtp_auth: "Diese Direktive bestimmt, ob SMTP-Sitzungen authentifiziert werden sollen (sollte normalerweise in Ruhe gelassen werden)."
-config_phpmailer_smtp_secure: "Das Protokoll zum Senden von E-Mails über SMTP (TLS oder SSL)."
-config_phpmailer_username: "Der Benutzername zum Senden von E-Mails über SMTP."
+config:
+ phpmailer: "Konfiguration für PHPMailer (für Zwei-Faktor-Authentifizierung verwendet)."
+ phpmailer_add_reply_to_address: "Die Antwortadresse, die beim Senden von E-Mails über SMTP verwendet werden soll."
+ phpmailer_add_reply_to_name: "Der Name für der Antwort, die beim Senden von E-Mails über SMTP verwendet werden soll."
+ phpmailer_enable_notifications: "Wenn Sie per E-Mail benachrichtigt werden möchten, wenn ein Upload blockiert ist, geben Sie hier die E-Mail-Adresse des Empfängers an."
+ phpmailer_enable_two_factor: "Diese Direktive bestimmt, ob 2FA für Frontend-Konten verwendet werden soll."
+ phpmailer_event_log: "Eine Datei zum Protokollieren aller Ereignisse in Bezug auf PHPMailer. Geben Sie einen Dateinamen an oder lassen Sie die Option zum Deaktivieren leer."
+ phpmailer_host: "Der SMTP-Host zum Senden von ausgehende E-Mails."
+ phpmailer_password: "Das Passwort zum Senden von E-Mails über SMTP."
+ phpmailer_port: "Die Portnummer zum Senden von ausgehende E-Mails. Standardeinstellung = 587."
+ phpmailer_set_from_address: "Die Absenderadresse, die beim Senden von E-Mails über SMTP verwendet werden soll."
+ phpmailer_set_from_name: "Der Name des Absenders, der beim Senden von E-Mails über SMTP verwendet werden soll."
+ phpmailer_skip_auth_process: "Wenn Sie diese Direktive auf <code>true</code> setzen, wird PHPMailer angewiesen, den normalen Authentifizierungsprozess zu überspringen, der normalerweise beim Senden von E-Mails über SMTP auftritt. Dies sollte vermieden werden, da das Überspringen dieses Prozesses ausgehende E-Mails MITM-Angriffen aussetzen kann. Dies kann jedoch in Fällen erforderlich sein, in denen dieser Prozess die Verbindung von PHPMailer zu einem SMTP-Server verhindert."
+ phpmailer_smtp_auth: "Diese Direktive bestimmt, ob SMTP-Sitzungen authentifiziert werden sollen (sollte normalerweise in Ruhe gelassen werden)."
+ phpmailer_smtp_secure: "Das Protokoll zum Senden von E-Mails über SMTP (TLS oder SSL)."
+ phpmailer_username: "Der Benutzername zum Senden von E-Mails über SMTP."
 state_email_sent: "E-Mail wurde erfolgreich an „%s“ gesendet."

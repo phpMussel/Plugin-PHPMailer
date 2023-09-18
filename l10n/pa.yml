@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Punjabi language data (last modified: 2023.06.24).
+# This file: Punjabi language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "PHPMailer ਲਈ ਕੌਂਫਿਗਰੇਸ਼ਨ (ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ)।"
-config_phpmailer_add_reply_to_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਪਤਾ।"
-config_phpmailer_add_reply_to_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਨਾਮ।"
-config_phpmailer_enable_notifications: "ਜੇਕਰ ਤੁਸੀਂ ਕਿਸੇ ਅੱਪਲੋਡ ਨੂੰ ਬਲੌਕ ਕੀਤੇ ਜਾਣ 'ਤੇ ਈਮੇਲ ਰਾਹੀਂ ਸੂਚਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਇੱਥੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦਾ ਈਮੇਲ ਪਤਾ ਦੱਸੋ।"
-config_phpmailer_enable_two_factor: "ਇਹ ਨਿਰਦੇਸ਼ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਕਿ ਕੀ ਫਰੰਟ-ਐਂਡ ਖਾਤਿਆਂ ਲਈ 2FA ਦੀ ਵਰਤੋਂ ਕਰਨੀ ਹੈ ਜਾਂ ਨਹੀਂ।"
-config_phpmailer_event_log: "PHPMailer ਦੇ ਸਬੰਧ ਵਿੱਚ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਨੂੰ ਲੌਗ ਕਰਨ ਲਈ ਇੱਕ ਫਾਈਲ। ਇੱਕ ਫਾਈਲ ਨਾਮ ਦਿਓ, ਜਾਂ ਅਯੋਗ ਕਰਨ ਲਈ ਖਾਲੀ ਛੱਡੋ।"
-config_phpmailer_host: "ਆਊਟਬਾਊਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ SMTP ਹੋਸਟ।"
-config_phpmailer_password: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ।"
-config_phpmailer_port: "ਆਊਟਬਾਉਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ ਪੋਰਟ ਨੰਬਰ। ਡਿਫਾਲਟ = "587"।"
-config_phpmailer_set_from_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਪਤਾ।"
-config_phpmailer_set_from_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਨਾਮ।"
-config_phpmailer_skip_auth_process: "ਇਸ ਨਿਰਦੇਸ਼ ਨੂੰ <code>true</code> 'ਤੇ ਸੈੱਟ ਕਰਨਾ PHPMailer ਨੂੰ ਆਮ ਪ੍ਰਮਾਣਿਕਤਾ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਲਈ ਨਿਰਦੇਸ਼ ਦਿੰਦਾ ਹੈ ਜੋ ਆਮ ਤੌਰ 'ਤੇ SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਾਪਰਦੀ ਹੈ। ਇਸ ਤੋਂ ਬਚਣਾ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਇਸ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਨਾਲ MITM ਹਮਲਿਆਂ ਲਈ ਬਾਹਰੀ ਈਮੇਲ ਦਾ ਪਰਦਾਫਾਸ਼ ਹੋ ਸਕਦਾ ਹੈ, ਪਰ ਉਹਨਾਂ ਮਾਮਲਿਆਂ ਵਿੱਚ ਜ਼ਰੂਰੀ ਹੋ ਸਕਦਾ ਹੈ ਜਿੱਥੇ ਇਹ ਪ੍ਰਕਿਰਿਆ PHPMailer ਨੂੰ SMTP ਸਰਵਰ ਨਾਲ ਜੁੜਨ ਤੋਂ ਰੋਕਦੀ ਹੈ।"
-config_phpmailer_smtp_auth: "ਇਹ ਨਿਰਦੇਸ਼ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਕਿ ਕੀ SMTP ਸੈਸ਼ਨਾਂ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰਨਾ ਹੈ (ਆਮ ਤੌਰ 'ਤੇ ਇਕੱਲੇ ਛੱਡ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ)।"
-config_phpmailer_smtp_secure: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪ੍ਰੋਟੋਕੋਲ (TLS ਜਾਂ SSL)।"
-config_phpmailer_username: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਵਰਤੋਂਕਾਰ ਨਾਂ।"
+config:
+ phpmailer: "PHPMailer ਲਈ ਕੌਂਫਿਗਰੇਸ਼ਨ (ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ)।"
+ phpmailer_add_reply_to_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਪਤਾ।"
+ phpmailer_add_reply_to_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਨਾਮ।"
+ phpmailer_enable_notifications: "ਜੇਕਰ ਤੁਸੀਂ ਕਿਸੇ ਅੱਪਲੋਡ ਨੂੰ ਬਲੌਕ ਕੀਤੇ ਜਾਣ 'ਤੇ ਈਮੇਲ ਰਾਹੀਂ ਸੂਚਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਇੱਥੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦਾ ਈਮੇਲ ਪਤਾ ਦੱਸੋ।"
+ phpmailer_enable_two_factor: "ਇਹ ਨਿਰਦੇਸ਼ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਕਿ ਕੀ ਫਰੰਟ-ਐਂਡ ਖਾਤਿਆਂ ਲਈ 2FA ਦੀ ਵਰਤੋਂ ਕਰਨੀ ਹੈ ਜਾਂ ਨਹੀਂ।"
+ phpmailer_event_log: "PHPMailer ਦੇ ਸਬੰਧ ਵਿੱਚ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਨੂੰ ਲੌਗ ਕਰਨ ਲਈ ਇੱਕ ਫਾਈਲ। ਇੱਕ ਫਾਈਲ ਨਾਮ ਦਿਓ, ਜਾਂ ਅਯੋਗ ਕਰਨ ਲਈ ਖਾਲੀ ਛੱਡੋ।"
+ phpmailer_host: "ਆਊਟਬਾਊਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ SMTP ਹੋਸਟ।"
+ phpmailer_password: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ।"
+ phpmailer_port: "ਆਊਟਬਾਉਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ ਪੋਰਟ ਨੰਬਰ। ਡਿਫਾਲਟ = "587"।"
+ phpmailer_set_from_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਪਤਾ।"
+ phpmailer_set_from_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਨਾਮ।"
+ phpmailer_skip_auth_process: "ਇਸ ਨਿਰਦੇਸ਼ ਨੂੰ <code>true</code> 'ਤੇ ਸੈੱਟ ਕਰਨਾ PHPMailer ਨੂੰ ਆਮ ਪ੍ਰਮਾਣਿਕਤਾ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਲਈ ਨਿਰਦੇਸ਼ ਦਿੰਦਾ ਹੈ ਜੋ ਆਮ ਤੌਰ 'ਤੇ SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਾਪਰਦੀ ਹੈ। ਇਸ ਤੋਂ ਬਚਣਾ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਇਸ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਨਾਲ MITM ਹਮਲਿਆਂ ਲਈ ਬਾਹਰੀ ਈਮੇਲ ਦਾ ਪਰਦਾਫਾਸ਼ ਹੋ ਸਕਦਾ ਹੈ, ਪਰ ਉਹਨਾਂ ਮਾਮਲਿਆਂ ਵਿੱਚ ਜ਼ਰੂਰੀ ਹੋ ਸਕਦਾ ਹੈ ਜਿੱਥੇ ਇਹ ਪ੍ਰਕਿਰਿਆ PHPMailer ਨੂੰ SMTP ਸਰਵਰ ਨਾਲ ਜੁੜਨ ਤੋਂ ਰੋਕਦੀ ਹੈ।"
+ phpmailer_smtp_auth: "ਇਹ ਨਿਰਦੇਸ਼ ਨਿਰਧਾਰਤ ਕਰਦਾ ਹੈ ਕਿ ਕੀ SMTP ਸੈਸ਼ਨਾਂ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰਨਾ ਹੈ (ਆਮ ਤੌਰ 'ਤੇ ਇਕੱਲੇ ਛੱਡ ਦਿੱਤਾ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ)।"
+ phpmailer_smtp_secure: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪ੍ਰੋਟੋਕੋਲ (TLS ਜਾਂ SSL)।"
+ phpmailer_username: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਵਰਤੋਂਕਾਰ ਨਾਂ।"
 state_email_sent: "ਈਮੇਲ ਸਫਲਤਾਪੂਰਵਕ "%s" ਨੂੰ ਭੇਜੀ ਗਈ।"

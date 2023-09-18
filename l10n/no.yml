@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Norwegian language data (last modified: 2023.08.10).
+# This file: Norwegian language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "Konfigurasjon for PHPMailer (brukes til tofaktorautentisering)."
-config_phpmailer_add_reply_to_address: "Svaradressen for å sitere når du sender e-post via SMTP."
-config_phpmailer_add_reply_to_name: "Svarnavnet til å sitere når du sender e-post via SMTP."
-config_phpmailer_enable_notifications: "Hvis du vil bli varslet via e-post når en opplasting er blokkert, spesifiser mottakerens e-postadresse her."
-config_phpmailer_enable_two_factor: "Dette direktivet bestemmer om du skal bruke 2FA for frontend-kontoer."
-config_phpmailer_event_log: "En fil for å logge alle hendelser i forhold til PHPMailer. Angi et filnavn, eller la det være tomt for å deaktivere."
-config_phpmailer_host: "SMTP-verten til bruk for utgående e-post."
-config_phpmailer_password: "Passordet som skal brukes når du sender e-post via SMTP."
-config_phpmailer_port: "Portnummeret som skal brukes til utgående e-post. Standardverdi = 587."
-config_phpmailer_set_from_address: "Avsenderadressen for å sitere når du sender e-post via SMTP."
-config_phpmailer_set_from_name: "Avsendernavnet for å sitere når du sender e-post via SMTP."
-config_phpmailer_skip_auth_process: "Innstilling av dette direktivet til <code>true</code> instruerer PHPMailer til å hoppe over den normale autentiseringsprosessen som normalt oppstår når du sender e-post via SMTP. Dette bør unngås, fordi hoppe over denne prosessen kan utsette utgående e-post til MITM-angrep, men kan være nødvendig i tilfeller der denne prosessen forhindrer PHPMailer fra å koble til en SMTP-server."
-config_phpmailer_smtp_auth: "Dette direktivet bestemmer om du skal autentisere SMTP-økter (bør vanligvis la det være alene)."
-config_phpmailer_smtp_secure: "Protokollen som skal brukes når du sender e-post via SMTP (TLS eller SSL)."
-config_phpmailer_username: "Brukernavnet som skal brukes når du sender e-post via SMTP."
+config:
+ phpmailer: "Konfigurasjon for PHPMailer (brukes til tofaktorautentisering)."
+ phpmailer_add_reply_to_address: "Svaradressen for å sitere når du sender e-post via SMTP."
+ phpmailer_add_reply_to_name: "Svarnavnet til å sitere når du sender e-post via SMTP."
+ phpmailer_enable_notifications: "Hvis du vil bli varslet via e-post når en opplasting er blokkert, spesifiser mottakerens e-postadresse her."
+ phpmailer_enable_two_factor: "Dette direktivet bestemmer om du skal bruke 2FA for frontend-kontoer."
+ phpmailer_event_log: "En fil for å logge alle hendelser i forhold til PHPMailer. Angi et filnavn, eller la det være tomt for å deaktivere."
+ phpmailer_host: "SMTP-verten til bruk for utgående e-post."
+ phpmailer_password: "Passordet som skal brukes når du sender e-post via SMTP."
+ phpmailer_port: "Portnummeret som skal brukes til utgående e-post. Standardverdi = 587."
+ phpmailer_set_from_address: "Avsenderadressen for å sitere når du sender e-post via SMTP."
+ phpmailer_set_from_name: "Avsendernavnet for å sitere når du sender e-post via SMTP."
+ phpmailer_skip_auth_process: "Innstilling av dette direktivet til <code>true</code> instruerer PHPMailer til å hoppe over den normale autentiseringsprosessen som normalt oppstår når du sender e-post via SMTP. Dette bør unngås, fordi hoppe over denne prosessen kan utsette utgående e-post til MITM-angrep, men kan være nødvendig i tilfeller der denne prosessen forhindrer PHPMailer fra å koble til en SMTP-server."
+ phpmailer_smtp_auth: "Dette direktivet bestemmer om du skal autentisere SMTP-økter (bør vanligvis la det være alene)."
+ phpmailer_smtp_secure: "Protokollen som skal brukes når du sender e-post via SMTP (TLS eller SSL)."
+ phpmailer_username: "Brukernavnet som skal brukes når du sender e-post via SMTP."
 state_email_sent: "E-post ble sendt til «%s» vellykket."

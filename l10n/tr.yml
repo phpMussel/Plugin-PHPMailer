@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Turkish language data (last modified: 2022.07.28).
+# This file: Turkish language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "PHPMailer için yapılandırma (iki faktörlü kimlik doğrulama için kullanılır)."
-config_phpmailer_add_reply_to_address: "SMTP ile e-posta gönderirken kullanılacak cevap adresi."
-config_phpmailer_add_reply_to_name: "SMTP ile e-posta gönderirken kullanılacak cevap ismi."
-config_phpmailer_enable_notifications: "Bir yükleme engellendiğinde e-postayla bilgilendirilmek istiyorsanız, burada alıcının e-posta adresini belirtin."
-config_phpmailer_enable_two_factor: "Bu yönerge, ön uç hesapları için 2FA kullanılıp kullanılmayacağını belirler."
-config_phpmailer_event_log: "PHPMailer ile ilgili tüm olayları günlüğe kaydetmek için bir dosya. Dosya adı belirtin veya devre dışı bırakmak için boş bırakın."
-config_phpmailer_host: "Giden e-posta için kullanılacak SMTP ana bilgisayarı."
-config_phpmailer_password: "SMTP ile e-posta gönderirken kullanılacak şifre."
-config_phpmailer_port: "Giden e-posta için kullanılacak bağlantı noktası numarası. Varsayılan = 587."
-config_phpmailer_set_from_address: "SMTP ile e-posta gönderirken kullanılacak gönderen adresi."
-config_phpmailer_set_from_name: "SMTP ile e-posta gönderirken kullanılacak gönderenin adı."
-config_phpmailer_skip_auth_process: "<code>true</code> olduğunda, PHPMailer normalde SMTP yoluyla e-posta gönderirken oluşan kimlik doğrulama işlemini atlar. Bu işlemin atlanması, giden e-postaları MITM saldırılarına maruz bırakabilir. Bazı durumlarda olsa gerekli olabilir (ör., PHPMailer bir SMTP sunucusuna bağlanamadığında)."
-config_phpmailer_smtp_auth: "Bu yönerge SMTP oturumlarının doğrulanıp onaylanmayacağını belirler (genellikle bunu yalnız bırakmalısın)."
-config_phpmailer_smtp_secure: "SMTP ile e-posta gönderirken kullanılacak protokol (TLS veya SSL)."
-config_phpmailer_username: "SMTP ile e-posta gönderirken kullanılacak kullanıcı adı."
+config:
+ phpmailer: "PHPMailer için yapılandırma (iki faktörlü kimlik doğrulama için kullanılır)."
+ phpmailer_add_reply_to_address: "SMTP ile e-posta gönderirken kullanılacak cevap adresi."
+ phpmailer_add_reply_to_name: "SMTP ile e-posta gönderirken kullanılacak cevap ismi."
+ phpmailer_enable_notifications: "Bir yükleme engellendiğinde e-postayla bilgilendirilmek istiyorsanız, burada alıcının e-posta adresini belirtin."
+ phpmailer_enable_two_factor: "Bu yönerge, ön uç hesapları için 2FA kullanılıp kullanılmayacağını belirler."
+ phpmailer_event_log: "PHPMailer ile ilgili tüm olayları günlüğe kaydetmek için bir dosya. Dosya adı belirtin veya devre dışı bırakmak için boş bırakın."
+ phpmailer_host: "Giden e-posta için kullanılacak SMTP ana bilgisayarı."
+ phpmailer_password: "SMTP ile e-posta gönderirken kullanılacak şifre."
+ phpmailer_port: "Giden e-posta için kullanılacak bağlantı noktası numarası. Varsayılan = 587."
+ phpmailer_set_from_address: "SMTP ile e-posta gönderirken kullanılacak gönderen adresi."
+ phpmailer_set_from_name: "SMTP ile e-posta gönderirken kullanılacak gönderenin adı."
+ phpmailer_skip_auth_process: "<code>true</code> olduğunda, PHPMailer normalde SMTP yoluyla e-posta gönderirken oluşan kimlik doğrulama işlemini atlar. Bu işlemin atlanması, giden e-postaları MITM saldırılarına maruz bırakabilir. Bazı durumlarda olsa gerekli olabilir (ör., PHPMailer bir SMTP sunucusuna bağlanamadığında)."
+ phpmailer_smtp_auth: "Bu yönerge SMTP oturumlarının doğrulanıp onaylanmayacağını belirler (genellikle bunu yalnız bırakmalısın)."
+ phpmailer_smtp_secure: "SMTP ile e-posta gönderirken kullanılacak protokol (TLS veya SSL)."
+ phpmailer_username: "SMTP ile e-posta gönderirken kullanılacak kullanıcı adı."
 state_email_sent: "E-posta başarıyla "%s" olarak gönderildi."

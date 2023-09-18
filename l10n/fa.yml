@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Farsi language data (last modified: 2022.10.05).
+# This file: Farsi language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "پیکربندی برای PHPMailer (برای احراز هویت دو مرحله ای استفاده می شود)."
-config_phpmailer_add_reply_to_address: "آدرس پاسخی که هنگام ارسال ایمیل از طریق SMTP ذکر شود."
-config_phpmailer_add_reply_to_name: "نام پاسخی که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
-config_phpmailer_enable_notifications: "اگر می‌خواهید هنگام مسدود شدن آپلود از طریق ایمیل مطلع شوید، آدرس ایمیل گیرنده را در اینجا مشخص کنید."
-config_phpmailer_enable_two_factor: "این دستورالعمل تعیین می کند که آیا از 2FA برای حساب های جلویی استفاده شود یا خیر."
-config_phpmailer_event_log: "فایلی برای ثبت همه رویدادها در رابطه با PHPMailer. نام فایل را مشخص کنید، یا برای غیرفعال کردن آن را خالی بگذارید."
-config_phpmailer_host: "میزبان SMTP برای استفاده برای ایمیل های خروجی."
-config_phpmailer_password: "رمز عبور برای استفاده هنگام ارسال ایمیل از طریق SMTP."
-config_phpmailer_port: "شماره پورت مورد استفاده برای ایمیل های خروجی. پیش فرض = 587."
-config_phpmailer_set_from_address: "آدرس فرستنده که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
-config_phpmailer_set_from_name: "نام فرستنده ای که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
-config_phpmailer_skip_auth_process: "تنظیم این دستور بر روی <code>true</code> به PHPMailer دستور می دهد تا از روند عادی احراز هویت که معمولاً هنگام ارسال ایمیل از طریق SMTP رخ می دهد، صرف نظر کند. از این کار باید اجتناب شود، زیرا عدم احراز هویت می‌تواند ایمیل‌های خروجی را در معرض حملات MITM قرار دهد، اما ممکن است در مواردی که مانع از اتصال PHPMailer به سرور SMTP شود، ضروری باشد."
-config_phpmailer_smtp_auth: "این دستورالعمل تعیین می کند که آیا جلسات SMTP احراز هویت شود یا خیر (معمولا باید به حال خود رها شود)."
-config_phpmailer_smtp_secure: "پروتکل مورد استفاده هنگام ارسال ایمیل از طریق SMTP (TLS یا SSL)."
-config_phpmailer_username: "نام کاربری که هنگام ارسال ایمیل از طریق SMTP استفاده می شود."
+config:
+ phpmailer: "پیکربندی برای PHPMailer (برای احراز هویت دو مرحله ای استفاده می شود)."
+ phpmailer_add_reply_to_address: "آدرس پاسخی که هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+ phpmailer_add_reply_to_name: "نام پاسخی که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+ phpmailer_enable_notifications: "اگر می‌خواهید هنگام مسدود شدن آپلود از طریق ایمیل مطلع شوید، آدرس ایمیل گیرنده را در اینجا مشخص کنید."
+ phpmailer_enable_two_factor: "این دستورالعمل تعیین می کند که آیا از 2FA برای حساب های جلویی استفاده شود یا خیر."
+ phpmailer_event_log: "فایلی برای ثبت همه رویدادها در رابطه با PHPMailer. نام فایل را مشخص کنید، یا برای غیرفعال کردن آن را خالی بگذارید."
+ phpmailer_host: "میزبان SMTP برای استفاده برای ایمیل های خروجی."
+ phpmailer_password: "رمز عبور برای استفاده هنگام ارسال ایمیل از طریق SMTP."
+ phpmailer_port: "شماره پورت مورد استفاده برای ایمیل های خروجی. پیش فرض = 587."
+ phpmailer_set_from_address: "آدرس فرستنده که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+ phpmailer_set_from_name: "نام فرستنده ای که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
+ phpmailer_skip_auth_process: "تنظیم این دستور بر روی <code>true</code> به PHPMailer دستور می دهد تا از روند عادی احراز هویت که معمولاً هنگام ارسال ایمیل از طریق SMTP رخ می دهد، صرف نظر کند. از این کار باید اجتناب شود، زیرا عدم احراز هویت می‌تواند ایمیل‌های خروجی را در معرض حملات MITM قرار دهد، اما ممکن است در مواردی که مانع از اتصال PHPMailer به سرور SMTP شود، ضروری باشد."
+ phpmailer_smtp_auth: "این دستورالعمل تعیین می کند که آیا جلسات SMTP احراز هویت شود یا خیر (معمولا باید به حال خود رها شود)."
+ phpmailer_smtp_secure: "پروتکل مورد استفاده هنگام ارسال ایمیل از طریق SMTP (TLS یا SSL)."
+ phpmailer_username: "نام کاربری که هنگام ارسال ایمیل از طریق SMTP استفاده می شود."
 state_email_sent: "ایمیل با موفقیت به "%s" ارسال شد."

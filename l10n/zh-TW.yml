@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese (traditional) language data (last modified: 2022.07.28).
+# This file: Chinese (traditional) language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "PHPMailer的配置（用於雙因素身份驗證）。"
-config_phpmailer_add_reply_to_address: "通過SMTP發送電子郵件時引用的回复地址。"
-config_phpmailer_add_reply_to_name: "通過SMTP發送電子郵件時引用的回複姓名。"
-config_phpmailer_enable_notifications: "如果要在阻止上傳時通過電子郵件收到通知，請在此處指定收件人電子郵件地址。"
-config_phpmailer_enable_two_factor: "該指令確定是否將2FA用於前端帳戶。"
-config_phpmailer_event_log: "用於記錄與PHPMailer相關的所有事件的文件。​指定一個文件名，​或留空以禁用。"
-config_phpmailer_host: "用於出站電子郵件的SMTP主機。"
-config_phpmailer_password: "通過SMTP發送電子郵件時使用的密碼。"
-config_phpmailer_port: "用於出站電子郵件的端口號。​標準=587。"
-config_phpmailer_set_from_address: "通過SMTP發送電子郵件時引用的發件人地址。"
-config_phpmailer_set_from_name: "通過SMTP發送電子郵件時引用的發件人姓名。"
-config_phpmailer_skip_auth_process: "將此指令設置為<code>true</code>會指示PHPMailer跳過通過SMTP發送電子郵件時通常會發生的正常身份驗證過程。​應該避免這種情況，因為跳過此過程可能會將出站電子郵件暴露給MITM攻擊，但在此過程阻止PHPMailer連接到SMTP服務器的情況下可能是必要的。"
-config_phpmailer_smtp_auth: "此指令確定是否對SMTP會話進行身份驗證（通常應該保持不變）。"
-config_phpmailer_smtp_secure: "通過SMTP發送電子郵件時使用的協議（TLS或SSL）。"
-config_phpmailer_username: "通過SMTP發送電子郵件時使用的用戶名。"
+config:
+ phpmailer: "PHPMailer的配置（用於雙因素身份驗證）。"
+ phpmailer_add_reply_to_address: "通過SMTP發送電子郵件時引用的回复地址。"
+ phpmailer_add_reply_to_name: "通過SMTP發送電子郵件時引用的回複姓名。"
+ phpmailer_enable_notifications: "如果要在阻止上傳時通過電子郵件收到通知，請在此處指定收件人電子郵件地址。"
+ phpmailer_enable_two_factor: "該指令確定是否將2FA用於前端帳戶。"
+ phpmailer_event_log: "用於記錄與PHPMailer相關的所有事件的文件。​指定一個文件名，​或留空以禁用。"
+ phpmailer_host: "用於出站電子郵件的SMTP主機。"
+ phpmailer_password: "通過SMTP發送電子郵件時使用的密碼。"
+ phpmailer_port: "用於出站電子郵件的端口號。​標準=587。"
+ phpmailer_set_from_address: "通過SMTP發送電子郵件時引用的發件人地址。"
+ phpmailer_set_from_name: "通過SMTP發送電子郵件時引用的發件人姓名。"
+ phpmailer_skip_auth_process: "將此指令設置為<code>true</code>會指示PHPMailer跳過通過SMTP發送電子郵件時通常會發生的正常身份驗證過程。​應該避免這種情況，因為跳過此過程可能會將出站電子郵件暴露給MITM攻擊，但在此過程阻止PHPMailer連接到SMTP服務器的情況下可能是必要的。"
+ phpmailer_smtp_auth: "此指令確定是否對SMTP會話進行身份驗證（通常應該保持不變）。"
+ phpmailer_smtp_secure: "通過SMTP發送電子郵件時使用的協議（TLS或SSL）。"
+ phpmailer_username: "通過SMTP發送電子郵件時使用的用戶名。"
 state_email_sent: "電子郵件已成功發送至『%s』。"

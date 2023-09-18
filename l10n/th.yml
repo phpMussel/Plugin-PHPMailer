@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Thai language data (last modified: 2022.07.28).
+# This file: Thai language data (last modified: 2023.09.16).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -24,19 +24,20 @@
 # requests, ask. I can help.
 ##/
 
-config_phpmailer: "การกำหนดค่าสำหรับ PHPMailer (ใช้สำหรับการรับรองความถูกต้องด้วยสองปัจจัย)."
-config_phpmailer_add_reply_to_address: "ที่อยู่ตอบกลับสำหรับเมื่อส่งอีเมล."
-config_phpmailer_add_reply_to_name: "ชื่อตอบกลับสำหรับเมื่อส่งอีเมล."
-config_phpmailer_enable_notifications: "หากคุณต้องการได้รับแจ้งทางอีเมลเมื่อการอัปโหลดถูกบล็อกให้ระบุที่อยู่อีเมลของผู้รับที่นี่."
-config_phpmailer_enable_two_factor: "ซึ่งจะกำหนดว่าบัญชีส่วนหน้าควรใช้ 2FA หรือไม่."
-config_phpmailer_event_log: "ไฟล์สำหรับบันทึกเหตุการณ์ทั้งหมดที่เกี่ยวข้องกับ PHPMailer. ระบุชื่อไฟล์หรือเว้นว่างไว้เพื่อปิดใช้งาน."
-config_phpmailer_host: "โฮสต์ SMTP ที่ใช้สำหรับอีเมลขาออก."
-config_phpmailer_password: "รหัสผ่านสำหรับเมื่อส่งอีเมล."
-config_phpmailer_port: "หมายเลขพอร์ตที่จะใช้สำหรับอีเมลขาออก. ค่าเริ่มต้น = 587."
-config_phpmailer_set_from_address: "ที่อยู่ผู้ส่งสำหรับเมื่อส่งอีเมล."
-config_phpmailer_set_from_name: "ชื่อผู้ส่งสำหรับเมื่อส่งอีเมล."
-config_phpmailer_skip_auth_process: "เมื่อ <code>true</code>, PHPMailer ข้ามขั้นตอนการตรวจสอบสิทธิ์ที่เกิดขึ้นโดยปกติเมื่อส่งอีเมลผ่าน SMTP. นี้ควรหลีกเลี่ยงเนื่องจากข้ามขั้นตอนนี้อาจทำให้อีเมลขาออกอ่อนแอต่อ MITM แต่อาจจำเป็นในกรณีที่กระบวนการนี้ป้องกันไม่ให้ PHPMailer เชื่อมต่อกับเซิร์ฟเวอร์ SMTP."
-config_phpmailer_smtp_auth: "กำหนดว่าเซสชัน SMTP ควรได้รับการตรวจสอบสิทธิ์หรือไม่ (ควรปล่อยให้อยู่คนเดียว)."
-config_phpmailer_smtp_secure: "โปรโตคอลสำหรับการส่งอีเมล (TLS หรือ SSL)."
-config_phpmailer_username: "ชื่อผู้ใช้สำหรับเมื่อส่งอีเมล."
+config:
+ phpmailer: "การกำหนดค่าสำหรับ PHPMailer (ใช้สำหรับการรับรองความถูกต้องด้วยสองปัจจัย)."
+ phpmailer_add_reply_to_address: "ที่อยู่ตอบกลับสำหรับเมื่อส่งอีเมล."
+ phpmailer_add_reply_to_name: "ชื่อตอบกลับสำหรับเมื่อส่งอีเมล."
+ phpmailer_enable_notifications: "หากคุณต้องการได้รับแจ้งทางอีเมลเมื่อการอัปโหลดถูกบล็อกให้ระบุที่อยู่อีเมลของผู้รับที่นี่."
+ phpmailer_enable_two_factor: "ซึ่งจะกำหนดว่าบัญชีส่วนหน้าควรใช้ 2FA หรือไม่."
+ phpmailer_event_log: "ไฟล์สำหรับบันทึกเหตุการณ์ทั้งหมดที่เกี่ยวข้องกับ PHPMailer. ระบุชื่อไฟล์หรือเว้นว่างไว้เพื่อปิดใช้งาน."
+ phpmailer_host: "โฮสต์ SMTP ที่ใช้สำหรับอีเมลขาออก."
+ phpmailer_password: "รหัสผ่านสำหรับเมื่อส่งอีเมล."
+ phpmailer_port: "หมายเลขพอร์ตที่จะใช้สำหรับอีเมลขาออก. ค่าเริ่มต้น = 587."
+ phpmailer_set_from_address: "ที่อยู่ผู้ส่งสำหรับเมื่อส่งอีเมล."
+ phpmailer_set_from_name: "ชื่อผู้ส่งสำหรับเมื่อส่งอีเมล."
+ phpmailer_skip_auth_process: "เมื่อ <code>true</code>, PHPMailer ข้ามขั้นตอนการตรวจสอบสิทธิ์ที่เกิดขึ้นโดยปกติเมื่อส่งอีเมลผ่าน SMTP. นี้ควรหลีกเลี่ยงเนื่องจากข้ามขั้นตอนนี้อาจทำให้อีเมลขาออกอ่อนแอต่อ MITM แต่อาจจำเป็นในกรณีที่กระบวนการนี้ป้องกันไม่ให้ PHPMailer เชื่อมต่อกับเซิร์ฟเวอร์ SMTP."
+ phpmailer_smtp_auth: "กำหนดว่าเซสชัน SMTP ควรได้รับการตรวจสอบสิทธิ์หรือไม่ (ควรปล่อยให้อยู่คนเดียว)."
+ phpmailer_smtp_secure: "โปรโตคอลสำหรับการส่งอีเมล (TLS หรือ SSL)."
+ phpmailer_username: "ชื่อผู้ใช้สำหรับเมื่อส่งอีเมล."
 state_email_sent: "ส่งอีเมลสำเร็จ "%s" แล้ว."
