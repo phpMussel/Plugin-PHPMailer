@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2023.09.19).
+ * This file: PHPMailer-phpMussel linker (last modified: 2023.09.25).
  */
 
 namespace phpMussel\PHPMailer;
@@ -104,7 +104,7 @@ class Linker
     {
         /** Guard. */
         if (!class_exists('\PHPMailer\PHPMailer\PHPMailer')) {
-            throw new \Exception($this->Loader->L10N->getString('state_failed_missing'));
+            throw new \Exception($this->Loader->L10N->getString('response.Task failed because a necessary component is unavailable'));
         }
 
         /**
