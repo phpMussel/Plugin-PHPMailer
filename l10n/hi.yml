@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Hindi language data (last modified: 2023.09.16).
+# This file: Hindi language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "यह निर्देश निर्धारित करता है कि SMTP सत्र प्रमाणित करना है या नहीं (आपको आमतौर पर इसे अकेला छोड़ देना चाहिए)।"
  phpmailer_smtp_secure: "ईमेल भेजने के दौरान उपयोग करने के लिए प्रोटोकॉल (TLS या SSL)।"
  phpmailer_username: "ईमेल भेजने समय उपयोग करने के लिए उपयोगकर्ता नाम।"
-state_email_sent: "ईमेल सफलतापूर्वक "%s" को भेजा गया।"
+response:
+ Email successfully sent to %s: "ईमेल सफलतापूर्वक "%s" को भेजा गया।"

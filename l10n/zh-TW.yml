@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese (traditional) language data (last modified: 2023.09.16).
+# This file: Chinese (traditional) language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "此指令確定是否對SMTP會話進行身份驗證（通常應該保持不變）。"
  phpmailer_smtp_secure: "通過SMTP發送電子郵件時使用的協議（TLS或SSL）。"
  phpmailer_username: "通過SMTP發送電子郵件時使用的用戶名。"
-state_email_sent: "電子郵件已成功發送至『%s』。"
+response:
+ Email successfully sent to %s: "電子郵件已成功發送至『%s』。"

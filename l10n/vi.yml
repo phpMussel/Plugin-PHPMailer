@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Vietnamese language data (last modified: 2023.09.16).
+# This file: Vietnamese language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Chỉ thị này xác định xem có nên xác thực các phiên SMTP (thường nên để lại một mình)."
  phpmailer_smtp_secure: "Giao thức sử dụng khi gửi email qua SMTP (TLS hoặc SSL)."
  phpmailer_username: "Tên người dùng để sử dụng khi gửi email qua SMTP."
-state_email_sent: "Email được gửi thành công tới "%s"."
+response:
+ Email successfully sent to %s: "Email được gửi thành công tới "%s"."

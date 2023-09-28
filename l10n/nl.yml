@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Dutch language data (last modified: 2023.09.16).
+# This file: Dutch language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Deze richtlijn bepaalt of SMTP-sessies moeten worden geverifieerd (moet meestal alleen worden gelaten)."
  phpmailer_smtp_secure: "Het protocol voor het verzenden van e-mail via SMTP (TLS of SSL)."
  phpmailer_username: "De gebruikersnaam voor het verzenden van e-mail via SMTP."
-state_email_sent: "E-mail succesvol verzonden naar "%s"."
+response:
+ Email successfully sent to %s: "E-mail succesvol verzonden naar "%s"."

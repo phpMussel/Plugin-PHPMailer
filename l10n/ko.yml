@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Korean language data (last modified: 2023.09.16).
+# This file: Korean language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "이 지시문은 SMTP 세션을 인증할지 여부를 결정합니다 (보통 이것을 무시해야합니다)."
  phpmailer_smtp_secure: "SMTP를 통해 이메일을 보낼 때 사용할 프로토콜 (TLS 또는 SSL)."
  phpmailer_username: "SMTP를 통해 이메일을 보낼 때 사용할 사용자 이름입니다."
-state_email_sent: "이메일이 "%s"로 전송되었습니다."
+response:
+ Email successfully sent to %s: "이메일이 "%s"로 전송되었습니다."

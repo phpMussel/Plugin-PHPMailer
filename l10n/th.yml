@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Thai language data (last modified: 2023.09.16).
+# This file: Thai language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "กำหนดว่าเซสชัน SMTP ควรได้รับการตรวจสอบสิทธิ์หรือไม่ (ควรปล่อยให้อยู่คนเดียว)."
  phpmailer_smtp_secure: "โปรโตคอลสำหรับการส่งอีเมล (TLS หรือ SSL)."
  phpmailer_username: "ชื่อผู้ใช้สำหรับเมื่อส่งอีเมล."
-state_email_sent: "ส่งอีเมลสำเร็จ "%s" แล้ว."
+response:
+ Email successfully sent to %s: "ส่งอีเมลสำเร็จ "%s" แล้ว."

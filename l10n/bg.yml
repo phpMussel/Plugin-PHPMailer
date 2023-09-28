@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Bulgarian language data (last modified: 2023.09.16).
+# This file: Bulgarian language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Тази директива определя дали да се удостоверяват SMTP сесиите (обикновено трябва да се остави сама)."
  phpmailer_smtp_secure: "Протоколът, който да се използва при изпращане на имейл чрез SMTP (TLS или SSL)."
  phpmailer_username: "Потребителското име, което да използвате при изпращане на имейл чрез SMTP."
-state_email_sent: "Имейлът е изпратен успешно до „%s“."
+response:
+ Email successfully sent to %s: "Имейлът е изпратен успешно до „%s“."

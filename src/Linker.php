@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2023.09.25).
+ * This file: PHPMailer-phpMussel linker (last modified: 2023.09.27).
  */
 
 namespace phpMussel\PHPMailer;
@@ -245,7 +245,7 @@ class Linker
 
             /** Log the results of the send attempt. */
             $EventLogData .= ($State ? sprintf(
-                $this->Loader->L10N->getString('state_email_sent'),
+                $this->Loader->L10N->getString('response.Email successfully sent to %s'),
                 $SuccessDetails
             ) : $this->Loader->L10N->getString('response.Error') . ' - ' . $Mail->ErrorInfo) . "\n";
         } catch (\Exception $e) {

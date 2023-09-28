@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Arabic language data (last modified: 2023.09.16).
+# This file: Arabic language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "يحدد هذا التوجيه ما إذا كنت تريد مصادقة جلسات SMTP (يجب ألا يغير هذا عادة)."
  phpmailer_smtp_secure: "البروتوكول المستخدم عند إرسال البريد الإلكتروني عبر SMTP (TLS أو SSL)."
  phpmailer_username: "اسم المستخدم لاستخدامه عند إرسال البريد الإلكتروني عبر SMTP."
-state_email_sent: "تم إرسال البريد الإلكتروني بنجاح إلى "%s"."
+response:
+ Email successfully sent to %s: "تم إرسال البريد الإلكتروني بنجاح إلى "%s"."

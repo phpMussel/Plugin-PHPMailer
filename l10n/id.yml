@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Indonesian language data (last modified: 2023.09.16).
+# This file: Indonesian language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Direktif ini menentukan apakah akan mengotentikasi sesi SMTP (biasanya harus dibiarkan sendiri)."
  phpmailer_smtp_secure: "Protokol yang digunakan saat mengirim email melalui SMTP (TLS atau SSL)."
  phpmailer_username: "Nama pengguna yang digunakan saat mengirim email melalui SMTP."
-state_email_sent: "Email berhasil dikirim ke "%s"."
+response:
+ Email successfully sent to %s: "Email berhasil dikirim ke "%s"."

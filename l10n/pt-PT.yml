@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Portuguese (Europe) language data (last modified: 2023.09.16).
+# This file: Portuguese (Europe) language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Esta diretiva determina se autenticar sessões SMTP (geralmente deve ser deixado em paz)."
  phpmailer_smtp_secure: "O protocolo a ser usado ao enviar e-mail via SMTP (TLS ou SSL)."
  phpmailer_username: "O nome de utilizador a ser usada ao enviar e-mail via SMTP."
-state_email_sent: "E-mail enviado com sucesso para "%s"."
+response:
+ Email successfully sent to %s: "E-mail enviado com sucesso para "%s"."

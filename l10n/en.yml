@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: English language data (last modified: 2023.09.16).
+# This file: English language data (last modified: 2023.09.27).
 ##/
 
 config:
@@ -26,4 +26,5 @@ config:
  phpmailer_smtp_auth: "This directive determines whether to authenticate SMTP sessions (should usually be left alone)."
  phpmailer_smtp_secure: "The protocol to use when sending email via SMTP (TLS or SSL)."
  phpmailer_username: "The username to use when sending email via SMTP."
-state_email_sent: "Email successfully sent to "%s"."
+response:
+ Email successfully sent to %s: "Email successfully sent to "%s"."

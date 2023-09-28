@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Bangla language data (last modified: 2023.09.16).
+# This file: Bangla language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "এই নির্দেশটি SMTP সেশনের প্রমাণীকরণ কিনা তা নির্ধারণ করে (সাধারণত এই একা ছেড়ে দেওয়া উচিত)।"
  phpmailer_smtp_secure: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রোটোকল (TLS বা SSL)।"
  phpmailer_username: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য ব্যবহারকারীর নাম।"
-state_email_sent: "ইমেল সফলভাবে "%s" এ পাঠানো হয়েছে।"
+response:
+ Email successfully sent to %s: "ইমেল সফলভাবে "%s" এ পাঠানো হয়েছে।"

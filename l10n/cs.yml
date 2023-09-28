@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Czech language data (last modified: 2023.09.16).
+# This file: Czech language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Tato direktiva určuje, zda se mají ověřovat relace SMTP (obvykle by měla být ponechána)."
  phpmailer_smtp_secure: "Protokol, který se má použít při odesílání e-mailů přes SMTP (TLS nebo SSL)."
  phpmailer_username: "Uživatelské jméno, které se použije při odesílání e-mailu přes SMTP."
-state_email_sent: "E-mail byl úspěšně odeslán na adresu „%s“."
+response:
+ Email successfully sent to %s: "E-mail byl úspěšně odeslán na adresu „%s“."

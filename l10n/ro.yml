@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Romanian language data (last modified: 2023.09.16).
+# This file: Romanian language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -33,11 +33,12 @@ config:
  phpmailer_event_log: "Un fișier pentru înregistrarea tuturor evenimentelor în legătură cu PHPMailer. Specificați un nume de fișier, sau lăsați necompletat pentru a dezactiva."
  phpmailer_host: "Gazda SMTP de utilizat pentru e-mailul de ieșire."
  phpmailer_password: "Parola de utilizat atunci când trimiteți e-mailuri prin SMTP."
- phpmailer_port: "Numărul portului de utilizat pentru e-mailul de ieșire. Valoare implicită = 587."
+ phpmailer_port: "Numărul portului de utilizat pentru e-mailul de ieșire. Implicit = 587."
  phpmailer_set_from_address: "Adresa expeditorului de citat atunci când trimiteți e-mail prin SMTP."
  phpmailer_set_from_name: "Numele expeditorului de citat atunci când trimiteți e-mail prin SMTP."
  phpmailer_skip_auth_process: "Setarea acestei directive la <code>true</code> indică PHPMailer să ignore procesul obișnuit de autentificare care are loc în mod normal la trimiterea de e-mailuri prin SMTP. Acest lucru ar trebui evitat, deoarece omiterea acestui proces poate expune e-mailurile de ieșire la atacuri MITM, dar poate fi necesar în cazurile în care acest proces împiedică PHPMailer să se conecteze la un server SMTP."
  phpmailer_smtp_auth: "Această directivă determină dacă se autentifică sesiunile SMTP (de obicei, ar trebui lăsată în pace)."
  phpmailer_smtp_secure: "Protocolul de utilizat atunci când trimiteți e-mailuri prin SMTP (TLS sau SSL)."
  phpmailer_username: "Numele de utilizator de utilizat atunci când trimiteți e-mailuri prin SMTP."
-state_email_sent: "E-mail trimis cu succes la „%s”."
+response:
+ Email successfully sent to %s: "E-mail trimis cu succes la „%s”."

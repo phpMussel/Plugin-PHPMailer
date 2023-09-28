@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Hebrew language data (last modified: 2023.09.16).
+# This file: Hebrew language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "קובע אם לאמת הפעלות SMTP (בדרך כלל צריך להשאיר לבד)."
  phpmailer_smtp_secure: "הפרוטוקול לשימוש בעת שליחת אימייל באמצעות SMTP (TLS או SSL)."
  phpmailer_username: "שם המשתמש לשימוש בעת שליחת אימייל באמצעות SMTP."
-state_email_sent: "אימייל נשלח בהצלחה אל "%s"."
+response:
+ Email successfully sent to %s: "אימייל נשלח בהצלחה אל "%s"."

@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Ukrainian language data (last modified: 2023.09.16).
+# This file: Ukrainian language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Ця директива визначає, чи автентифікувати сеанси SMTP (зазвичай її слід залишити окремо)."
  phpmailer_smtp_secure: "Протокол для надсилання електронної пошти через SMTP (TLS або SSL)."
  phpmailer_username: "Ім'я користувача для надсилання електронної пошти через SMTP."
-state_email_sent: "Електронна пошта успішно надіслана на «%s»."
+response:
+ Email successfully sent to %s: "Електронна пошта успішно надіслана на «%s»."

@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Swedish language data (last modified: 2023.09.16).
+# This file: Swedish language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Detta direktiv bestämmer huruvida du ska autentisera SMTP-sessioner (borde normalt lämna det här ensam)."
  phpmailer_smtp_secure: "Protokollet som ska användas när du skickar e-post via SMTP (TLS eller SSL)."
  phpmailer_username: "Användarnamnet som ska användas när du skickar e-post via SMTP."
-state_email_sent: "E-post skickades framgångsrikt till "%s"."
+response:
+ Email successfully sent to %s: "E-post skickades framgångsrikt till "%s"."

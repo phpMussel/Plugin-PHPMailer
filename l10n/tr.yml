@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Turkish language data (last modified: 2023.09.16).
+# This file: Turkish language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Bu yönerge SMTP oturumlarının doğrulanıp onaylanmayacağını belirler (genellikle bunu yalnız bırakmalısın)."
  phpmailer_smtp_secure: "SMTP ile e-posta gönderirken kullanılacak protokol (TLS veya SSL)."
  phpmailer_username: "SMTP ile e-posta gönderirken kullanılacak kullanıcı adı."
-state_email_sent: "E-posta başarıyla "%s" olarak gönderildi."
+response:
+ Email successfully sent to %s: "E-posta başarıyla "%s" olarak gönderildi."

@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Afrikaans language data (last modified: 2023.09.23).
+# This file: Afrikaans language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Of SMTP-sessies geverifieer moet word (moet gewoonlik alleen gelaat word)."
  phpmailer_smtp_secure: "Die protokol om te gebruik (TLS of SSL) wanneer e-pos via SMTP gestuur word."
  phpmailer_username: "Die gebruikersnaam om te gebruik wanneer e-pos via SMTP gestuur word."
-state_email_sent: "E-pos suksesvol gestuur na "%s"."
+response:
+ Email successfully sent to %s: "E-pos suksesvol gestuur na "%s"."

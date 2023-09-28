@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: German language data (last modified: 2023.09.16).
+# This file: German language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Diese Direktive bestimmt, ob SMTP-Sitzungen authentifiziert werden sollen (sollte normalerweise in Ruhe gelassen werden)."
  phpmailer_smtp_secure: "Das Protokoll zum Senden von E-Mails über SMTP (TLS oder SSL)."
  phpmailer_username: "Der Benutzername zum Senden von E-Mails über SMTP."
-state_email_sent: "E-Mail wurde erfolgreich an „%s“ gesendet."
+response:
+ Email successfully sent to %s: "E-Mail wurde erfolgreich an „%s“ gesendet."

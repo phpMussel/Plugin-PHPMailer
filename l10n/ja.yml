@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Japanese language data (last modified: 2023.09.16).
+# This file: Japanese language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "このディレクティブは、ＳＭＴＰセッションを認証するかどうかを決定します（通常はそれをそのまま残すべきです）。"
  phpmailer_smtp_secure: "ＳＭＴＰ経由で電子Ｅメールを送信するときに使用するプロトコル（ＴＬＳまたはＳＳＬ）。"
  phpmailer_username: "ＳＭＴＰ経由で電子Ｅメールを送信するときに使用するユーザー名。"
-state_email_sent: "Ｅメールは「%s」に送信されました。"
+response:
+ Email successfully sent to %s: "Ｅメールは「%s」に送信されました。"

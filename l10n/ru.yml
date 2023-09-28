@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Russian language data (last modified: 2023.09.16).
+# This file: Russian language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Эта директива включает/отключает аутентификацию сессия SMTP (обычно ее следует оставить в покое)."
  phpmailer_smtp_secure: "Протокол для при отправке электронной почты через SMTP (TLS или SSL)."
  phpmailer_username: "Имя пользователя для отправки электронной почты через SMTP."
-state_email_sent: "Электронная почта успешно отправлена на «%s»."
+response:
+ Email successfully sent to %s: "Электронная почта успешно отправлена на «%s»."

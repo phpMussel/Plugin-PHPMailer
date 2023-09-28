@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Farsi language data (last modified: 2023.09.16).
+# This file: Farsi language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "این دستورالعمل تعیین می کند که آیا جلسات SMTP احراز هویت شود یا خیر (معمولا باید به حال خود رها شود)."
  phpmailer_smtp_secure: "پروتکل مورد استفاده هنگام ارسال ایمیل از طریق SMTP (TLS یا SSL)."
  phpmailer_username: "نام کاربری که هنگام ارسال ایمیل از طریق SMTP استفاده می شود."
-state_email_sent: "ایمیل با موفقیت به "%s" ارسال شد."
+response:
+ Email successfully sent to %s: "ایمیل با موفقیت به "%s" ارسال شد."

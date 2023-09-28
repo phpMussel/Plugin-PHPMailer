@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Norwegian language data (last modified: 2023.09.16).
+# This file: Norwegian language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "Dette direktivet bestemmer om du skal autentisere SMTP-økter (bør vanligvis la det være alene)."
  phpmailer_smtp_secure: "Protokollen som skal brukes når du sender e-post via SMTP (TLS eller SSL)."
  phpmailer_username: "Brukernavnet som skal brukes når du sender e-post via SMTP."
-state_email_sent: "E-post ble sendt til «%s» vellykket."
+response:
+ Email successfully sent to %s: "E-post ble sendt til «%s» vellykket."

@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Tamil language data (last modified: 2023.09.16).
+# This file: Tamil language data (last modified: 2023.09.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,4 +40,5 @@ config:
  phpmailer_smtp_auth: "SMTP அமர்வுகளை அங்கீகரிக்கவா? (இதை பொதுவாகத் தொடக்கூடாது)."
  phpmailer_smtp_secure: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது பயன்படுத்த வேண்டிய நெறிமுறை (TLS அல்லது SSL)."
  phpmailer_username: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது பயன்படுத்த வேண்டிய பயனர்பெயர்."
-state_email_sent: "மின்னஞ்சல் வெற்றிகரமாக "%s" க்கு அனுப்பப்பட்டது."
+response:
+ Email successfully sent to %s: "மின்னஞ்சல் வெற்றிகரமாக "%s" க்கு அனுப்பப்பட்டது."
