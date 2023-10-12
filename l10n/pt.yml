@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Portuguese (Brazil) language data (last modified: 2023.09.27).
+# This file: Portuguese language data (last modified: 2023.10.12).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -39,6 +39,8 @@ config:
  phpmailer_skip_auth_process: "Definir essa diretiva como <code>true</code> instrui o PHPMailer a ignorar o processo de autenticação que normalmente ocorre ao enviar e-mail via SMTP. Isso deve ser evitado, porque ignorar esse processo pode expor o e-mail de saída a ataques MITM, mas pode ser necessário nos casos em que esse processo impedir que o PHPMailer se conecte a um servidor SMTP."
  phpmailer_smtp_auth: "Esta diretiva determina se autenticar sessões SMTP (geralmente deve ser deixado em paz)."
  phpmailer_smtp_secure: "O protocolo a ser usado ao enviar e-mail via SMTP (TLS ou SSL)."
- phpmailer_username: "O nome de usuário a ser usada ao enviar e-mail via SMTP."
+ phpmailer_username:
+  pt-BR: "O nome de usuário a ser usada ao enviar e-mail via SMTP."
+  pt-PT: "O nome de utilizador a ser usada ao enviar e-mail via SMTP."
 response:
  Email successfully sent to %s: "E-mail enviado com sucesso para "%s"."
