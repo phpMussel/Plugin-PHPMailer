@@ -55,3 +55,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 [2023.09.16~18; Maikuolan]: Significantly refactored all L10N data.
 
 [2023.09.18; Maikuolan]: Better resource guarding.
+
+### 3.1.10
+
+[2022.11.22; Maikuolan]: Maintenance release.
