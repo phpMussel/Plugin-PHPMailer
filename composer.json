@@ -15,8 +15,8 @@
         "phpmailer/phpmailer": "^6.5"
     },
     "suggest": {
-        "phpmussel/frontend": "^3.3",
-        "phpmussel/web": "^3.3"
+        "phpmussel/frontend": "^3.4.2",
+        "phpmussel/web": "^3.4.2"
     },
     "autoload": {
         "psr-4": {
