@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2023.09.27).
+ * This file: PHPMailer-phpMussel linker (last modified: 2023.12.02).
  */
 
 namespace phpMussel\PHPMailer;
@@ -269,9 +269,9 @@ class Linker
      */
     private function mapLanguage(string $Language): string
     {
-        if ($Language === 'zh') {
+        if ($Language === 'zh' || $Language === 'zh-CN' || $Language === 'zh-SG') {
             $Language = 'zh_cn';
-        } elseif ($Language === 'zh-TW') {
+        } elseif ($Language === 'zh-TW' || $Language === 'zh-HK' || $Language === 'zh-MO') {
             $Language = 'zh';
         }
         $Try = sprintf(
