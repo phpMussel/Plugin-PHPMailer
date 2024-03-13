@@ -1,0 +1,30 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Gujarati language data (last modified: 2024.03.13).
+##/
+
+config:
+ phpmailer: "PHPMailer માટે રૂપરેખાંકન (દ્વિ-પરિબળ પ્રમાણીકરણ માટે વપરાય છે)."
+ phpmailer_add_reply_to_address: "SMTP દ્વારા ઈમેઈલ મોકલતી વખતે ટાંકવાનું જવાબ સરનામું."
+ phpmailer_add_reply_to_name: "SMTP દ્વારા ઈમેઈલ મોકલતી વખતે ટાંકવા માટેનું જવાબ નામ."
+ phpmailer_enable_notifications: "જો તમે અપલોડને અવરોધિત કરવામાં આવે ત્યારે ઇમેઇલ દ્વારા સૂચિત કરવા માંગતા હો, તો અહીં પ્રાપ્તકર્તાનું ઇમેઇલ સરનામું સ્પષ્ટ કરો."
+ phpmailer_enable_two_factor: "આ નિર્દેશ નક્કી કરે છે કે ફ્રન્ટ-એન્ડ એકાઉન્ટ્સ માટે 2FA નો ઉપયોગ કરવો કે નહીં."
+ phpmailer_event_log: "PHPMailer ના સંબંધમાં બધી ઇવેન્ટ્સને લૉગ કરવા માટેની ફાઇલ. ફાઇલનામનો ઉલ્લેખ કરો, અથવા અક્ષમ કરવા માટે ખાલી છોડી દો."
+ phpmailer_host: "આઉટબાઉન્ડ ઈમેલ માટે ઉપયોગ કરવા માટેનું SMTP હોસ્ટ."
+ phpmailer_password: "SMTP દ્વારા ઈમેલ મોકલતી વખતે વાપરવા માટેનો પાસવર્ડ."
+ phpmailer_port: "આઉટબાઉન્ડ ઈમેલ માટે વાપરવા માટેનો પોર્ટ નંબર. ડિફૉલ્ટ = 587."
+ phpmailer_set_from_address: "SMTP દ્વારા ઇમેઇલ મોકલતી વખતે પ્રેષકનું સરનામું ટાંકવાનું છે."
+ phpmailer_set_from_name: "SMTP દ્વારા ઈમેલ મોકલતી વખતે પ્રેષકનું નામ ટાંકવાનું છે."
+ phpmailer_skip_auth_process: "આ ડાયરેક્ટિવને <code>true</code> પર સેટ કરવાથી PHPMailer ને સામાન્ય પ્રમાણીકરણ પ્રક્રિયાને છોડી દેવાની સૂચના મળે છે જે સામાન્ય રીતે SMTP દ્વારા ઈમેલ મોકલતી વખતે થાય છે. આને ટાળવું જોઈએ, કારણ કે આ પ્રક્રિયાને અવગણવાથી આઉટબાઉન્ડ ઈમેઈલ MITM હુમલાઓ સામે આવી શકે છે, પરંતુ આ પ્રક્રિયા PHPMailer ને SMTP સર્વર સાથે કનેક્ટ થવાથી અટકાવે તેવા કિસ્સામાં જરૂરી હોઈ શકે છે."
+ phpmailer_smtp_auth: "આ નિર્દેશ નક્કી કરે છે કે શું SMTP સત્રોને પ્રમાણિત કરવા (સામાન્ય રીતે એકલા છોડી દેવા જોઈએ)."
+ phpmailer_smtp_secure: "SMTP દ્વારા ઈમેલ મોકલતી વખતે ઉપયોગમાં લેવાતો પ્રોટોકોલ (TLS અથવા SSL)."
+ phpmailer_username: "SMTP દ્વારા ઈમેલ મોકલતી વખતે વાપરવા માટેનું વપરાશકર્તા નામ."
+response:
+ Email successfully sent to %s: "ઇમેઇલ સફળતાપૂર્વક "%s" પર મોકલવામાં આવ્યો."

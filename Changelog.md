@@ -58,4 +58,8 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 
 ### 3.1.10
 
-[2022.11.22; Maikuolan]: Maintenance release.
+[2023.11.22; Maikuolan]: Maintenance release.
+
+### v3.1.11
+
+[2024.03.13; Maikuolan]: Added L10N for Bosnian, Catalan, Galician, Gujarati, Croatian, and Serbian.

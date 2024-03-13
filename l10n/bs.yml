@@ -1,0 +1,30 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Bosnian language data (last modified: 2024.03.13).
+##/
+
+config:
+ phpmailer: "Konfiguracija za PHPMailer (koristi se za dvofaktorsku autentifikaciju)."
+ phpmailer_add_reply_to_address: "Adresa za odgovor koju treba navesti prilikom slanja e-pošte putem SMTP-a."
+ phpmailer_add_reply_to_name: "Ime odgovora koje treba navesti prilikom slanja e-pošte putem SMTP-a."
+ phpmailer_enable_notifications: "Ako želite da budete obaviješteni putem e-pošte kada je prijenos blokiran, ovdje navedite adresu e-pošte primaoca."
+ phpmailer_enable_two_factor: "Ova direktiva određuje da li treba koristiti 2FA za front-end račune."
+ phpmailer_event_log: "Datoteka za evidentiranje svih događaja u vezi sa PHPMailerom. Navedite naziv datoteke ili ostavite prazno da biste onemogućili."
+ phpmailer_host: "SMTP host koji se koristi za odlaznu e-poštu."
+ phpmailer_password: "Lozinka za korištenje prilikom slanja e-pošte putem SMTP-a."
+ phpmailer_port: "Broj porta koji se koristi za odlaznu e-poštu. Zadano = 587."
+ phpmailer_set_from_address: "Adresa pošiljaoca koju treba navesti prilikom slanja e-pošte putem SMTP-a."
+ phpmailer_set_from_name: "Ime pošiljaoca koje treba navesti prilikom slanja e-pošte putem SMTP-a."
+ phpmailer_skip_auth_process: "Postavljanje ove direktive na <code>true</code> daje instrukcije PHPMaileru da preskoči normalan proces autentifikacije koji se obično dešava prilikom slanja e-pošte putem SMTP-a. Ovo treba izbegavati, jer preskakanje ovog procesa može izložiti odlaznu e-poštu MITM napadima, ali može biti neophodno u slučajevima kada ovaj proces sprečava PHPMailer da se poveže sa SMTP serverom."
+ phpmailer_smtp_auth: "Ova direktiva određuje da li će se autentifikovati SMTP sesije (obično treba ostaviti na miru)."
+ phpmailer_smtp_secure: "Protokol koji se koristi prilikom slanja e-pošte putem SMTP-a (TLS ili SSL)."
+ phpmailer_username: "Korisničko ime koje se koristi prilikom slanja e-pošte putem SMTP-a."
+response:
+ Email successfully sent to %s: "E-pošta je uspješno poslana na "%s"."
