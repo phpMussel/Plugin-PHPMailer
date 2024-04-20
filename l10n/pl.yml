@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Polish language data (last modified: 2023.09.27).
+# This file: Polish language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Konfiguracja dla PHPMailer (używane do uwierzytelniania dwuskładnikowego)."
+ phpmailer: "Konfiguracja dla PHPMailer (używany do uwierzytelniania dwuskładnikowego i powiadomień e-mail)."
  phpmailer_add_reply_to_address: "Adres zwrotny do cytowania podczas wysyłania wiadomości e-mail przez SMTP."
  phpmailer_add_reply_to_name: "Nazwa odpowiedzi, którą należy podać podczas wysyłania wiadomości e-mail przez SMTP."
  phpmailer_enable_notifications: "Jeśli chcesz otrzymywać powiadomienia e-mail o zablokowaniu przesyłania, podaj tutaj adres e-mail odbiorcy."

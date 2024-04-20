@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Tamil language data (last modified: 2023.09.27).
+# This file: Tamil language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "PHPMailerக்கான உள்ளமைவு (இரண்டு காரணி அங்கீகாரத்திற்கு பயன்படுத்தப்படுகிறது)."
+ phpmailer: "PHPMailerக்கான உள்ளமைவு (இரண்டு காரணி அங்கீகாரத்திற்கும் மின்னஞ்சல் அறிவிப்புகளுக்கும் பயன்படுத்தப்படுகிறது)."
  phpmailer_add_reply_to_address: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது மேற்கோள் காட்ட வேண்டிய பதில் முகவரி."
  phpmailer_add_reply_to_name: "SMTP வழியாக மின்னஞ்சல் அனுப்பும்போது மேற்கோள் காட்ட வேண்டிய பதில் பெயர்."
  phpmailer_enable_notifications: "பதிவேற்றம் தடுக்கப்படும்போது மின்னஞ்சல் மூலம் உங்களுக்குத் தெரிவிக்க விரும்பினால், பெறுநரின் மின்னஞ்சல் முகவரியை இங்கே குறிப்பிடவும்."

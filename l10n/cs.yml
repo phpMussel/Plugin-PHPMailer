@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Czech language data (last modified: 2023.09.27).
+# This file: Czech language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Konfigurace pro PHPMailer (používá se pro dvoufaktorovou autentizaci)."
+ phpmailer: "Konfigurace pro PHPMailer (používá se pro dvoufaktorovou autentizaci a pro e-mailová upozornění)."
  phpmailer_add_reply_to_address: "Adresa pro odpověď, která se má citovat při odesílání e-mailu přes SMTP."
  phpmailer_add_reply_to_name: "Název odpovědi, který se má citovat při odesílání e-mailu přes SMTP."
  phpmailer_enable_notifications: "Pokud chcete být informováni e-mailem o zablokování nahrávání, zadejte zde e-mailovou adresu příjemce."

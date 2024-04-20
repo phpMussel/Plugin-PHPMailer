@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Turkish language data (last modified: 2023.09.27).
+# This file: Turkish language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "PHPMailer için yapılandırma (iki faktörlü kimlik doğrulama için kullanılır)."
+ phpmailer: "PHPMailer için yapılandırma (iki faktörlü kimlik doğrulama ve e-posta bildirimleri için kullanılır)."
  phpmailer_add_reply_to_address: "SMTP ile e-posta gönderirken kullanılacak cevap adresi."
  phpmailer_add_reply_to_name: "SMTP ile e-posta gönderirken kullanılacak cevap ismi."
  phpmailer_enable_notifications: "Bir yükleme engellendiğinde e-postayla bilgilendirilmek istiyorsanız, burada alıcının e-posta adresini belirtin."

@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Swedish language data (last modified: 2023.09.27).
+# This file: Swedish language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Konfiguration för PHPMailer (används för tvåfaktorautentisering)."
+ phpmailer: "Konfiguration för PHPMailer (används för tvåfaktorsautentisering och för e-postmeddelanden)."
  phpmailer_add_reply_to_address: "Svaradressen att citera när du skickar e-post via SMTP."
  phpmailer_add_reply_to_name: "Svarnamnet att citera när du skickar e-post via SMTP."
  phpmailer_enable_notifications: "Om du vill bli meddelad via e-post när en överföring är blockerad, ange mottagarens e-postadress här."

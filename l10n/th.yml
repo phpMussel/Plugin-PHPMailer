@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Thai language data (last modified: 2023.09.27).
+# This file: Thai language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "การกำหนดค่าสำหรับ PHPMailer (ใช้สำหรับการรับรองความถูกต้องด้วยสองปัจจัย)."
+ phpmailer: "การกำหนดค่าสำหรับ PHPMailer (ใช้สำหรับการรับรองความถูกต้องด้วยสองปัจจัยและสำหรับการแจ้งเตือนทางอีเมล)."
  phpmailer_add_reply_to_address: "ที่อยู่ตอบกลับสำหรับเมื่อส่งอีเมล."
  phpmailer_add_reply_to_name: "ชื่อตอบกลับสำหรับเมื่อส่งอีเมล."
  phpmailer_enable_notifications: "หากคุณต้องการได้รับแจ้งทางอีเมลเมื่อการอัปโหลดถูกบล็อกให้ระบุที่อยู่อีเมลของผู้รับที่นี่."

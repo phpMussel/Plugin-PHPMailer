@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Portuguese language data (last modified: 2023.12.13).
+# This file: Portuguese language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Configuração para PHPMailer (usado para autenticação de dois fatores)."
+ phpmailer: "Configuração para PHPMailer (usado para autenticação de dois fatores e para notificações por e-mail)."
  phpmailer_add_reply_to_address: "O endereço de resposta a ser citado ao enviar e-mail via SMTP."
  phpmailer_add_reply_to_name: "O nome da resposta a ser citado ao enviar e-mail via SMTP."
  phpmailer_enable_notifications: "Se você deseja ser notificado por email quando um carregamento estiver bloqueado, especifique o endereço de e-mail do destinatário aqui."

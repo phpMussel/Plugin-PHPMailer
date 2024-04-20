@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese (simplified) language data (last modified: 2023.09.27).
+# This file: Chinese (simplified) language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "PHPMailer的配置（用于双因素身份验证）。"
+ phpmailer: "PHPMailer的配置（用于双因素身份验证和电子邮件通知）。"
  phpmailer_add_reply_to_address: "通过SMTP发送电子邮件时引用的回复地址。"
  phpmailer_add_reply_to_name: "通过SMTP发送电子邮件时引用的回复姓名。"
  phpmailer_enable_notifications: "如果要在阻止上传时通过电子邮件收到通知，请在此处指定收件人电子邮件地址。"

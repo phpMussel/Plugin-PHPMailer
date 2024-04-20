@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Italian language data (last modified: 2023.09.27).
+# This file: Italian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Configurazione per PHPMailer (utilizzato per l'autenticazione a due fattori)."
+ phpmailer: "Configurazione per PHPMailer (utilizzato per l'autenticazione a due fattori e per le notifiche via posta elettronica)."
  phpmailer_add_reply_to_address: "L'indirizzo di risposta per citare quando si invia una posta elettronica tramite SMTP."
  phpmailer_add_reply_to_name: "Il nome per la risposta per citare quando si invia una posta elettronica tramite SMTP."
  phpmailer_enable_notifications: "Se desideri ricevere una notifica via e-mail quando un caricamento è bloccato, specifica qui l'indirizzo e-mail del destinatario."

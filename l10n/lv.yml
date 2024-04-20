@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Latvian language data (last modified: 2023.09.27).
+# This file: Latvian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "PHPMailer konfigurācija (izmanto divu faktoru autentifikācijai)."
+ phpmailer: "PHPMailer konfigurācija (izmanto divu faktoru autentifikācijai un e-pasta paziņojumiem)."
  phpmailer_add_reply_to_address: "Respondenta adrese, ko citēt, nosūtot e-pastu izmantojot SMTP."
  phpmailer_add_reply_to_name: "Respondenta vārds, ko citēt, nosūtot e-pastu izmantojot SMTP."
  phpmailer_enable_notifications: "Ja vēlaties saņemt paziņojumu pa e-pastu, ja augšupielāde ir bloķēta, šeit norādiet saņēmēja e-pasta adresi."

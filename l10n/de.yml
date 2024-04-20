@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: German language data (last modified: 2023.09.27).
+# This file: German language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Konfiguration für PHPMailer (für Zwei-Faktor-Authentifizierung verwendet)."
+ phpmailer: "Konfiguration für PHPMailer (wird für die Zwei-Faktor-Authentifizierung und für E-Mail-Benachrichtigungen verwendet)."
  phpmailer_add_reply_to_address: "Die Antwortadresse, die beim Senden von E-Mails über SMTP verwendet werden soll."
  phpmailer_add_reply_to_name: "Der Name für der Antwort, die beim Senden von E-Mails über SMTP verwendet werden soll."
  phpmailer_enable_notifications: "Wenn Sie per E-Mail benachrichtigt werden möchten, wenn ein Upload blockiert ist, geben Sie hier die E-Mail-Adresse des Empfängers an."

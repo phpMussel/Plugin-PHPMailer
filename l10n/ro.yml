@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Romanian language data (last modified: 2023.09.27).
+# This file: Romanian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Configurare pentru PHPMailer (folosit pentru autentificarea cu doi factori)."
+ phpmailer: "Configurare pentru PHPMailer (utilizat pentru autentificarea cu doi factori și pentru notificările prin e-mail)."
  phpmailer_add_reply_to_address: "Adresa de răspuns de citat atunci când trimiteți e-mail prin SMTP."
  phpmailer_add_reply_to_name: "Numele de răspuns de citat atunci când trimiteți e-mail prin SMTP."
  phpmailer_enable_notifications: "Dacă doriți să fiți notificat prin e-mail când o încărcare este blocată, specificați aici adresa de e-mail a destinatarului."

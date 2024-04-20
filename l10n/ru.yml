@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Russian language data (last modified: 2023.09.27).
+# This file: Russian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Конфигурация для PHPMailer (используется для двухфакторной аутентификации)."
+ phpmailer: "Конфигурация для PHPMailer (используется для двухфакторной аутентификации и для уведомлений по электронной почте)."
  phpmailer_add_reply_to_address: "Адрес ответа для отправки электронной почты через SMTP."
  phpmailer_add_reply_to_name: "Имя ответа для отправки электронной почты через SMTP."
  phpmailer_enable_notifications: "Если вы хотите получать уведомления по электронной почте, когда загрузка заблокирована, укажите адрес электронной почты получателя здесь."

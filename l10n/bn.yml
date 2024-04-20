@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Bangla language data (last modified: 2023.09.27).
+# This file: Bangla language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,20 +25,20 @@
 ##/
 
 config:
- phpmailer: "PHPMailer জন্য কনফিগারেশন (দ্বি-গুণক প্রমাণীকরণ জন্য ব্যবহৃত)।"
- phpmailer_add_reply_to_address: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য উত্তর ঠিকানা।"
- phpmailer_add_reply_to_name: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য উত্তর নাম।"
- phpmailer_enable_notifications: "আপনি যদি কোনও আপলোড ব্লক করা হয় ইমেল দ্বারা বিজ্ঞপ্তি পেতে চান, প্রাপক ইমেল ঠিকানা এখানে উল্লেখ করুন।"
+ phpmailer: "PHPMailer জন্য কনফিগারেশন (দ্বি-ফ্যাক্টর প্রমাণীকরণ এবং ইমেইল বিজ্ঞপ্তির জন্য ব্যবহৃত হয়।"
+ phpmailer_add_reply_to_address: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য উত্তর ঠিকানা।"
+ phpmailer_add_reply_to_name: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য উত্তর নাম।"
+ phpmailer_enable_notifications: "আপনি যদি কোনও আপলোড ব্লক করা হয় ইমেইল দ্বারা বিজ্ঞপ্তি পেতে চান, প্রাপক ইমেইল ঠিকানা এখানে উল্লেখ করুন।"
  phpmailer_enable_two_factor: "এই নির্দেশটি ফ্রন্ট-এন্ড অ্যাকাউন্টগুলির জন্য 2FA ব্যবহার করে কিনা তা নির্ধারণ করে।"
  phpmailer_event_log: "PHPMailer সম্পর্কিত সকল ঘটনা লগইন করার জন্য একটি ফাইল। ফাইলের নাম উল্লেখ করুন, অথবা নিষ্ক্রিয় করতে ফাঁকা রাখুন।"
- phpmailer_host: "আউটবাউন্ড ইমেলের জন্য SMTP হোস্ট ব্যবহার করতে হবে।"
- phpmailer_password: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য পাসওয়ার্ডটি।"
- phpmailer_port: "আউটবাউন্ড ইমেলের জন্য ব্যবহার করার জন্য পোর্ট নাম্বার। ডিফল্ট = "587"।"
- phpmailer_set_from_address: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রেরক ঠিকানা।"
- phpmailer_set_from_name: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রেরক নাম।"
- phpmailer_skip_auth_process: "যখন <code>true</code>, PHPMailer এসএমটিপি এর মাধ্যমে ইমেল পাঠানোর সাথে সাথে প্রমাণীকরণের প্রক্রিয়াটিকে সাধারণত ছাড় দেয়। এই এড়ানো উচিত, কারণ বহির্গামী ইমেল MITM আক্রমনের সম্মুখীন হতে পারে। তবে, এটি কিছু ক্ষেত্রে প্রয়োজনীয় হতে পারে (যেমন, যখন PHPMailer একটি SMTP সার্ভারে সংযোগ করতে পারবে না)।"
+ phpmailer_host: "আউটবাউন্ড ইমেইলের জন্য SMTP হোস্ট ব্যবহার করতে হবে।"
+ phpmailer_password: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য পাসওয়ার্ডটি।"
+ phpmailer_port: "আউটবাউন্ড ইমেইলের জন্য ব্যবহার করার জন্য পোর্ট নাম্বার। ডিফল্ট = "587"।"
+ phpmailer_set_from_address: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য প্রেরক ঠিকানা।"
+ phpmailer_set_from_name: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য প্রেরক নাম।"
+ phpmailer_skip_auth_process: "যখন <code>true</code>, PHPMailer এসএমটিপি এর মাধ্যমে ইমেইল পাঠানোর সাথে সাথে প্রমাণীকরণের প্রক্রিয়াটিকে সাধারণত ছাড় দেয়। এই এড়ানো উচিত, কারণ বহির্গামী ইমেইল MITM আক্রমনের সম্মুখীন হতে পারে। তবে, এটি কিছু ক্ষেত্রে প্রয়োজনীয় হতে পারে (যেমন, যখন PHPMailer একটি SMTP সার্ভারে সংযোগ করতে পারবে না)।"
  phpmailer_smtp_auth: "এই নির্দেশটি SMTP সেশনের প্রমাণীকরণ কিনা তা নির্ধারণ করে (সাধারণত এই একা ছেড়ে দেওয়া উচিত)।"
- phpmailer_smtp_secure: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য প্রোটোকল (TLS বা SSL)।"
- phpmailer_username: "SMTP এর মাধ্যমে ইমেল পাঠানোর সময় ব্যবহারের জন্য ব্যবহারকারীর নাম।"
+ phpmailer_smtp_secure: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য প্রোটোকল (TLS বা SSL)।"
+ phpmailer_username: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য ব্যবহারকারীর নাম।"
 response:
- Email successfully sent to %s: "ইমেল সফলভাবে "%s" এ পাঠানো হয়েছে।"
+ Email successfully sent to %s: "ইমেইল সফলভাবে "%s" এ পাঠানো হয়েছে।"

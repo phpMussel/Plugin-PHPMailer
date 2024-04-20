@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Ukrainian language data (last modified: 2023.09.27).
+# This file: Ukrainian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Конфігурація для PHPMailer (використовується для двофакторної аутентифікації)."
+ phpmailer: "Конфігурація для PHPMailer (використовується для двофакторної автентифікації та для сповіщень електронною поштою)."
  phpmailer_add_reply_to_address: "Адреса відповіді для надсилання електронної пошти через SMTP."
  phpmailer_add_reply_to_name: "Ім'я відповіді під час надсилання електронної пошти через SMTP."
  phpmailer_enable_notifications: "Якщо ви хочете отримувати сповіщення електронною поштою, коли завантаження заблоковано, вкажіть тут адресу електронної пошти одержувача."

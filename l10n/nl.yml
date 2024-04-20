@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Dutch language data (last modified: 2023.09.27).
+# This file: Dutch language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Configuratie voor PHPMailer (gebruikt voor tweefactorauthenticatie)."
+ phpmailer: "Configuratie voor PHPMailer (gebruikt voor tweefactorauthenticatie en voor e-mailmeldingen)."
  phpmailer_add_reply_to_address: "Het antwoordadres voor het verzenden van e-mail via SMTP."
  phpmailer_add_reply_to_name: "De antwoordnaam voor het verzenden van e-mail via SMTP."
  phpmailer_enable_notifications: "Als u via e-mail op de hoogte wilt worden gehouden wanneer een upload wordt geblokkeerd, geeft u hier het e-mailadres van de ontvanger op."

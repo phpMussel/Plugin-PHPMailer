@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Indonesian language data (last modified: 2023.09.27).
+# This file: Indonesian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Konfigurasi untuk PHPMailer (digunakan untuk otentikasi dua-faktor)."
+ phpmailer: "Konfigurasi untuk PHPMailer (digunakan untuk otentikasi dua-faktor dan untuk pemberitahuan email)."
  phpmailer_add_reply_to_address: "Alamat balasan yang dikutip saat mengirim email melalui SMTP."
  phpmailer_add_reply_to_name: "Nama balasan yang dikutip saat mengirim email melalui SMTP."
  phpmailer_enable_notifications: "Jika Anda ingin diberi tahu melalui email saat upload diblokir, tentukan alamat email penerima disini."

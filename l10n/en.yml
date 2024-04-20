@@ -7,11 +7,11 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: English language data (last modified: 2023.09.27).
+# This file: English language data (last modified: 2024.04.19).
 ##/
 
 config:
- phpmailer: "Configuration for PHPMailer (used for two-factor authentication)."
+ phpmailer: "Configuration for PHPMailer (used for two-factor authentication and for email notifications)."
  phpmailer_add_reply_to_address: "The reply address to cite when sending email via SMTP."
  phpmailer_add_reply_to_name: "The reply name to cite when sending email via SMTP."
  phpmailer_enable_notifications: "If you want to be notified by email when an upload is blocked, specify the recipient email address here."

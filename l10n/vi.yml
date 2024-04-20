@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Vietnamese language data (last modified: 2023.09.27).
+# This file: Vietnamese language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Cấu hình cho PHPMailer (được sử dụng để xác thực hai yếu tố)."
+ phpmailer: "Cấu hình cho PHPMailer (được sử dụng để xác thực hai yếu tố và thông báo qua email)."
  phpmailer_add_reply_to_address: "Địa chỉ trả lời để trích dẫn khi gửi email qua SMTP."
  phpmailer_add_reply_to_name: "Tên trả lời để trích dẫn khi gửi email qua SMTP."
  phpmailer_enable_notifications: "Nếu bạn muốn được thông báo qua email khi tải lên bị chặn, hãy chỉ định địa chỉ email người nhận ở đây."

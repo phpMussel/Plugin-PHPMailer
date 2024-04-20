@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Norwegian language data (last modified: 2023.09.27).
+# This file: Norwegian language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "Konfigurasjon for PHPMailer (brukes til tofaktorautentisering)."
+ phpmailer: "Konfigurasjon for PHPMailer (brukes til tofaktorautentisering og for e-postvarsler)."
  phpmailer_add_reply_to_address: "Svaradressen for å sitere når du sender e-post via SMTP."
  phpmailer_add_reply_to_name: "Svarnavnet til å sitere når du sender e-post via SMTP."
  phpmailer_enable_notifications: "Hvis du vil bli varslet via e-post når en opplasting er blokkert, spesifiser mottakerens e-postadresse her."

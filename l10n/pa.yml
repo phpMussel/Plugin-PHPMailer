@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Punjabi language data (last modified: 2023.09.27).
+# This file: Punjabi language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "PHPMailer ਲਈ ਕੌਂਫਿਗਰੇਸ਼ਨ (ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ)।"
+ phpmailer: "PHPMailer ਲਈ ਕੌਂਫਿਗਰੇਸ਼ਨ (ਦੋ-ਕਾਰਕ ਪ੍ਰਮਾਣਿਕਤਾ ਅਤੇ ਈਮੇਲ ਸੂਚਨਾਵਾਂ ਲਈ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ)।"
  phpmailer_add_reply_to_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਪਤਾ।"
  phpmailer_add_reply_to_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਜਵਾਬ ਦਾ ਨਾਮ।"
  phpmailer_enable_notifications: "ਜੇਕਰ ਤੁਸੀਂ ਕਿਸੇ ਅੱਪਲੋਡ ਨੂੰ ਬਲੌਕ ਕੀਤੇ ਜਾਣ 'ਤੇ ਈਮੇਲ ਰਾਹੀਂ ਸੂਚਿਤ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਇੱਥੇ ਪ੍ਰਾਪਤਕਰਤਾ ਦਾ ਈਮੇਲ ਪਤਾ ਦੱਸੋ।"

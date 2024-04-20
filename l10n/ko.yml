@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Korean language data (last modified: 2023.09.27).
+# This file: Korean language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "PHPMailer 설정 (이중 인증에 사용)."
+ phpmailer: "PHPMailer 설정 (이중 인증 및 이메일 알림에 사용됩니다)."
  phpmailer_add_reply_to_address: "SMTP를 통해 전자 메일을 보낼 때 인용 할 회신 주소입니다."
  phpmailer_add_reply_to_name: "SMTP를 통해 이메일을 보낼 때 인용 할 회신 이름입니다."
  phpmailer_enable_notifications: "업로드가 차단될 때 이메일로 알림을 받으려면, 여기에서 수신자 이메일 주소를 지정하십시오."

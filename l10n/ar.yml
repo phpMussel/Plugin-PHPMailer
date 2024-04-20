@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Arabic language data (last modified: 2023.09.27).
+# This file: Arabic language data (last modified: 2024.04.19).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,7 +25,7 @@
 ##/
 
 config:
- phpmailer: "التكوين ل PHPMailer (تستخدم لمصادقة ثنائية العامل)."
+ phpmailer: "التكوين ل PHPMailer (يستخدم للمصادقة الثنائية ولإشعارات البريد الإلكتروني)."
  phpmailer_add_reply_to_address: "عنوان الرد للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
  phpmailer_add_reply_to_name: "اسم الرد للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
  phpmailer_enable_notifications: "إذا كنت تريد أن يتم إعلامك عبر البريد الإلكتروني عند حظر التحميل، فحدد عنوان البريد الإلكتروني للمستلم هنا."
