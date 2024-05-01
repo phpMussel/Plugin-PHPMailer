@@ -7,13 +7,14 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Configuration defaults file (last modified: 2022.11.30).
+# This file: Configuration defaults file (last modified: 2024.04.30).
 ##/
 
 phpmailer:
  event_log:
   type: "string"
   default: ""
+  hints: "hints_logging_datetime"
  enable_two_factor:
   type: "bool"
   default: false
