@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Catalan language data (last modified: 2024.04.19).
+# This file: Catalan language data (last modified: 2024.05.08).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -30,7 +30,7 @@ config:
  phpmailer_add_reply_to_name: "El nom de resposta a citar quan s'envia un correu electrònic mitjançant SMTP."
  phpmailer_enable_notifications: "Si voleu rebre una notificació per correu electrònic quan es bloqueja una càrrega, especifiqueu aquí l'adreça electrònica del destinatari."
  phpmailer_enable_two_factor: "Aquesta directiva determina si s'ha d'utilitzar 2FA per als comptes de front-end."
- phpmailer_event_log: "Un fitxer per registrar tots els esdeveniments relacionats amb PHPMailer. Especifiqueu un nom de fitxer o deixeu-lo en blanc per desactivar-lo."
+ phpmailer_event_log: "Un fitxer per registrar tots els esdeveniments relacionats amb PHPMailer. Especifiqueu un nom de fitxer, o deixeu-lo en blanc per desactivar-lo."
  phpmailer_host: "L'amfitrió SMTP que cal utilitzar per al correu electrònic de sortida."
  phpmailer_password: "La contrasenya que s'ha d'utilitzar per enviar correu electrònic mitjançant SMTP."
  phpmailer_port: "El número de port que cal utilitzar per al correu electrònic de sortida. Predeterminat = 587."
