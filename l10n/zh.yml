@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese (simplified) language data (last modified: 2024.04.19).
+# This file: Chinese language data (last modified: 2024.07.02).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,20 +25,22 @@
 ##/
 
 config:
- phpmailer: "PHPMailer的配置（用于双因素身份验证和电子邮件通知）。"
- phpmailer_add_reply_to_address: "通过SMTP发送电子邮件时引用的回复地址。"
- phpmailer_add_reply_to_name: "通过SMTP发送电子邮件时引用的回复姓名。"
- phpmailer_enable_notifications: "如果要在阻止上传时通过电子邮件收到通知，请在此处指定收件人电子邮件地址。"
- phpmailer_enable_two_factor: "该指令确定是否将2FA用于前端帐户。"
- phpmailer_event_log: "用于记录与PHPMailer相关的所有事件的文件。​指定一个文件名，​或留空以禁用。"
- phpmailer_host: "用于出站电子邮件的SMTP主机。"
- phpmailer_password: "通过SMTP发送电子邮件时使用的密码。"
- phpmailer_port: "用于出站电子邮件的端口号。​标准=587。"
- phpmailer_set_from_address: "通过SMTP发送电子邮件时引用的发件人地址。"
- phpmailer_set_from_name: "通过SMTP发送电子邮件时引用的发件人姓名。"
- phpmailer_skip_auth_process: "将此指令设置为<code>true</code>会指示PHPMailer跳过通过SMTP发送电子邮件时通常会发生的正常身份验证过程。​应该避免这种情况，因为跳过此过程可能会将出站电子邮件暴露给MITM攻击，但在此过程阻止PHPMailer连接到SMTP服务器的情况下可能是必要的。"
- phpmailer_smtp_auth: "此指令确定是否对SMTP会话进行身份验证（通常应该保持不变）。"
- phpmailer_smtp_secure: "通过SMTP发送电子邮件时使用的协议（TLS或SSL）。"
- phpmailer_username: "通过SMTP发送电子邮件时使用的用户名。"
+ phpmailer: {"zh-Hans": "PHPMailer的配置（用于双因素身份验证和电子邮件通知）。", "zh-Hant": "PHPMailer的配置（用於雙重認證和電子郵件通知）。"}
+ phpmailer_add_reply_to_address: {"zh-Hans": "通过SMTP发送电子邮件时引用的回复地址。", "zh-Hant": "通過SMTP發送電子郵件時引用的回复地址。"}
+ phpmailer_add_reply_to_name: {"zh-Hans": "通过SMTP发送电子邮件时引用的回复姓名。", "zh-Hant": "通過SMTP發送電子郵件時引用的回複姓名。"}
+ phpmailer_enable_notifications: {"zh-Hans": "如果要在阻止上传时通过电子邮件收到通知，请在此处指定收件人电子邮件地址。", "zh-Hant": "如果要在阻止上傳時通過電子郵件收到通知，請在此處指定收件人電子郵件地址。"}
+ phpmailer_enable_two_factor: {"zh-Hans": "该指令确定是否将2FA用于前端帐户。", "zh-Hant": "該指令確定是否將2FA用於前端帳戶。"}
+ phpmailer_event_log: {"zh-Hans": "用于记录与PHPMailer相关的所有事件的文件。​指定一个文件名，​或留空以禁用。", "zh-Hant": "用於記錄與PHPMailer相關的所有事件的文件。​指定一個文件名，​或留空以禁用。"}
+ phpmailer_host: {"zh-Hans": "用于出站电子邮件的SMTP主机。", "zh-Hant": "用於出站電子郵件的SMTP主機。"}
+ phpmailer_password: {"zh-Hans": "通过SMTP发送电子邮件时使用的密码。", "zh-Hant": "通過SMTP發送電子郵件時使用的密碼。"}
+ phpmailer_port: {"zh-Hans": "用于出站电子邮件的端口号。​标准=587。", "zh-Hant": "用於出站電子郵件的端口號。​標準=587。"}
+ phpmailer_set_from_address: {"zh-Hans": "通过SMTP发送电子邮件时引用的发件人地址。", "zh-Hant": "通過SMTP發送電子郵件時引用的發件人地址。"}
+ phpmailer_set_from_name: {"zh-Hans": "通过SMTP发送电子邮件时引用的发件人姓名。", "zh-Hant": "通過SMTP發送電子郵件時引用的發件人姓名。"}
+ phpmailer_skip_auth_process:
+  zh-Hans: "将此指令设置为<code>true</code>会指示PHPMailer跳过通过SMTP发送电子邮件时通常会发生的正常身份验证过程。​应该避免这种情况，因为跳过此过程可能会将出站电子邮件暴露给MITM攻击，但在此过程阻止PHPMailer连接到SMTP服务器的情况下可能是必要的。"
+  zh-Hant: "將此指令設置為<code>true</code>會指示PHPMailer跳過通過SMTP發送電子郵件時通常會發生的正常身份驗證過程。​應該避免這種情況，因為跳過此過程可能會將出站電子郵件暴露給MITM攻擊，但在此過程阻止PHPMailer連接到SMTP服務器的情況下可能是必要的。"
+ phpmailer_smtp_auth: {"zh-Hans": "此指令确定是否对SMTP会话进行身份验证（通常应该保持不变）。", "zh-Hant": "此指令確定是否對SMTP會話進行身份驗證（通常應該保持不變）。"}
+ phpmailer_smtp_secure: {"zh-Hans": "通过SMTP发送电子邮件时使用的协议（TLS或SSL）。", "zh-Hant": "通過SMTP發送電子郵件時使用的協議（TLS或SSL）。"}
+ phpmailer_username: {"zh-Hans": "通过SMTP发送电子邮件时使用的用户名。", "zh-Hant": "通過SMTP發送電子郵件時使用的用戶名。"}
 response:
- Email successfully sent to %s: "电子邮件已成功发送至“%s”。"
+ Email successfully sent to %s: {"zh-Hans": "电子邮件已成功发送至“%s”。", "zh-Hant": "電子郵件已成功發送至『%s』。"}

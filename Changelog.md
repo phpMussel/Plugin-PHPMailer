@@ -67,3 +67,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.12
 
 [2024.06.22; Maikuolan]: Maintenance release.
+
+### v3.1.13
+
+[2024.07.02; Maikuolan]: Merged zh and zh-TW L10N, and dropped region designations (e.g., CN, TW) in favour of script designations (e.g., Hans, Hant).
