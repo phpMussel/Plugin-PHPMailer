@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2023.12.02).
+ * This file: PHPMailer-phpMussel linker (last modified: 2024.08.02).
  */
 
 namespace phpMussel\PHPMailer;
@@ -249,7 +249,7 @@ class Linker
                 $SuccessDetails
             ) : $this->Loader->L10N->getString('response.Error') . ' - ' . $Mail->ErrorInfo) . "\n";
         } catch (\Exception $e) {
-            /** An exeption occurred. Log the information. */
+            /** An exception occurred. Log the information. */
             $EventLogData .= $this->Loader->L10N->getString('response.Error') . ' - ' . $e->getMessage() . "\n";
         }
 
