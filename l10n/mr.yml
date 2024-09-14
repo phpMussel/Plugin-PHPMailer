@@ -1,0 +1,44 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Marathi language data (last modified: 2024.09.14).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config:
+ phpmailer: "PHPMailer साठी कॉन्फिगरेशन (द्वि-घटक प्रमाणीकरण आणि ईमेल सूचनांसाठी वापरले जाते)."
+ phpmailer_add_reply_to_address: "SMTP द्वारे ईमेल पाठवताना उद्धृत करण्यासाठी उत्तराचे पत्ता."
+ phpmailer_add_reply_to_name: "SMTP द्वारे ईमेल पाठवताना उद्धृत करण्यासाठी उत्तराचे नाव."
+ phpmailer_enable_notifications: "अपलोड अवरोधित केल्यावर तुम्हाला ईमेलद्वारे सूचित करायचे असल्यास, प्राप्तकर्त्याचा ईमेल पत्ता येथे निर्दिष्ट करा."
+ phpmailer_enable_two_factor: "हे निर्देश फ्रंट-एंड खात्यांसाठी 2FA वापरायचे की नाही हे ठरवते."
+ phpmailer_event_log: "PHPMailer च्या संबंधात सर्व इव्हेंट लॉग करण्यासाठी फाइल. फाइलनाव निर्दिष्ट करा, किंवा अक्षम करण्यासाठी रिक्त सोडा."
+ phpmailer_host: "आउटबाउंड ईमेलसाठी वापरण्यासाठी SMTP होस्ट."
+ phpmailer_password: "SMTP द्वारे ईमेल पाठवताना वापरायचा पासवर्ड."
+ phpmailer_port: "आउटबाउंड ईमेलसाठी वापरण्यासाठी पोर्ट क्रमांक. डीफॉल्ट = 587."
+ phpmailer_set_from_address: "SMTP द्वारे ईमेल पाठवताना उद्धृत करायचा प्रेषकाचा पत्ता."
+ phpmailer_set_from_name: "SMTP द्वारे ईमेल पाठवताना उद्धृत करण्यासाठी प्रेषकाचे नाव."
+ phpmailer_skip_auth_process: "हे निर्देश <code>true</code> वर सेट केल्याने PHPMailer ला SMTP द्वारे ईमेल पाठवताना होणारी सामान्य प्रमाणीकरण प्रक्रिया वगळण्याची सूचना देते. हे टाळले पाहिजे, कारण ही प्रक्रिया वगळल्याने आउटबाउंड ईमेल MITM हल्ल्यांसमोर येऊ शकतात, परंतु ही प्रक्रिया PHPMailer ला SMTP सर्व्हरशी कनेक्ट होण्यापासून प्रतिबंधित करते अशा प्रकरणांमध्ये आवश्यक असू शकते."
+ phpmailer_smtp_auth: "हे निर्देश SMTP सत्र प्रमाणीकृत करायचे की नाही हे निर्धारित करते (सहसा एकटे सोडले पाहिजे)."
+ phpmailer_smtp_secure: "SMTP द्वारे ईमेल पाठवताना वापरण्यासाठी प्रोटोकॉल (TLS किंवा SSL)."
+ phpmailer_username: "SMTP द्वारे ईमेल पाठवताना वापरण्यासाठी वापरकर्तानाव."
+response:
+ Email successfully sent to %s: "ईमेल यशस्वीरित्या "%s" वर पाठवला."

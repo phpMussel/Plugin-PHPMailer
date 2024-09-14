@@ -1,0 +1,44 @@
+##\
+# This file is a part of the phpMussel\Plugin-PHPMailer package.
+# Homepage: https://phpmussel.github.io/
+#
+# PHPMUSSEL COPYRIGHT 2013 AND BEYOND BY THE PHPMUSSEL TEAM.
+#
+# License: GNU/GPLv2
+# @see LICENSE.txt
+#
+# This file: Malayalam language data (last modified: 2024.09.14).
+#
+# Regarding translations: My native language is English. Because this is a free
+# and open-source hobby project which generates zero income, and translatable
+# content is likely to change as the features and functionality supported by
+# the project changes, it doesn't make sense for me to spend money for
+# translations. Because I'm the sole author/developer/maintainer for the
+# project and I'm not a ployglot, any translations I produce are very likely to
+# contain errors. Sorry, but realistically, that won't ever change. If you find
+# any such errors/typos/mistakes/etc, your assistance to correct them would be
+# very much appreciated. Pull requests are invited and encouraged. Otherwise,
+# if you find these errors too much to handle, just stick with the original
+# English source. If a translation is irredeemably incomprehensible, let me
+# know which, and I can delete it. If you're not sure how to perform pull
+# requests, ask. I can help.
+##/
+
+config:
+ phpmailer: "PHPMailer-നുള്ള കോൺഫിഗറേഷൻ (രണ്ട്-ഘടക പ്രാമാണീകരണത്തിനും ഇമെയിൽ അറിയിപ്പുകൾക്കും ഉപയോഗിക്കുന്നു)."
+ phpmailer_add_reply_to_address: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉദ്ധരിക്കേണ്ട മറുപടി വിലാസം."
+ phpmailer_add_reply_to_name: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉദ്ധരിക്കേണ്ട മറുപടി പേര്."
+ phpmailer_enable_notifications: "ഒരു അപ്‌ലോഡ് ബ്ലോക്ക് ചെയ്യുമ്പോൾ ഇമെയിൽ വഴി നിങ്ങളെ അറിയിക്കണമെങ്കിൽ, സ്വീകർത്താവിൻ്റെ ഇമെയിൽ വിലാസം ഇവിടെ വ്യക്തമാക്കുക."
+ phpmailer_enable_two_factor: "ഫ്രണ്ട്-എൻഡ് അക്കൗണ്ടുകൾക്ക് 2FA ഉപയോഗിക്കണമോ എന്ന് ഈ നിർദ്ദേശം നിർണ്ണയിക്കുന്നു."
+ phpmailer_event_log: "PHPMailer-മായി ബന്ധപ്പെട്ട് എല്ലാ ഇവൻ്റുകളും ലോഗ് ചെയ്യുന്നതിനുള്ള ഒരു ഫയൽ. ഒരു ഫയലിൻ്റെ പേര് വ്യക്തമാക്കുക, അല്ലെങ്കിൽ പ്രവർത്തനരഹിതമാക്കാൻ ശൂന്യമായി വിടുക."
+ phpmailer_host: "ഔട്ട്ബൗണ്ട് ഇമെയിലിനായി ഉപയോഗിക്കാനുള്ള SMTP ഹോസ്റ്റ്."
+ phpmailer_password: "SMTP വഴി ഇമെയിൽ അയയ്‌ക്കുമ്പോൾ ഉപയോഗിക്കേണ്ട പാസ്‌വേഡ്."
+ phpmailer_port: "ഔട്ട്ബൗണ്ട് ഇമെയിലിനായി ഉപയോഗിക്കേണ്ട പോർട്ട് നമ്പർ. സ്ഥിരസ്ഥിതി = 587."
+ phpmailer_set_from_address: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉദ്ധരിക്കേണ്ട അയച്ചയാളുടെ വിലാസം."
+ phpmailer_set_from_name: "SMTP വഴി ഇമെയിൽ അയയ്‌ക്കുമ്പോൾ ഉദ്ധരിക്കേണ്ട അയച്ചയാളുടെ പേര്."
+ phpmailer_skip_auth_process: "ഈ നിർദ്ദേശം <code>true</code> എന്ന് സജ്ജീകരിക്കുന്നത്, SMTP വഴി ഇമെയിൽ അയക്കുമ്പോൾ സാധാരണയായി സംഭവിക്കുന്ന സാധാരണ പ്രാമാണീകരണ പ്രക്രിയ ഒഴിവാക്കാൻ PHPMailer-നോട് നിർദ്ദേശിക്കുന്നു. ഇത് ഒഴിവാക്കണം, കാരണം ഈ പ്രക്രിയ ഒഴിവാക്കുന്നത് ഔട്ട്ബൗണ്ട് ഇമെയിൽ MITM ആക്രമണങ്ങളിലേക്ക് തുറന്നുകാട്ടാം, എന്നാൽ ഈ പ്രക്രിയ ഒരു SMTP സെർവറിലേക്ക് കണക്റ്റുചെയ്യുന്നതിൽ നിന്ന് PHPMailer-നെ തടയുന്ന സന്ദർഭങ്ങളിൽ ഇത് ആവശ്യമായി വന്നേക്കാം."
+ phpmailer_smtp_auth: "ഈ നിർദ്ദേശം SMTP സെഷനുകൾ ആധികാരികമാക്കണമോ എന്ന് നിർണ്ണയിക്കുന്നു (സാധാരണയായി ഒറ്റയ്ക്ക് വിടണം)."
+ phpmailer_smtp_secure: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉപയോഗിക്കേണ്ട പ്രോട്ടോക്കോൾ (TLS അല്ലെങ്കിൽ SSL)."
+ phpmailer_username: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉപയോഗിക്കേണ്ട ഉപയോക്തൃനാമം."
+response:
+ Email successfully sent to %s: ""%s"-ലേക്ക് ഇമെയിൽ അയച്ചു."
