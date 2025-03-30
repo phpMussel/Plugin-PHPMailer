@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Hindi language data (last modified: 2024.04.19).
+# This file: Hindi language data (last modified: 2025.03.29).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -30,7 +30,7 @@ config:
  phpmailer_add_reply_to_name: "ईमेल भेजने के लिए उत्तर का नाम।"
  phpmailer_enable_notifications: "यदि आप अपलोड के अवरुद्ध होने पर ईमेल द्वारा सूचित किया जाना चाहते हैं, तो यहां प्राप्तकर्ता ईमेल पता निर्दिष्ट करें।"
  phpmailer_enable_two_factor: "यह निर्देश निर्धारित करता है कि सामने के अंत खाते 2FA का उपयोग करते हैं या नहीं।"
- phpmailer_event_log: "PHPMailer के संबंध में सभी घटनाओं को लॉग इन करने के लिए एक फ़ाइल। एक फाइल नाम निर्दिष्ट करें, या निष्क्रिय करने के लिए खाली छोड़।"
+ phpmailer_event_log: "PHPMailer के संबंध में सभी घटनाओं को लॉग इन करने के लिए एक फाइल। एक फाइल नाम निर्दिष्ट करें, या निष्क्रिय करने के लिए खाली छोड़।"
  phpmailer_host: "आउटबाउंड ईमेल के लिए उपयोग करने के लिए SMTP होस्ट।"
  phpmailer_password: "ईमेल भेजते समय उपयोग करने के लिए पासवर्ड।"
  phpmailer_port: "आउटबाउंड ईमेल के लिए उपयोग करने के लिए पोर्ट नंबर। डिफ़ॉल्ट = "587"।"
