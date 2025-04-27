@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: French language data (last modified: 2024.04.19).
+# This file: French language data (last modified: 2025.04.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -25,20 +25,46 @@
 ##/
 
 config:
- phpmailer: "Configuration pour PHPMailer (utilisé pour l'authentification à deux facteurs et pour les notifications par e-mail)."
- phpmailer_add_reply_to_address: "L'adresse de réponse à citer lors de l'envoi d'e-mail via SMTP."
- phpmailer_add_reply_to_name: "Le nom pour répondre à citer lors de l'envoi d'e-mail via SMTP."
- phpmailer_enable_notifications: "Si vous souhaitez être averti par e-mail lorsqu'un téléchargement est bloqué, indiquez ici l'adresse e-mail du destinataire."
+ phpmailer:
+  fr-FR: "Configuration pour PHPMailer (utilisé pour l'authentification à deux facteurs et pour les notifications par e-mail)."
+  fr-CA: "Configuration pour PHPMailer (utilisé pour l'authentification à deux facteurs et pour les notifications par courriel)."
+ phpmailer_add_reply_to_address:
+  fr-FR: "L'adresse de réponse à citer lors de l'envoi d'e-mail via SMTP."
+  fr-CA: "L'adresse de réponse à citer lors de l'envoi d'un courriel par SMTP."
+ phpmailer_add_reply_to_name:
+  fr-FR: "Le nom pour répondre à citer lors de l'envoi d'e-mail via SMTP."
+  fr-CA: "Le nom pour répondre à citer lors de l'envoi d'un courriel par SMTP."
+ phpmailer_enable_notifications:
+  fr-FR: "Si vous souhaitez être averti par e-mail lorsqu'un téléchargement est bloqué, indiquez ici l'adresse e-mail du destinataire."
+  fr-CA: "Si vous souhaitez être averti par courriel lorsqu'un téléversement est bloqué, veuillez indiquer ici l'adresse courriel du destinataire."
  phpmailer_enable_two_factor: "Cette directive détermine s'il faut utiliser 2FA pour les comptes frontaux."
  phpmailer_event_log: "Fichier pour l'enregistrement de tous les événements relatifs à PHPMailer. Spécifier un fichier, ou laisser vide à désactiver."
- phpmailer_host: "Hôte SMTP à utiliser pour les e-mails sortants."
- phpmailer_password: "Le mot de passe à utiliser lors de l'envoi d'e-mail via SMTP."
- phpmailer_port: "Le numéro de port à utiliser pour l'e-mail sortant. Défaut = 587."
- phpmailer_set_from_address: "L'adresse de l'expéditeur à citer lors de l'envoi d'e-mail via SMTP."
- phpmailer_set_from_name: "Le nom de l'expéditeur à citer lors de l'envoi d'e-mail via SMTP."
- phpmailer_skip_auth_process: "Définir cette directive sur <code>true</code> instruit à PHPMailer de sauter le processus d'authentification qui se produit normalement lors de l'envoi d'e-mail via SMTP. Cela doit être évité, car sauter du processus peut exposer l'e-mail sortant aux attaques MITM, mais peut être nécessaire dans les cas où ce processus empêche PHPMailer de se connecter à un serveur SMTP."
+ phpmailer_host:
+  fr-FR: "Hôte SMTP à utiliser pour les e-mails sortants."
+  fr-CA: "Hôte SMTP à utiliser pour les courriels sortants."
+ phpmailer_password:
+  fr-FR: "Le mot de passe à utiliser lors de l'envoi d'e-mail via SMTP."
+  fr-CA: "Le mot de passe à utiliser lors de l'envoi d'un courriel par SMTP."
+ phpmailer_port:
+  fr-FR: "Le numéro de port à utiliser pour l'e-mail sortant. Défaut = 587."
+  fr-CA: "Le numéro de port à utiliser pour le courriel sortant. Défaut = 587."
+ phpmailer_set_from_address:
+  fr-FR: "L'adresse de l'expéditeur à citer lors de l'envoi d'e-mail via SMTP."
+  fr-CA: "L'adresse de l'expéditeur à citer lors de l'envoi d'un courriel par SMTP."
+ phpmailer_set_from_name:
+  fr-FR: "Le nom de l'expéditeur à citer lors de l'envoi d'e-mail via SMTP."
+  fr-CA: "Le nom de l'expéditeur à citer lors de l'envoi d'un courriel par SMTP."
+ phpmailer_skip_auth_process:
+  fr-FR: "Définir cette directive sur <code>true</code> instruit à PHPMailer de sauter le processus d'authentification qui se produit normalement lors de l'envoi d'e-mail via SMTP. Cela doit être évité, car sauter du processus peut exposer l'e-mail sortant aux attaques MITM, mais peut être nécessaire dans les cas où ce processus empêche PHPMailer de se connecter à un serveur SMTP."
+  fr-CA: "Définir cette directive sur <code>true</code> demande à PHPMailer de sauter le processus d'authentification qui se produit normalement lors de l'envoi de courriel par SMTP. Cela doit être évité, car sauter du processus peut exposer le courriel sortant aux attaques MITM, mais peut être nécessaire dans les cas où ce processus empêche PHPMailer de se connecter à un serveur SMTP."
  phpmailer_smtp_auth: "Cette directive détermine si les sessions SMTP doivent être authentifiées (elles doivent généralement être laissées seules)."
- phpmailer_smtp_secure: "Le protocole à utiliser lors de l'envoi d'e-mail via SMTP (TLS ou SSL)."
- phpmailer_username: "Le nom d'utilisateur à utiliser lors de l'envoi d'e-mail via SMTP."
+ phpmailer_smtp_secure:
+  fr-FR: "Le protocole à utiliser lors de l'envoi d'e-mail via SMTP (TLS ou SSL)."
+  fr-CA: "Le protocole à utiliser lors de l'envoi d'un courriel par SMTP (TLS ou SSL)."
+ phpmailer_username:
+  fr-FR: "Le nom d'utilisateur à utiliser lors de l'envoi d'e-mail via SMTP."
+  fr-CA: "Le nom d'utilisateur à utiliser lors de l'envoi d'un courriel par SMTP."
 response:
- Email successfully sent to %s: "E-mail envoyé avec succès à «\_%s\_»."
+ Email successfully sent to %s:
+  fr-FR: "E-mail envoyé avec succès à «\_%s\_»."
+  fr-CA: "Courriel réussi envoyé à «\_%s\_»."
