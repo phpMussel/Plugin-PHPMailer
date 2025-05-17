@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Malayalam language data (last modified: 2024.09.14).
+# This file: Malayalam language data (last modified: 2025.05.04).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -28,7 +28,7 @@ config:
  phpmailer: "PHPMailer-നുള്ള കോൺഫിഗറേഷൻ (രണ്ട്-ഘടക പ്രാമാണീകരണത്തിനും ഇമെയിൽ അറിയിപ്പുകൾക്കും ഉപയോഗിക്കുന്നു)."
  phpmailer_add_reply_to_address: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉദ്ധരിക്കേണ്ട മറുപടി വിലാസം."
  phpmailer_add_reply_to_name: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉദ്ധരിക്കേണ്ട മറുപടി പേര്."
- phpmailer_enable_notifications: "ഒരു അപ്‌ലോഡ് ബ്ലോക്ക് ചെയ്യുമ്പോൾ ഇമെയിൽ വഴി നിങ്ങളെ അറിയിക്കണമെങ്കിൽ, സ്വീകർത്താവിൻ്റെ ഇമെയിൽ വിലാസം ഇവിടെ വ്യക്തമാക്കുക."
+ phpmailer_enable_notifications: "ഒരു അപ്‌ലോഡ് തടയപ്പെടുമ്പോൾ ഇമെയിൽ വഴി നിങ്ങളെ അറിയിക്കണമെങ്കിൽ, സ്വീകർത്താവിൻ്റെ ഇമെയിൽ വിലാസം ഇവിടെ വ്യക്തമാക്കുക."
  phpmailer_enable_two_factor: "ഫ്രണ്ട്-എൻഡ് അക്കൗണ്ടുകൾക്ക് 2FA ഉപയോഗിക്കണമോ എന്ന് ഈ നിർദ്ദേശം നിർണ്ണയിക്കുന്നു."
  phpmailer_event_log: "PHPMailer-മായി ബന്ധപ്പെട്ട് എല്ലാ ഇവൻ്റുകളും ലോഗ് ചെയ്യുന്നതിനുള്ള ഒരു ഫയൽ. ഒരു ഫയലിൻ്റെ പേര് വ്യക്തമാക്കുക, അല്ലെങ്കിൽ പ്രവർത്തനരഹിതമാക്കാൻ ശൂന്യമായി വിടുക."
  phpmailer_host: "ഔട്ട്ബൗണ്ട് ഇമെയിലിനായി ഉപയോഗിക്കാനുള്ള SMTP ഹോസ്റ്റ്."
