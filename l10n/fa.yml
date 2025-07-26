@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Farsi language data (last modified: 2024.04.19).
+# This file: Farsi language data (last modified: 2025.07.11).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -36,7 +36,7 @@ config:
  phpmailer_port: "شماره پورت مورد استفاده برای ایمیل های خروجی. پیش فرض = 587."
  phpmailer_set_from_address: "آدرس فرستنده که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
  phpmailer_set_from_name: "نام فرستنده ای که باید هنگام ارسال ایمیل از طریق SMTP ذکر شود."
- phpmailer_skip_auth_process: "تنظیم این دستور بر روی <code>true</code> به PHPMailer دستور می دهد تا از روند عادی احراز هویت که معمولاً هنگام ارسال ایمیل از طریق SMTP رخ می دهد، صرف نظر کند. از این کار باید اجتناب شود، زیرا عدم احراز هویت می‌تواند ایمیل‌های خروجی را در معرض حملات MITM قرار دهد، اما ممکن است در مواردی که مانع از اتصال PHPMailer به سرور SMTP شود، ضروری باشد."
+ phpmailer_skip_auth_process: "تنظیم این دستور بر روی <code dir="ltr">true</code> به PHPMailer دستور می دهد تا از روند عادی احراز هویت که معمولاً هنگام ارسال ایمیل از طریق SMTP رخ می دهد، صرف نظر کند. از این کار باید اجتناب شود، زیرا عدم احراز هویت می‌تواند ایمیل‌های خروجی را در معرض حملات MITM قرار دهد، اما ممکن است در مواردی که مانع از اتصال PHPMailer به سرور SMTP شود، ضروری باشد."
  phpmailer_smtp_auth: "این دستورالعمل تعیین می کند که آیا جلسات SMTP احراز هویت شود یا خیر (معمولا باید به حال خود رها شود)."
  phpmailer_smtp_secure: "پروتکل مورد استفاده هنگام ارسال ایمیل از طریق SMTP (TLS یا SSL)."
  phpmailer_username: "نام کاربری که هنگام ارسال ایمیل از طریق SMTP استفاده می شود."
