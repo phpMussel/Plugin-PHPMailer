@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese language data (last modified: 2025.07.08).
+# This file: Chinese language data (last modified: 2025.08.06).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -40,7 +40,7 @@ config:
   zh-Hans: "将此指令设置为<code>true</code>会指示PHPMailer跳过通过SMTP发送电子邮件时通常会发生的正常身份验证过程。​应该避免这种情况，因为跳过此过程可能会将出站电子邮件暴露给MITM攻击，但在此过程阻止PHPMailer连接到SMTP服务器的情况下可能是必要的。"
   zh-Hant: "將此指令設置為<code>true</code>會指示PHPMailer跳過通過SMTP發送電子郵件時通常會發生的正常身份驗證過程。​應該避免這種情況，因為跳過此過程可能會將出站電子郵件暴露給MITM攻擊，但在此過程阻止PHPMailer連接到SMTP服務器的情況下可能是必要的。"
  phpmailer_smtp_auth: {"zh-Hans": "此指令确定是否对SMTP会话进行身份验证（通常应该保持不变）。", "zh-Hant": "此指令確定是否對SMTP會話進行身份驗證（通常應該保持不變）。"}
- phpmailer_smtp_secure: {"zh-Hans": "通过SMTP发送电子邮件时使用的协议（TLS或SSL）。", "zh-Hant": "通過SMTP發送電子郵件時使用的協議（TLS或SSL）。"}
+ phpmailer_smtp_secure: {"zh-Hans": "通过SMTP发送电子邮件时使用的协议（TLS或SSL）。", "zh-Hant": "通過SMTP發送電子郵件時使用的協定（TLS或SSL）。"}
  phpmailer_username: {"zh-Hans": "通过SMTP发送电子邮件时使用的用户名。", "zh-Hant": "通過SMTP發送電子郵件時使用的使用者名稱。"}
 response:
  Email successfully sent to %s: {"zh-Hans": "电子邮件已成功发送至“%s”。", "zh-Hant": "電子郵件已成功發送至『%s』。"}

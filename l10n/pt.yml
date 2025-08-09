@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Portuguese language data (last modified: 2024.04.19).
+# This file: Portuguese language data (last modified: 2025.08.08).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -30,15 +30,29 @@ config:
  phpmailer_add_reply_to_name: "O nome da resposta a ser citado ao enviar e-mail via SMTP."
  phpmailer_enable_notifications: "Se você deseja ser notificado por email quando um carregamento estiver bloqueado, especifique o endereço de e-mail do destinatário aqui."
  phpmailer_enable_two_factor: "Esta diretiva determina se deve usar 2FA para contas front-end."
- phpmailer_event_log: "Um arquivo para registrar todos os eventos em relação ao PHPMailer. Especifique o nome de um arquivo, ou deixe em branco para desabilitar."
- phpmailer_host: "O host SMTP a ser usado para e-mail de saída."
- phpmailer_password: "A senha a ser usada ao enviar e-mail via SMTP."
- phpmailer_port: "O número da porta a ser usado para o e-mail de saída. Padrão = 587."
- phpmailer_set_from_address: "O endereço do remetente a ser citado ao enviar e-mail via SMTP."
- phpmailer_set_from_name: "O nome do remetente a ser citado ao enviar e-mail via SMTP."
+ phpmailer_event_log:
+  pt-BR: "Um arquivo para registrar todos os eventos em relação ao PHPMailer. Especifique o nome de um arquivo, ou deixe em branco para desabilitar."
+  pt-PT: "Um arquivo para registar todos os eventos em relação ao PHPMailer. Especifique o nome de um arquivo, ou deixe em branco para desabilitar."
+ phpmailer_host:
+  pt-BR: "O host SMTP a ser usado para e-mail de saída."
+  pt-PT: "O host SMTP a utilizar para o e-mail de saída."
+ phpmailer_password:
+  pt-BR: "A senha a ser usada ao enviar e-mail via SMTP."
+  pt-PT: "A senha a utilizar ao enviar e-mail via SMTP."
+ phpmailer_port:
+  pt-BR: "O número da porta a ser usado para e-mail de saída. Padrão = 587."
+  pt-PT: "O número da porta a utilizar para o e-mail de saída. Padrão = 587."
+ phpmailer_set_from_address:
+  pt-BR: "O endereço do remetente a ser citado ao enviar e-mail via SMTP."
+  pt-PT: "O endereço do remetente a citar ao enviar e-mail via SMTP."
+ phpmailer_set_from_name:
+  pt-BR: "O nome do remetente a ser citado ao enviar e-mail via SMTP."
+  pt-PT: "O nome do remetente a citar ao enviar e-mail via SMTP."
  phpmailer_skip_auth_process: "Definir essa diretiva como <code>true</code> instrui o PHPMailer a ignorar o processo de autenticação que normalmente ocorre ao enviar e-mail via SMTP. Isso deve ser evitado, porque ignorar esse processo pode expor o e-mail de saída a ataques MITM, mas pode ser necessário nos casos em que esse processo impedir que o PHPMailer se conecte a um servidor SMTP."
  phpmailer_smtp_auth: "Esta diretiva determina se autenticar sessões SMTP (geralmente deve ser deixado em paz)."
- phpmailer_smtp_secure: "O protocolo a ser usado ao enviar e-mail via SMTP (TLS ou SSL)."
+ phpmailer_smtp_secure:
+  pt-BR: "O protocolo a ser usado ao enviar e-mail via SMTP (TLS ou SSL)."
+  pt-PT: "O protocolo a utilizar no enviar e-mail via SMTP (TLS ou SSL)."
  phpmailer_username:
   pt-BR: "O nome de usuário a ser usada ao enviar e-mail via SMTP."
   pt-PT: "O nome de utilizador a ser usada ao enviar e-mail via SMTP."
