@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese language data (last modified: 2025.08.06).
+# This file: Chinese language data (last modified: 2025.09.11).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -30,7 +30,7 @@ config:
  phpmailer_add_reply_to_name: {"zh-Hans": "通过SMTP发送电子邮件时引用的回复姓名。", "zh-Hant": "通過SMTP發送電子郵件時引用的回複姓名。"}
  phpmailer_enable_notifications: {"zh-Hans": "如果要在阻止上传时通过电子邮件收到通知，请在此处指定收件人电子邮件地址。", "zh-Hant": "如果要在阻止上傳時通過電子郵件收到通知，請在此處指定收件人電子郵件地址。"}
  phpmailer_enable_two_factor: {"zh-Hans": "该指令确定是否将2FA用于前端帐户。", "zh-Hant": "該指令確定是否將2FA用於前端帳戶。"}
- phpmailer_event_log: {"zh-Hans": "用于记录与PHPMailer相关的所有事件的文件。​指定一个文件名，​或留空以禁用。", "zh-Hant": "用於記錄與PHPMailer相關的所有事件的文件。​指定一個檔案名稱，​或留空以禁用。"}
+ phpmailer_event_log: {"zh-Hans": "用于记录与PHPMailer相关的所有事件的文件。​指定一个文件名，​或留空以禁用。", "zh-Hant": "用於記錄與PHPMailer相關的所有事件的檔案。​指定一個檔案名稱，​或留空以禁用。"}
  phpmailer_host: {"zh-Hans": "用于出站电子邮件的SMTP主机。", "zh-Hant": "用於出站電子郵件的SMTP主機。"}
  phpmailer_password: {"zh-Hans": "通过SMTP发送电子邮件时使用的密码。", "zh-Hant": "通過SMTP發送電子郵件時使用的密碼。"}
  phpmailer_port: {"zh-Hans": "用于出站电子邮件的端口号。​标准=587。", "zh-Hant": "用於出站電子郵件的端口號。​標準=587。"}
