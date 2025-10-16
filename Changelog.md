@@ -76,3 +76,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.14
 
 - [2024.11.06]: Added PHP 8.4 to workflows.
+
+### v3.1.15
+
+- [2025.10.17]: Narrowed the PHPMailer version constraints to avoid potential BC-breaks.
