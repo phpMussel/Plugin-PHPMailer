@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2024.08.02).
+ * This file: PHPMailer-phpMussel linker (last modified: 2026.03.17).
  */
 
 namespace phpMussel\PHPMailer;
@@ -43,13 +43,13 @@ class Linker
 
         /** Load PHPMailer-phpMussel linker configuration defaults and perform fallbacks. */
         if (
-            is_readable($this->AssetsPath . 'config.yml') &&
+            \is_readable($this->AssetsPath . 'config.yml') &&
             $Configuration = $this->Loader->readFile($this->AssetsPath . 'config.yml')
         ) {
             $Defaults = [];
             $this->Loader->YAML->process($Configuration, $Defaults);
             $this->Loader->fallback($Defaults);
-            $this->Loader->ConfigurationDefaults = array_merge_recursive($this->Loader->ConfigurationDefaults, $Defaults);
+            $this->Loader->ConfigurationDefaults = \array_merge_recursive($this->Loader->ConfigurationDefaults, $Defaults);
         }
 
         /** Register log paths. */
@@ -80,13 +80,13 @@ class Linker
             }
 
             $Truncate = $this->Loader->readBytes($this->Loader->Configuration['core']['truncate']);
-            $WriteMode = (!file_exists($EventLog) || ($Truncate > 0 && filesize($EventLog) >= $Truncate)) ? 'wb' : 'ab';
-            if (!is_resource($Handle = fopen($EventLog, $WriteMode))) {
-                trigger_error('The "writeToPHPMailerEventLog" event failed to open "' . $EventLog . '" for writing.');
+            $WriteMode = (!\file_exists($EventLog) || ($Truncate > 0 && \filesize($EventLog) >= $Truncate)) ? 'wb' : 'ab';
+            if (!\is_resource($Handle = \fopen($EventLog, $WriteMode))) {
+                \trigger_error('The "writeToPHPMailerEventLog" event failed to open "' . $EventLog . '" for writing.');
                 return false;
             }
-            fwrite($Handle, $Data);
-            fclose($Handle);
+            \fwrite($Handle, $Data);
+            \fclose($Handle);
             $this->Loader->logRotation($this->Loader->Configuration['phpmailer']['event_log']);
             return true;
         });
@@ -103,7 +103,7 @@ class Linker
     public function __invoke(string $NotUsed, array $Data): bool
     {
         /** Guard. */
-        if (!class_exists('\PHPMailer\PHPMailer\PHPMailer')) {
+        if (!\class_exists('\PHPMailer\PHPMailer\PHPMailer')) {
             throw new \Exception($this->Loader->L10N->getString('response.Task failed because a necessary component is unavailable'));
         }
 
@@ -133,7 +133,7 @@ class Linker
         $Attachments = $Data[4];
 
         /** Prepare event logging. */
-        $EventLogData = sprintf(
+        $EventLogData = \sprintf(
             '%s - %s - ',
             $this->Loader->Configuration['legal']['pseudonymise_ip_addresses'] ? $this->Loader->pseudonymiseIP($this->Loader->IPAddr) : $this->Loader->IPAddr,
             $this->Loader->timeFormat($this->Loader->Time, $this->Loader->Configuration['core']['time_format'])
@@ -234,7 +234,7 @@ class Linker
             $Mail->AltBody = $AltBody;
 
             /** Process attachments. */
-            if (is_array($Attachments)) {
+            if (\is_array($Attachments)) {
                 foreach ($Attachments as $Attachment) {
                     $Mail->addAttachment($Attachment);
                 }
@@ -244,7 +244,7 @@ class Linker
             $State = $Mail->send();
 
             /** Log the results of the send attempt. */
-            $EventLogData .= ($State ? sprintf(
+            $EventLogData .= ($State ? \sprintf(
                 $this->Loader->L10N->getString('response.Email successfully sent to %s'),
                 $SuccessDetails
             ) : $this->Loader->L10N->getString('response.Error') . ' - ' . $Mail->ErrorInfo) . "\n";
@@ -274,12 +274,12 @@ class Linker
         } elseif ($Language === 'zh-TW' || $Language === 'zh-HK' || $Language === 'zh-MO') {
             $Language = 'zh';
         }
-        $Try = sprintf(
+        $Try = \sprintf(
             __DIR__ . '%1$s..%1$s..%1$s..%1$sphpmailer%1$sphpmailer%1$slanguage%1$sphpmailer.lang-%2$s.php',
             DIRECTORY_SEPARATOR,
             $Language
         );
-        if (is_readable($Try) && is_file($Try)) {
+        if (\is_readable($Try) && \is_file($Try)) {
             return $Language;
         }
         return '';
