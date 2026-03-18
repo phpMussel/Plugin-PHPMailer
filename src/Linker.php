@@ -8,7 +8,7 @@
  * License: GNU/GPLv2
  * @see LICENSE.txt
  *
- * This file: PHPMailer-phpMussel linker (last modified: 2026.03.17).
+ * This file: PHPMailer-phpMussel linker (last modified: 2026.03.18).
  */
 
 namespace phpMussel\PHPMailer;
@@ -23,12 +23,12 @@ class Linker
     /**
      * @var string The path to the linker asset files.
      */
-    private $AssetsPath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR;
+    private $AssetsPath = __DIR__ . \DIRECTORY_SEPARATOR . '..' . \DIRECTORY_SEPARATOR . 'assets' . \DIRECTORY_SEPARATOR;
 
     /**
      * @var string The path to the linker L10N files.
      */
-    private $L10NPath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'l10n' . DIRECTORY_SEPARATOR;
+    private $L10NPath = __DIR__ . \DIRECTORY_SEPARATOR . '..' . \DIRECTORY_SEPARATOR . 'l10n' . \DIRECTORY_SEPARATOR;
 
     /**
      * Construct the linker instance.
@@ -276,7 +276,7 @@ class Linker
         }
         $Try = \sprintf(
             __DIR__ . '%1$s..%1$s..%1$s..%1$sphpmailer%1$sphpmailer%1$slanguage%1$sphpmailer.lang-%2$s.php',
-            DIRECTORY_SEPARATOR,
+            \DIRECTORY_SEPARATOR,
             $Language
         );
         if (\is_readable($Try) && \is_file($Try)) {
