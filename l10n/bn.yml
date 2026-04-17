@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Bangla language data (last modified: 2025.08.17).
+# This file: Bangla language data (last modified: 2026.04.10).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -28,7 +28,7 @@ config:
  phpmailer: "PHPMailer জন্য কনফিগারেশন (দ্বি-ফ্যাক্টর প্রমাণীকরণ এবং ইমেইল বিজ্ঞপ্তির জন্য ব্যবহৃত হয়।"
  phpmailer_add_reply_to_address: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য উত্তর ঠিকানা।"
  phpmailer_add_reply_to_name: "SMTP এর মাধ্যমে ইমেইল পাঠানোর সময় ব্যবহারের জন্য উত্তর নাম।"
- phpmailer_enable_notifications: "আপনি যদি কোনও আপলোড ব্লক করা হয় ইমেইল দ্বারা বিজ্ঞপ্তি পেতে চান, প্রাপক ইমেইল ঠিকানা এখানে উল্লেখ করুন।"
+ phpmailer_enable_notifications: "আপনি যদি কোনও আপলোড অবরুদ্ধ করা হয় ইমেইল দ্বারা বিজ্ঞপ্তি পেতে চান, প্রাপক ইমেইল ঠিকানা এখানে উল্লেখ করুন।"
  phpmailer_enable_two_factor: "এই নির্দেশটি ফ্রন্ট-এন্ড অ্যাকাউন্টগুলির জন্য 2FA ব্যবহার করে কিনা তা নির্ধারণ করে।"
  phpmailer_event_log: "PHPMailer সম্পর্কিত সকল ঘটনা লগইন করার জন্য একটি ফাইল। ফাইলের নাম উল্লেখ করুন, অথবা নিষ্ক্রিয় করতে ফাঁকা রাখুন।"
  phpmailer_host: "আউটবাউন্ড ইমেইলের জন্য SMTP হোস্ট ব্যবহার করতে হবে।"
