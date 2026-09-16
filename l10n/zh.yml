@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Chinese language data (last modified: 2026.05.06).
+# This file: Chinese language data (last modified: 2026.09.14).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -33,7 +33,7 @@ config:
  phpmailer_event_log: {"zh-Hans": "用于记录与PHPMailer相关的所有事件的文件。 指定一个文件名，或留空以禁用。", "zh-Hant": "用於記錄與PHPMailer相關的所有事件的檔案。 指定一個檔案名稱，或留空以禁用。"}
  phpmailer_host: {"zh-Hans": "用于出站电子邮件的SMTP主机。", "zh-Hant": "用於出站電子郵件的SMTP主機。"}
  phpmailer_password: {"zh-Hans": "通过SMTP发送电子邮件时使用的密码。", "zh-Hant": "通過SMTP發送電子郵件時使用的密碼。"}
- phpmailer_port: {"zh-Hans": "用于出站电子邮件的端口号。 标准=587。", "zh-Hant": "用於出站電子郵件的端口號。 標準=587。"}
+ phpmailer_port: {"zh-Hans": "用于出站电子邮件的端口号。 标准=587。", "zh-Hant": "用於出站電子郵件的連接埠號。 標準=587。"}
  phpmailer_set_from_address: {"zh-Hans": "通过SMTP发送电子邮件时引用的发件人地址。", "zh-Hant": "通過SMTP發送電子郵件時引用的發件人地址。"}
  phpmailer_set_from_name: {"zh-Hans": "通过SMTP发送电子邮件时引用的发件人姓名。", "zh-Hant": "通過SMTP發送電子郵件時引用的發件人姓名。"}
  phpmailer_skip_auth_process:
