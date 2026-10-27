@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Turkish language data (last modified: 2024.04.19).
+# This file: Turkish language data (last modified: 2026.10.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -33,7 +33,7 @@ config:
  phpmailer_event_log: "PHPMailer ile ilgili tüm olayları günlüğe kaydetmek için bir dosya. Dosya adı belirtin veya devre dışı bırakmak için boş bırakın."
  phpmailer_host: "Giden e-posta için kullanılacak SMTP ana bilgisayarı."
  phpmailer_password: "SMTP ile e-posta gönderirken kullanılacak şifre."
- phpmailer_port: "Giden e-posta için kullanılacak bağlantı noktası numarası. Varsayılan = 587."
+ phpmailer_port: "Giden e-posta için kullanılacak port numarası. Varsayılan = 587."
  phpmailer_set_from_address: "SMTP ile e-posta gönderirken kullanılacak gönderen adresi."
  phpmailer_set_from_name: "SMTP ile e-posta gönderirken kullanılacak gönderenin adı."
  phpmailer_skip_auth_process: "<code>true</code> olduğunda, PHPMailer normalde SMTP yoluyla e-posta gönderirken oluşan kimlik doğrulama işlemini atlar. Bu işlemin atlanması, giden e-postaları MITM saldırılarına maruz bırakabilir. Bazı durumlarda olsa gerekli olabilir (ör., PHPMailer bir SMTP sunucusuna bağlanamadığında)."
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "SMTP ile e-posta gönderirken kullanılacak protokol (TLS veya SSL)."
  phpmailer_username: "SMTP ile e-posta gönderirken kullanılacak kullanıcı adı."
 response:
- Email successfully sent to %s: "E-posta başarıyla "%s" olarak gönderildi."
+ Email successfully sent to %s: "E-posta başarıyla \"%s"\ olarak gönderildi."

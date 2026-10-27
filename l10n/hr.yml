@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Croatian language data (last modified: 2024.04.19).
+# This file: Croatian language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "Protokol koji se koristi pri slanju e-pošte putem SMTP-a (TLS ili SSL)."
  phpmailer_username: "Korisničko ime koje se koristi pri slanju e-pošte putem SMTP-a."
 response:
- Email successfully sent to %s: "E-pošta je uspješno poslana na "%s"."
+ Email successfully sent to %s: "E-pošta je uspješno poslana na \"%s\"."

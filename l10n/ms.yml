@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Malay language data (last modified: 2026.09.05).
+# This file: Malay language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "Protokol yang digunakan semasa menghantar e-mel melalui SMTP (TLS atau SSL)."
  phpmailer_username: "Nama pengguna yang digunakan semasa menghantar e-mel melalui SMTP."
 response:
- Email successfully sent to %s: "E-mel berjaya dihantar kepada "%s"."
+ Email successfully sent to %s: "E-mel berjaya dihantar kepada \"%s\"."

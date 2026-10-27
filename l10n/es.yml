@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Spanish language data (last modified: 2024.04.19).
+# This file: Spanish language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "El protocolo a usar cuando se envía un correo electrónico a través de SMTP (TLS o SSL)."
  phpmailer_username: "El nombre de usuario a usar cuando se envía un correo electrónico a través de SMTP."
 response:
- Email successfully sent to %s: "Correo electrónico enviado con éxito a "%s"."
+ Email successfully sent to %s: "Correo electrónico enviado con éxito a \"%s\"."

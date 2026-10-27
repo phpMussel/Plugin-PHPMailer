@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Arabic language data (last modified: 2024.04.19).
+# This file: Arabic language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -36,9 +36,9 @@ config:
  phpmailer_port: "رقم المنفذ المراد استخدامه للبريد الإلكتروني الصادر. افتراضي = 587."
  phpmailer_set_from_address: "عنوان المرسل للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
  phpmailer_set_from_name: "اسم المرسل للاستشهاد عند إرسال البريد الإلكتروني عبر SMTP."
- phpmailer_skip_auth_process: "تعيين هذا التوجيه إلى <code dir="ltr">true</code> يرشد PHPMailer لتخطي عملية المصادقة التي تحدث عادة عند إرسال البريد الإلكتروني عبر SMTP. يجب تجنب هذا، لأن تخطي هذه العملية قد يعرض البريد الإلكتروني الصادر إلى هجمات MITM، ولكنه قد يكون ضروريًا في الحالات التي تمنع فيها هذه العملية من اتصال PHPMailer بخادم SMTP."
+ phpmailer_skip_auth_process: "تعيين هذا التوجيه إلى <code dir=\"ltr\">true</code> يرشد PHPMailer لتخطي عملية المصادقة التي تحدث عادة عند إرسال البريد الإلكتروني عبر SMTP. يجب تجنب هذا، لأن تخطي هذه العملية قد يعرض البريد الإلكتروني الصادر إلى هجمات MITM، ولكنه قد يكون ضروريًا في الحالات التي تمنع فيها هذه العملية من اتصال PHPMailer بخادم SMTP."
  phpmailer_smtp_auth: "يحدد هذا التوجيه ما إذا كنت تريد مصادقة جلسات SMTP (يجب ألا يغير هذا عادة)."
  phpmailer_smtp_secure: "البروتوكول المستخدم عند إرسال البريد الإلكتروني عبر SMTP (TLS أو SSL)."
  phpmailer_username: "اسم المستخدم لاستخدامه عند إرسال البريد الإلكتروني عبر SMTP."
 response:
- Email successfully sent to %s: "تم إرسال البريد الإلكتروني بنجاح إلى "%s"."
+ Email successfully sent to %s: "تم إرسال البريد الإلكتروني بنجاح إلى \"%s\"."

@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: English language data (last modified: 2024.04.19).
+# This file: English language data (last modified: 2026.09.24).
 ##/
 
 config:
@@ -27,4 +27,4 @@ config:
  phpmailer_smtp_secure: "The protocol to use when sending email via SMTP (TLS or SSL)."
  phpmailer_username: "The username to use when sending email via SMTP."
 response:
- Email successfully sent to %s: "Email successfully sent to "%s"."
+ Email successfully sent to %s: "Email successfully sent to \"%s\"."

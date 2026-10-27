@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Italian language data (last modified: 2024.04.19).
+# This file: Italian language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "Il protocollo per utilizzare per l'invio di posta elettronica tramite SMTP (TLS o SSL)."
  phpmailer_username: "Il nome utente per utilizzare per l'invio di posta elettronica tramite SMTP."
 response:
- Email successfully sent to %s: "Posta elettronica inviata con successo a "%s"."
+ Email successfully sent to %s: "Posta elettronica inviata con successo a \"%s\"."

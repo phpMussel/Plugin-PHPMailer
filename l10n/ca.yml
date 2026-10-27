@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Catalan language data (last modified: 2024.05.08).
+# This file: Catalan language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "El protocol que s'ha d'utilitzar per enviar correu electrònic mitjançant SMTP (TLS o SSL)."
  phpmailer_username: "El nom d'usuari que s'ha d'utilitzar per enviar correu electrònic mitjançant SMTP."
 response:
- Email successfully sent to %s: "El correu electrònic s'ha enviat correctament a "%s"."
+ Email successfully sent to %s: "El correu electrònic s'ha enviat correctament a \"%s\"."

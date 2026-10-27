@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Malayalam language data (last modified: 2025.05.04).
+# This file: Malayalam language data (last modified: 2026.10.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉപയോഗിക്കേണ്ട പ്രോട്ടോക്കോൾ (TLS അല്ലെങ്കിൽ SSL)."
  phpmailer_username: "SMTP വഴി ഇമെയിൽ അയയ്ക്കുമ്പോൾ ഉപയോഗിക്കേണ്ട ഉപയോക്തൃനാമം."
 response:
- Email successfully sent to %s: ""%s"-ലേക്ക് ഇമെയിൽ അയച്ചു."
+ Email successfully sent to %s: "\"%s"\-ലേക്ക് ഇമെയിൽ അയച്ചു."

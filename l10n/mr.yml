@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Marathi language data (last modified: 2024.09.14).
+# This file: Marathi language data (last modified: 2026.10.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "SMTP द्वारे ईमेल पाठवताना वापरण्यासाठी प्रोटोकॉल (TLS किंवा SSL)."
  phpmailer_username: "SMTP द्वारे ईमेल पाठवताना वापरण्यासाठी वापरकर्तानाव."
 response:
- Email successfully sent to %s: "ईमेल यशस्वीरित्या "%s" वर पाठवला."
+ Email successfully sent to %s: "ईमेल यशस्वीरित्या \"%s"\ वर पाठवला."

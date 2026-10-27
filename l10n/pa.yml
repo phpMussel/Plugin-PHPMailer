@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Punjabi language data (last modified: 2024.04.19).
+# This file: Punjabi language data (last modified: 2026.10.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -33,7 +33,7 @@ config:
  phpmailer_event_log: "PHPMailer ਦੇ ਸਬੰਧ ਵਿੱਚ ਸਾਰੀਆਂ ਘਟਨਾਵਾਂ ਨੂੰ ਲੌਗ ਕਰਨ ਲਈ ਇੱਕ ਫਾਈਲ। ਇੱਕ ਫਾਈਲ ਨਾਮ ਦਿਓ, ਜਾਂ ਅਯੋਗ ਕਰਨ ਲਈ ਖਾਲੀ ਛੱਡੋ।"
  phpmailer_host: "ਆਊਟਬਾਊਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ SMTP ਹੋਸਟ।"
  phpmailer_password: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪਾਸਵਰਡ।"
- phpmailer_port: "ਆਊਟਬਾਉਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ ਪੋਰਟ ਨੰਬਰ। ਡਿਫਾਲਟ = "587"।"
+ phpmailer_port: "ਆਊਟਬਾਉਂਡ ਈਮੇਲ ਲਈ ਵਰਤਣ ਲਈ ਪੋਰਟ ਨੰਬਰ। ਡਿਫਾਲਟ = \"587\"।"
  phpmailer_set_from_address: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਪਤਾ।"
  phpmailer_set_from_name: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਹਵਾਲਾ ਦੇਣ ਲਈ ਭੇਜਣ ਵਾਲੇ ਦਾ ਨਾਮ।"
  phpmailer_skip_auth_process: "ਇਸ ਨਿਰਦੇਸ਼ ਨੂੰ <code>true</code> 'ਤੇ ਸੈੱਟ ਕਰਨਾ PHPMailer ਨੂੰ ਆਮ ਪ੍ਰਮਾਣਿਕਤਾ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਲਈ ਨਿਰਦੇਸ਼ ਦਿੰਦਾ ਹੈ ਜੋ ਆਮ ਤੌਰ 'ਤੇ SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਾਪਰਦੀ ਹੈ। ਇਸ ਤੋਂ ਬਚਣਾ ਚਾਹੀਦਾ ਹੈ, ਕਿਉਂਕਿ ਇਸ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਛੱਡਣ ਨਾਲ MITM ਹਮਲਿਆਂ ਲਈ ਬਾਹਰੀ ਈਮੇਲ ਦਾ ਪਰਦਾਫਾਸ਼ ਹੋ ਸਕਦਾ ਹੈ, ਪਰ ਉਹਨਾਂ ਮਾਮਲਿਆਂ ਵਿੱਚ ਜ਼ਰੂਰੀ ਹੋ ਸਕਦਾ ਹੈ ਜਿੱਥੇ ਇਹ ਪ੍ਰਕਿਰਿਆ PHPMailer ਨੂੰ SMTP ਸਰਵਰ ਨਾਲ ਜੁੜਨ ਤੋਂ ਰੋਕਦੀ ਹੈ।"
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪ੍ਰੋਟੋਕੋਲ (TLS ਜਾਂ SSL)।"
  phpmailer_username: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਵਰਤੋਂਕਾਰ ਨਾਂ।"
 response:
- Email successfully sent to %s: "ਈਮੇਲ ਸਫਲਤਾਪੂਰਵਕ "%s" ਨੂੰ ਭੇਜੀ ਗਈ।"
+ Email successfully sent to %s: "ਈਮੇਲ ਸਫਲਤਾਪੂਰਵਕ \"%s"\ ਨੂੰ ਭੇਜੀ ਗਈ।"

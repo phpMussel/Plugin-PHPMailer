@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Urdu language data (last modified: 2025.10.09).
+# This file: Urdu language data (last modified: 2026.10.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -36,9 +36,9 @@ config:
  phpmailer_port: "آؤٹ پاؤنڈ ای میل کے لیے استعمال کرنے کے لیے پورٹ نمبر. پہلے سے طے شدہ = 587."
  phpmailer_set_from_address: "ای میل بھیجنے کے لیے بھیجنے والے کا پتہ."
  phpmailer_set_from_name: "ای میل بھیجنے کے لیے بھیجنے کا نام."
- phpmailer_skip_auth_process: "جب <code dir="ltr">true</code>، SMTP کی تصدیق کے عمل کو چھوڑ دیا گیا ہے. اس سے بچنا چاہیے. اگر عمل ختم ہو جاتا ہے تو، آؤٹ باؤنڈ ای میل MITM حملوں سے بے نقاب ہوسکتا ہے. مخصوص معاملات میں ضروری ہوسکتا ہے (مثال کے طور پر، جب SMTP سرور مناسب طریقے سے منسلک نہیں کرے گا)."
+ phpmailer_skip_auth_process: "جب <code dir=\"ltr\">true</code>، SMTP کی تصدیق کے عمل کو چھوڑ دیا گیا ہے. اس سے بچنا چاہیے. اگر عمل ختم ہو جاتا ہے تو، آؤٹ باؤنڈ ای میل MITM حملوں سے بے نقاب ہوسکتا ہے. مخصوص معاملات میں ضروری ہوسکتا ہے (مثال کے طور پر، جب SMTP سرور مناسب طریقے سے منسلک نہیں کرے گا)."
  phpmailer_smtp_auth: "کیا SMTP سیشن کو مستند کیا جاسکتا ہے؟ (عام طور پر اس کو نظر انداز کرنا چاہیے)."
  phpmailer_smtp_secure: "ای میل بھیجنے پر پروٹوکول استعمال کرنے کے لیے (TLS یا SSL)."
  phpmailer_username: "ای میل بھیجنے کے لیے صارف کا نام."
 response:
- Email successfully sent to %s: "ای میل کامیابی سے "%s" پر بھیجا گیا."
+ Email successfully sent to %s: "ای میل کامیابی سے \"%s"\ پر بھیجا گیا."

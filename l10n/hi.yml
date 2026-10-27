@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Hindi language data (last modified: 2025.03.29).
+# This file: Hindi language data (last modified: 2026.10.27).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -33,7 +33,7 @@ config:
  phpmailer_event_log: "PHPMailer के संबंध में सभी घटनाओं को लॉग इन करने के लिए एक फाइल। एक फाइल नाम निर्दिष्ट करें, या निष्क्रिय करने के लिए खाली छोड़।"
  phpmailer_host: "आउटबाउंड ईमेल के लिए उपयोग करने के लिए SMTP होस्ट।"
  phpmailer_password: "ईमेल भेजते समय उपयोग करने के लिए पासवर्ड।"
- phpmailer_port: "आउटबाउंड ईमेल के लिए उपयोग करने के लिए पोर्ट नंबर। डिफ़ॉल्ट = "587"।"
+ phpmailer_port: "आउटबाउंड ईमेल के लिए उपयोग करने के लिए पोर्ट नंबर। डिफ़ॉल्ट = \"587\"।"
  phpmailer_set_from_address: "ईमेल भेजने के लिए प्रेषक पता।"
  phpmailer_set_from_name: "ईमेल भेजने के लिए प्रेषक का नाम।"
  phpmailer_skip_auth_process: "इस निर्देश को <code>true</code> पर सेट करना प्रमाणीकरण प्रक्रिया को बंद कर देता है जो आमतौर पर तब होता है जब PHPMailer SMTP के माध्यम से ईमेल भेजता है। इससे बचा जाना चाहिए, क्योंकि इस प्रक्रिया को बंद करने से MITM हमलों के लिए आउटबाउंड ईमेल का खुलासा हो सकता है। हालांकि कुछ मामलों में यह आवश्यक हो सकता है, जैसे कि जब PHPMailer किसी SMTP सर्वर से कनेक्ट करने में सक्षम नहीं है।"
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "ईमेल भेजने के दौरान उपयोग करने के लिए प्रोटोकॉल (TLS या SSL)।"
  phpmailer_username: "ईमेल भेजने समय उपयोग करने के लिए उपयोगकर्ता नाम।"
 response:
- Email successfully sent to %s: "ईमेल सफलतापूर्वक "%s" को भेजा गया।"
+ Email successfully sent to %s: "ईमेल सफलतापूर्वक \"%s"\ को भेजा गया।"

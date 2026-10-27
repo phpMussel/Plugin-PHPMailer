@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Latvian language data (last modified: 2026.09.05).
+# This file: Latvian language data (last modified: 2026.09.24).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "Protokols, kas jāizmanto, nosūtot e-pastu izmantojot SMTP (TLS vai SSL)."
  phpmailer_username: "Lietotājvārds, kas jāizmanto, nosūtot e-pastu izmantojot SMTP."
 response:
- Email successfully sent to %s: "E-pasts veiksmīgi nosūtīts uz "%s"."
+ Email successfully sent to %s: "E-pasts veiksmīgi nosūtīts uz \"%s\"."
