@@ -84,3 +84,7 @@ __*Why "v3.0.0" instead of "v1.0.0?"*__ Because the linker is intended for use w
 ### v3.1.16
 
 - [2025.11.21]: Added PHP 8.5 to workflows.
+
+### v3.1.17
+
+- [2026.11.08]: Added PHP 8.6 to workflows.
