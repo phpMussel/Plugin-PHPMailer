@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Urdu language data (last modified: 2026.10.27).
+# This file: Urdu language data (last modified: 2026.11.13).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "ای میل بھیجنے پر پروٹوکول استعمال کرنے کے لیے (TLS یا SSL)."
  phpmailer_username: "ای میل بھیجنے کے لیے صارف کا نام."
 response:
- Email successfully sent to %s: "ای میل کامیابی سے \"%s"\ پر بھیجا گیا."
+ Email successfully sent to %s: "ای میل کامیابی سے \"%s\" پر بھیجا گیا."

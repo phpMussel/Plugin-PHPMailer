@@ -7,7 +7,7 @@
 # License: GNU/GPLv2
 # @see LICENSE.txt
 #
-# This file: Punjabi language data (last modified: 2026.10.27).
+# This file: Punjabi language data (last modified: 2026.11.13).
 #
 # Regarding translations: My native language is English. Because this is a free
 # and open-source hobby project which generates zero income, and translatable
@@ -41,4 +41,4 @@ config:
  phpmailer_smtp_secure: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਪ੍ਰੋਟੋਕੋਲ (TLS ਜਾਂ SSL)।"
  phpmailer_username: "SMTP ਰਾਹੀਂ ਈਮੇਲ ਭੇਜਣ ਵੇਲੇ ਵਰਤਣ ਲਈ ਵਰਤੋਂਕਾਰ ਨਾਂ।"
 response:
- Email successfully sent to %s: "ਈਮੇਲ ਸਫਲਤਾਪੂਰਵਕ \"%s"\ ਨੂੰ ਭੇਜੀ ਗਈ।"
+ Email successfully sent to %s: "ਈਮੇਲ ਸਫਲਤਾਪੂਰਵਕ \"%s\" ਨੂੰ ਭੇਜੀ ਗਈ।"
